@@ -9,7 +9,7 @@ To get started, fork this repository.
 To add a new shortcut, follow the example in the `g` directory:
 
 - create a new directory using the keyword for its name,
-  - for instance create `e/` to have a new shortcut with `e`.
+  - for instance create `shortcuts/e/` to have a new shortcut with `e`.
 - create a file inside the directory with the argument number, 
   - for instance create `1.txt` for a shortcut with 1 argument
 - inside the created file, place the template url,
