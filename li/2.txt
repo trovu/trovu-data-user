@@ -1,0 +1,1 @@
+http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&start=1

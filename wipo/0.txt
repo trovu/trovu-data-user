@@ -1,0 +1,7 @@
+https://patentscope.wipo.int/search/en/search.jsf
+simpleSearchSearchForm=simpleSearchSearchForm
+simpleSearchSearchForm:j_idt343=FP
+simpleSearchSearchForm:fpSearch=foo1
+simpleSearchSearchForm:commandSimpleFPSearch=Search
+simpleSearchSearchForm:j_idt411=workaround
+javax.faces.ViewState=6080588354588600159:-6093555034371762015
