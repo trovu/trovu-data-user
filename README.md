@@ -1,12 +1,12 @@
 # trovu-user
 
-Template for creating and managing  our own, personal shortcuts.
+Template for creating and managing  our own user shortcuts.
 
 To get started, fork this repository.
 
 ## Adding shortcuts
 
-To add a new shortcut, follow the example in the `g` directory:
+To add a new shortcut, follow the example in [shortcuts/g/1.txt](shortcuts/g/1.txt):
 
 - create a new directory using the keyword for its name,
   - for instance create `shortcuts/e/` to have a new shortcut with `e`.
