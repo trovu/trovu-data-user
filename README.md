@@ -1,15 +1,32 @@
-Fork this repository to create our own, personal shortcuts.
+# trovu-user
+
+Template for creating and managing  our own, personal shortcuts.
+
+To get started, fork this repository.
+
+## Adding shortcuts
+
+To add a new shortcut, follow the example in the `g` directory:
+
+- create a new directory using the keyword for its name,
+  - for instance create `e/` to have a new shortcut with `e`.
+- create a file inside the directory with the argument number, 
+  - for instance create `1.txt` for a shortcut with 1 argument
+- inside the created file, place the template url,
+  - like in the [given example](g/1.txt).
+
+## Using the shortcuts
 
 To use them, add the URL to your user repo to Trovu's URL.
 
 For instance, if
 
-- your Github repo is `john-doe`
+- your Github user name is `john-doe`
 - and you wish your Trovu user namespace to be `john`
 
 then call Trovu with:
     
     https://trovu.github.io/trovu-web/?#
-        #namespaces=o,de,.de,john
+        #namespaces=o,john
         &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/{keyword}/{argumentCount}.txt
 
