@@ -9,9 +9,9 @@ To get started, fork this repository.
 To add a new shortcut, follow the example in [shortcuts/g/1.txt](shortcuts/g/1.txt):
 
 - create a new directory using the keyword for its name,
-  - for instance create `shortcuts/e/` to have a new shortcut with `e`.
+  - for instance create `shortcuts/e/` to have a new shortcut with the keyword `e`.
 - create a file inside the directory with the argument number, 
-  - for instance create `1.txt` for a shortcut with 1 argument
+  - for instance create `1.txt` for a shortcut with 1 argument.
 - inside the created file, place the template url,
   - like in the [given example](shortcuts/g/1.txt).
 
@@ -27,6 +27,6 @@ For instance, if
 then call Trovu with:
     
     https://trovu.github.io/trovu-web/?#
-        #namespaces=o,john
+        namespaces=o,john
         &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/shortcuts/{keyword}/{argumentCount}.txt
 
