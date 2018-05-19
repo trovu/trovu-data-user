@@ -1,1 +1,0 @@
-http://www.example.com/?q={%query}&this-will-override-the-google-keyword
