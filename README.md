@@ -13,7 +13,7 @@ To add a new shortcut, follow the example in the `g` directory:
 - create a file inside the directory with the argument number, 
   - for instance create `1.txt` for a shortcut with 1 argument
 - inside the created file, place the template url,
-  - like in the [given example](g/1.txt).
+  - like in the [given example](shortcuts/g/1.txt).
 
 ## Using the shortcuts
 
@@ -28,5 +28,5 @@ then call Trovu with:
     
     https://trovu.github.io/trovu-web/?#
         #namespaces=o,john
-        &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/{keyword}/{argumentCount}.txt
+        &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/shortcuts/{keyword}/{argumentCount}.txt
 
