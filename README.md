@@ -22,9 +22,11 @@ For instance, if
 - your Github user name is `john-doe`
 - and you wish your Trovu user namespace to be `john`
 
-then call Trovu with:
-    
-    https://trovu.net/?#
-        namespaces=o,john
-        &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/{%keyword}.{%argumentCount}.txt
+then open https://trovu.net/
+
+- click on the Settings wheel in the namespace bar
+- click on *Custom namespaces*
+- add 
+  - Name: john 
+  - Template URL: https://raw.githubusercontent.com/john-doe/trovu-user/master/{%keyword}.{%argumentCount}.txt
 
