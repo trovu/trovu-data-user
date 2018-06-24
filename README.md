@@ -24,7 +24,7 @@ For instance, if
 
 then call Trovu with:
     
-    https://trovu.github.io/trovu-web/?#
+    https://trovu.net/?#
         namespaces=o,john
         &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/{%keyword}.{%argumentCount}.txt
 
