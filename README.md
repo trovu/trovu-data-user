@@ -26,5 +26,5 @@ then call Trovu with:
     
     https://trovu.github.io/trovu-web/?#
         namespaces=o,john
-        &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/shortcuts/{%keyword}/{%argumentCount}.txt
+        &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/{%keyword}.{%argumentCount}.txt
 
