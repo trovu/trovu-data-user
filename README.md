@@ -30,3 +30,6 @@ then open https://trovu.net/
   - Name: john 
   - Template URL: https://raw.githubusercontent.com/john-doe/trovu-data-user/master/{%keyword}.{%argumentCount}.txt
 
+## Legacy data
+
+Find your Serchilo / FindFind.it shortcuts in [trovu-data-user-legacy](https://github.com/trovu/trovu-data-user-legacy)
