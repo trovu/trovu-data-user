@@ -15,8 +15,6 @@ To add a new shortcut, follow the example in [g.1.txt](g.1.txt):
 
 ## Using the shortcuts
 
-To use them, add the URL to your user repo to Trovu's URL.
-
 For instance, if
 
 - your Github user name is `john-doe`
@@ -30,6 +28,8 @@ then open https://trovu.net/
   - Name: john 
   - Template URL: https://raw.githubusercontent.com/john-doe/trovu-data-user/master/{%keyword}.{%argumentCount}.txt
 
+Trovu will then also look within `https://raw.githubusercontent.com/john-doe/trovu-data-user/master/` when you send a query.
+
 ## Legacy data
 
-Find your Serchilo / FindFind.it shortcuts in [trovu-data-user-legacy](https://github.com/trovu/trovu-data-user-legacy)
+Find your Serchilo / FindFind.it shortcuts in [trovu-data-user-legacy](https://github.com/trovu/trovu-data-user-legacy).
