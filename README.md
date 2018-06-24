@@ -1,4 +1,4 @@
-# trovu-user
+# trovu-data-user
 
 Template for creating and managing  our own user shortcuts.
 
@@ -6,14 +6,12 @@ To get started, fork this repository.
 
 ## Adding shortcuts
 
-To add a new shortcut, follow the example in [shortcuts/g/1.txt](shortcuts/g/1.txt):
+To add a new shortcut, follow the example in [g.1.txt](g.1.txt):
 
-- create a new directory using the keyword for its name,
-  - for instance create `shortcuts/e/` to have a new shortcut with the keyword `e`.
-- create a file inside the directory with the argument number, 
-  - for instance create `1.txt` for a shortcut with 1 argument.
+- create a file with the keyword and the argument number, 
+  - for instance create `g.1.txt` for a shortcut with the keyword g and 1 argument.
 - inside the created file, place the template url,
-  - like in the [given example](shortcuts/g/1.txt).
+  - like in the [given example](g.1.txt).
 
 ## Using the shortcuts
 
@@ -28,5 +26,5 @@ then call Trovu with:
     
     https://trovu.github.io/trovu-web/?#
         namespaces=o,john
-        &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/shortcuts/{keyword}/{argumentCount}.txt
+        &namespace[john]=https://raw.githubusercontent.com/john-doe/trovu-user/master/shortcuts/{%keyword}/{%argumentCount}.txt
 
