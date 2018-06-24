@@ -28,5 +28,5 @@ then open https://trovu.net/
 - click on *Custom namespaces*
 - add 
   - Name: john 
-  - Template URL: https://raw.githubusercontent.com/john-doe/trovu-user/master/{%keyword}.{%argumentCount}.txt
+  - Template URL: https://raw.githubusercontent.com/john-doe/trovu-data-user/master/{%keyword}.{%argumentCount}.txt
 
