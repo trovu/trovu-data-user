@@ -1,1 +1,1 @@
-http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=d.m.y}&start=1
+http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YYYY}&start=1
