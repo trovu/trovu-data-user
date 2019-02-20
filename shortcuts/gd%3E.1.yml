@@ -1,0 +1,10 @@
+url: http://maps.google.com/maps?hl={$language}&saddr=berlin&daddr={%destination}
+title: Google Maps Directions (Routing)
+description: ""
+tags:
+- maps
+- google
+- routing
+- route
+examples: []
+tests: []

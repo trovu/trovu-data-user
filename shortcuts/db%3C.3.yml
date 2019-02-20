@@ -1,0 +1,6 @@
+url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&T={%Zeit}&D={%Datum}&start=1
+title: DB-Auskunft nach Hause
+description: ""
+tags: []
+examples: []
+tests: []
