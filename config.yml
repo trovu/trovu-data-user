@@ -1,0 +1,11 @@
+user namespace: jorges
+namespaces:
+- o
+- de
+- .de
+- .es
+- .pl
+- jorges
+default keyword: g
+language: de
+country: de
