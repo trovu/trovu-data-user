@@ -1,11 +1,11 @@
-user namespace: jorges
 namespaces:
 - o
 - de
 - .de
 - .es
 - .pl
-- jorges
+- github: .
+  name: jorges
 default keyword: g
 language: de
 country: de
