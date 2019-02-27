@@ -20,7 +20,7 @@ You may adjust `config.yml` to your needs.
 This is an array of the [namespaces](https://github.com/trovu/trovu.github.io/wiki/Namespaces) you want to use. Every entry may be
 
 - a string: Then it refers to an (official) site namespace, i.e. one in the [trovu-data](https://github.com/trovu/trovu-data) repository. Shortcuts in there are curated by the Trovu community.
-- key/value pairs, containing
+- key/value pairs, then they refer to a custom namespace, e.g. your (or someone else's) user namespace in Github. Every entry must contain:
   - `github:` A Github user name, or a dot
   - (optional) `name:` Some custom name (default: value from `github:`)
 
