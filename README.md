@@ -60,5 +60,3 @@ For instance, if
 then open 
 
 - https://trovu.net/#github=john-doe
-
-Trovu will then also look within `https://raw.githubusercontent.com/john-doe/trovu-data-user/master/` when you send a query.
