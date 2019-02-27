@@ -1,0 +1,9 @@
+namespaces:
+- o
+- en
+- .us
+- github: .
+  name: my
+# defaultKeyword: g 
+language: en
+country: us
