@@ -1,10 +1,10 @@
 namespaces:
 - o
+- eo
 - de
-- .de
 - .es
-- .pl
+- .de
 - github: .
-defaultKeyword: g
+  name: my
 language: de
 country: de
