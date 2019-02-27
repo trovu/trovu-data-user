@@ -6,6 +6,6 @@ namespaces:
 - .pl
 - github: .
   name: jorges
-default keyword: g
+defaultKeyword: g
 language: de
 country: de
