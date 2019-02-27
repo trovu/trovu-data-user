@@ -1,6 +1,6 @@
 # trovu-data-user
 
-Template for creating and managing  our own user shortcuts.
+Template for creating and managing our own user shortcuts.
 
 To get started, fork this repository.
 
