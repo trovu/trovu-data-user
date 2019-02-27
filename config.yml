@@ -8,3 +8,4 @@ namespaces:
   name: my
 language: de
 country: de
+verbose: true
