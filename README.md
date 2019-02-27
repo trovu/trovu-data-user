@@ -44,7 +44,7 @@ For the Ebay, Amazon of your country. Now, `a` will get you to Amazon.de.
 
 ## Adding shortcuts
 
-To add a new shortcut, follow the example in [shortcuts/examplekeyword.1.yml](examplekeyword.1.yml):
+To add a new shortcut, follow the example in [shortcuts/examplekeyword.1.yml](shortcuts/examplekeyword.1.yml):
 
 - create a file with the keyword and the argument number, 
   - for instance create `g.1.yml` for a shortcut with the keyword g and 1 argument.
