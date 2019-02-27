@@ -6,7 +6,7 @@ To get started, fork this repository into your own Github account.
 
 ## Custom configuration
 
-You may adjust `config.yml` to your needs.
+You may adjust [config.yml](config.yml) to your needs.
 
 ### Namespaces
 
