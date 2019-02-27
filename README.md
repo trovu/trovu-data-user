@@ -51,13 +51,14 @@ To add a new shortcut, follow the example in [shortcuts/examplekeyword.1.yml](sh
 - inside the created file, place the template url,
   - like in the [given example](shortcuts/examplekeyword.1.yml).
 
-## Using the shortcuts
+## Using the custom config and shortcuts
 
 For instance, if
 
 - your Github user name is `john-doe`
-- and you wish your Trovu user namespace to be `john`
 
-then open https://trovu.net/#github=john-doe
+then open 
+
+- https://trovu.net/#github=john-doe
 
 Trovu will then also look within `https://raw.githubusercontent.com/john-doe/trovu-data-user/master/` when you send a query.
