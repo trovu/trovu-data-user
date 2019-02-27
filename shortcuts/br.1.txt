@@ -1,1 +1,0 @@
-http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel|type=city}&start=1

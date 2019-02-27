@@ -1,1 +1,0 @@
-http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&start=1

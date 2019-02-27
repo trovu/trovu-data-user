@@ -1,1 +1,0 @@
-http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&start=1

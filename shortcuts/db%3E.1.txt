@@ -1,1 +1,0 @@
-http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper!&Z={%Ziel|type=city}&start=1
