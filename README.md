@@ -32,7 +32,7 @@ The dot will refer to the current github user (where this `config.yml` is locate
 
 If no keyword is recognized in a query, this one will be used. Useful for setting up a much used shortcut.
 
-#### Language and Country
+### Language and Country
 
     language: en
 
