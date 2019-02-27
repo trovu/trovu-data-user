@@ -1,0 +1,3 @@
+url: http://www.example.com/?q={%query}&this-will-override-the-google-keyword
+# Optional:
+title: My custom shortcut with the keyword g and 1 argument
