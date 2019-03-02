@@ -8,4 +8,5 @@ namespaces:
   name: my
 language: de
 country: de
+defaultKeyword: d
 verbose: true
