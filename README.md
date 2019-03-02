@@ -44,7 +44,7 @@ For Wikipedia or dictionaries in your language. Now, using the `w` shortcut will
 
     country: de
 
-For the Ebay, Amazon of your country. Now, `a` will get you to Amazon.de.
+For shortcuts that use `{$country}` in their URL.
 
 ## Adding shortcuts
 
