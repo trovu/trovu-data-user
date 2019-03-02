@@ -18,6 +18,8 @@ You may adjust [config.yml](config.yml) to your needs.
     - o
     - en
     - .us
+    - github: john-doe
+      name: john
     - github: .
       name: my
 
