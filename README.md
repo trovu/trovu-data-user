@@ -2,7 +2,11 @@
 
 This is a template for creating and managing our own user shortcuts, and for advanced settings.
 
-To get started, fork this repository into your own Github account.
+To get started:
+
+1. Fork this repository into your own Github account.
+2. Adjust [config.yml](config.yml) to your needs, and add your own shortcuts (read more below).
+3. Call Trovu with https://trovu.net/#github=YOUR_GITHUB_USERNAME 
 
 ## Custom configuration
 
