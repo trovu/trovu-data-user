@@ -1,9 +1,12 @@
 namespaces:
 - o
-- en
-- .us
+- de
+- .de
+- old-o
+- old-en
+- old-de
+- berlin
 - github: .
-  name: my
-# defaultKeyword: g 
-language: en
-country: us
+  name: hannes
+language: de
+country: de

@@ -1,0 +1,10 @@
+url: https://duckduckgo.com/?q=! site%3Ahttps%3A%2F%2Fdocs.oracle.com%2Fen%2Fjava%2Fjavase%2F11+{%query}&ia=web
+title: Java Platform SE 11 API
+description: ""
+tags:
+- java
+- programming
+- api
+examples:
+  void: Search for docs about "void"
+tests: []

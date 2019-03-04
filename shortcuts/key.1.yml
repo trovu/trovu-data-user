@@ -1,0 +1,6 @@
+url: http://pgpkeys.pca.dfn.de/pks/lookup?search={%query}&op=vindex
+title: PGP-keyserver
+description: ""
+tags: []
+examples: []
+tests: []

@@ -1,0 +1,6 @@
+url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=u+schwartzkopffstr.!&time={%Zeit}&start=1
+title: VBB-Auskunft
+description: ""
+tags: []
+examples: []
+tests: []

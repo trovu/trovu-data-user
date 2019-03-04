@@ -1,0 +1,8 @@
+url: https://www.google.com/search?hl={$language}&q=site%3Ahttp://docs.spring.io/spring/docs/current/javadoc-api/+{%query}+intitle%3A{%query}&ie=utf-8&btnI=1
+title: Spring Java API
+description: ""
+tags:
+- programming
+- java
+examples: []
+tests: []

@@ -1,0 +1,8 @@
+url: http://www.wetteronline.de/wetter/{%Ort}
+title: Wetter
+description: ""
+tags:
+- weather
+examples:
+  berlin: Search for "berlin"
+tests: []

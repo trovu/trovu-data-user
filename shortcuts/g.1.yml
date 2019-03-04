@@ -1,0 +1,6 @@
+url: http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&tbs=li:1
+title: google
+description: ""
+tags: []
+examples: []
+tests: []
