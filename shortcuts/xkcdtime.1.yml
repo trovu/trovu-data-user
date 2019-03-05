@@ -1,0 +1,11 @@
+url: http://xkcd-time.wikia.com/wiki/Special:Search?search={%query}&fulltext=Search&ns0=1&ns14=1
+title: xkcd Time Wiki
+description: ""
+tags:
+- comic
+- entertainment
+- glossary
+- fandom
+examples:
+  mustard: Look up the xkcd-specific meaning of the term "mustard"
+tests: []

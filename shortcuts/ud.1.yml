@@ -1,0 +1,10 @@
+url: http://www.urbandictionary.com/define.php?term={%query}
+title: Urban Dictionary
+description: ""
+tags:
+- dictionary
+- slang
+- english
+examples:
+  wheelbo: Look up "wheelbo" in the Urban Dictionary
+tests: []

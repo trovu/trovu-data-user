@@ -1,0 +1,10 @@
+url: http://resources.allsetlearning.com/chinese/grammar/{%query}
+title: Chinese Grammar Wiki
+description: ""
+tags:
+- chinese
+- language
+- grammar
+examples:
+  经过: search for information about how to use the word 经过 in Chinese
+tests: []

@@ -1,0 +1,11 @@
+url: https://www.goodreads.com/search?utf8=%E2%9C%93&query={%query}
+title: Goodreads
+description: ""
+tags:
+- books
+- reading
+- literature
+- social network
+examples:
+  discworld: search for Discworld novels on Goodreads
+tests: []

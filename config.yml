@@ -1,9 +1,9 @@
 namespaces:
 - o
-- en
-- .us
+- de
+- .de
 - github: .
-  name: my
-defaultKeyword: g 
-language: en
-country: us
+  name: kevang
+default keyword: g
+language: de
+country: de

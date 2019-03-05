@@ -1,0 +1,15 @@
+url: http://wordnetweb.princeton.edu/perl/webwn?s={%word_form}&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=1&o3=&o4=&h=000000000000000
+title: WordNet Search, show sense keys
+description: ""
+tags:
+- linguistics
+- english
+- computational linguistics
+- word
+- words
+- sense
+- senses
+- dictionary
+examples:
+  complicated: look up senses of "complicated" in WordNet
+tests: []

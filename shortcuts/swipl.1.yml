@@ -1,0 +1,12 @@
+url: http://www.swi-prolog.org/pldoc/search?for={%query}&in=all&match=summary
+title: SWi-Prolog documentation
+description: ""
+tags:
+- programming
+- prolog
+- documentation
+- doc
+- manual
+examples:
+  append: Search SWI-Prolog site for documentation on appending
+tests: []

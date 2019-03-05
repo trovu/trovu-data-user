@@ -1,0 +1,9 @@
+url: http://mercurylang.org/information/doc-release/mercury_library/{%modulename}.html
+title: Mercury Library Reference
+description: ""
+tags:
+- programming
+- mercury
+examples:
+  io: Call up reference page of the io module in Mercury's standard library
+tests: []

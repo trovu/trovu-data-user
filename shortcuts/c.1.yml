@@ -1,0 +1,9 @@
+url: /commands?keyword_op=%3D&keyword=&title_op=contains&title={%query}&namespace=&tags=
+title: Serchilo command search
+description: ""
+tags:
+- findfind.it
+- command
+examples:
+  chinese: Show all Serchilo commands that have "chinese" in their title
+tests: []

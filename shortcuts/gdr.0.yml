@@ -1,0 +1,9 @@
+url: https://drive.google.com/
+title: Google Drive
+description: ""
+tags:
+- cloud
+- collaboration
+examples:
+  gdr: Go to Google Drive home page
+tests: []

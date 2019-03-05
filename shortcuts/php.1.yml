@@ -1,0 +1,9 @@
+url: http://www.php.net/manual-lookup.php?lang=en&pattern={%query}
+title: PHP Documentation
+description: ""
+tags:
+- php
+- programming
+examples:
+  strlen: Search for "strlen"
+tests: []

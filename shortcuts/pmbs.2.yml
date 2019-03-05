@@ -1,0 +1,9 @@
+url: http://pmb.let.rug.nl/explorer/explore.php?part={%part}&doc_id={%doc_id}&type=der.xml
+title: PMB Explorer, sentences view
+description: ""
+tags:
+- parallel meaning bank
+- corpus
+- linguistics
+examples: []
+tests: []

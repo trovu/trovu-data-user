@@ -1,0 +1,10 @@
+url: http://gmb.let.rug.nl/explorer/search.php?term={%term}
+title: GMB Explorer, token/lemma search
+description: ""
+tags:
+- groningen meaning bank
+- corpus
+- linguistics
+examples:
+  hacksaw: search the Groningen Meaning Bank for occurrences of "hacksaw"
+tests: []

@@ -1,0 +1,10 @@
+url: http://gmb.let.rug.nl/explorer/search.php?term={%term}
+title: Search - GMB Explorer
+description: ""
+tags:
+- linguistics
+- corpus
+examples:
+  Gunmen: search for all occurrences of the word "Gunmen" in the Groningen Meaning
+    Bank
+tests: []

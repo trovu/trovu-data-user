@@ -1,0 +1,10 @@
+url: https://www.google.com/search?hl={$language}&q={%query}+filetype:pdf&ie=utf-8
+title: Google.com filetype:pdf
+description: ""
+tags:
+- web search
+- google
+- pdf
+examples:
+  berlin: Google search for "berlin"
+tests: []

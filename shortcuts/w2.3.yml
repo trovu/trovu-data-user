@@ -1,0 +1,10 @@
+url: http://texttheater.net/wikdic?source={%sourcelang}&target={%targetlang}&term={%term}
+title: Wikipedia as a dictionary
+description: ""
+tags:
+- translation
+- language
+- dictionary
+examples:
+  w2 en, ar, honey: look up what honey is in Arabic
+tests: []
