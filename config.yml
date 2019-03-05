@@ -2,10 +2,6 @@ namespaces:
 - o
 - de
 - .de
-- old-o
-- old-en
-- old-de
-- berlin
 - github: .
   name: hannes
 language: de
