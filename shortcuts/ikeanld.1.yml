@@ -1,9 +1,0 @@
-url: http://www.ikea.com/nl/nl/search/?query={%query}
-title: IKEA Nederland
-description: ""
-tags:
-- furniture
-- shopping
-examples:
-  matras: zoek na matrassen
-tests: []

@@ -1,9 +1,0 @@
-url: http://gmb.let.rug.nl/explorer/explore.php?part={%part}&doc_id={%doc_id}&type=drs.xml
-title: GMB Explorer, discourse view
-description: ""
-tags:
-- corpus
-- linguistics
-examples:
-  "16,690": see the semantic representation of GMB document 16/0690
-tests: []

@@ -1,9 +1,0 @@
-url: http://gmb.let.rug.nl/explorer/explore.php?part={%part}&doc_id={%doc_id}&type=met
-title: GMB Explorer, metadata view
-description: ""
-tags:
-- linguistics
-- corpus
-examples:
-  "16,690": see the metadata of GMB document 16/0690
-tests: []
