@@ -1,0 +1,6 @@
+url: https://jira.vilua.de/issues/?jql=project%20%3D%20VMS%20AND%20assignee%20in%20(currentUser())%20ORDER%20BY%20updated%20DESC%2C%20priority%20ASC
+title: JIRA my tickets
+description: ""
+tags: []
+examples: []
+tests: []
