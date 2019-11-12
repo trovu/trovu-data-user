@@ -1,4 +1,4 @@
-url: http://www.wetteronline.de/wetter/{%Ort}
+url: https://www.wetteronline.de/wettertrend/{%Ort}
 title: Wetter
 description: ""
 tags:
