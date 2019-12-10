@@ -1,0 +1,6 @@
+url: https://wiki.corp.thales/dosearchsite.action?queryString={%query}&where=gtstmsnor&spaceKey=gtstmsnor
+title: Thales Wiki
+description: ""
+examples:
+  berlin: Search for "berlin"
+tests: []
