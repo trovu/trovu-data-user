@@ -1,4 +1,4 @@
-'-/1':
+'- 1':
   url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
   title: 'Google Web, go directly to first result'
   tags:
@@ -6,57 +6,57 @@
   - google
   examples:
     berlin: Search for "berlin"
-br/1:
+br 1:
   url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel|type=city}&start=1'
   title: DB-Auskunft von Betriebsbahnhof Rummelsburg
-br/2:
+br 2:
   url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&start=1'
   title: DB-Auskunft von Betriebsbahnhof Rummelsburg
-br/3:
+br 3:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
   title: DB-Auskunft von Betriebsbahnhof Rummelsburg
-db</1:
+db< 1:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&start=1'
   title: DB-Auskunft nach Hause
-db</2:
+db< 2:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&T={%Zeit}&start=1'
   title: DB-Auskunft nach Hause
-db</3:
+db< 3:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&T={%Zeit}&D={%Datum}&start=1'
   title: DB-Auskunft nach Hause
-db>/1:
+db> 1:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper!&Z={%Ziel|type=city}&start=1'
   title: DB-Auskunft von Zuhause
-db>/2:
+db> 2:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper%21&Z={%Ziel|type=city}&T={%Zeit|type=time|output=HH:mm}&start=1'
   title: DB-Auskunft von Zuhause
-db>/3:
+db> 3:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper%21&Z={%Ziel|type=city}&T={%Zeit|type=time|output=HH:mm}&D={%Datum|type=date|output=DD.MM.YYYY}&start=1'
   title: DB-Auskunft von Zuhause
-dbt</1:
+dbt< 1:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&start=1'
   title: DB-Auskunft nach Hause Textversion
-dbt</2:
+dbt< 2:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&T={%Zeit}&start=1'
   title: DB-Auskunft nach Hause Textversion
-dbt</3:
+dbt< 3:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&T={%Zeit}&D={%Datum}&start=1'
   title: DB-Auskunft nach Hause Textversion
-dbtp/1:
+dbtp 1:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s%20prenzlauer%21&Z={%Ziel}&start=1'
   title: DB-Auskunft von S Prenzlauer Textversion
-ff/1:
+ff 1:
   url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=000733102&Z={%Ziel|type=city}&start=1'
   title: DB-Auskunft von U Friedrichsfelde Textversion
-ff/2:
+ff 2:
   url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=000733102&Z={%Ziel}&T={%Zeit|type=time}&start=1'
   title: DB-Auskunft von U Friedrichsfelde Textversion
-ff/3:
+ff 3:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=000733102&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
   title: DB-Auskunft von U Friedrichsfelde Textversion
-g!/0:
+g! 0:
   url: 'https://www.geo.de/'
-gd>/1:
+gd> 1:
   url: 'http://maps.google.com/maps?hl={$language}&saddr=berlin&daddr={%destination}'
   title: Google Maps Directions (Routing)
   tags:
@@ -64,33 +64,37 @@ gd>/1:
   - google
   - routing
   - route
-kvv/0:
+kvv 0:
   url: 'http://www.ling.uni-potsdam.de/kvv/akt/2'
   title: Vorlesungsverzeichnis
-li/1:
+li 1:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&start=1'
   title: DB-Auskunft von Lichtenberg Textversion
-li/2:
+li 2:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&start=1'
   title: DB-Auskunft von Lichtenberg Textversion
-li/3:
+li 3:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
   title: DB-Auskunft von Lichtenberg Textversion
-mb/0:
+mb 0:
   url: 'http://www.studentenwerk-potsdam.de/116'
   title: Mensabegleiter
-np/1:
+np 1:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&start=1'
   title: DB-Auskunft von S Nöldnerplatz Textversion
-np/2:
+np 2:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&T={%Zeit|type=time}&start=1'
   title: DB-Auskunft von S Nöldnerplatz Textversion
-np/3:
+np 3:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
   title: DB-Auskunft von S Nöldnerplatz Textversion
-rb/0: 'http://www.niederschlagsradar.de/h.aspx?regio=bln&j=-3&srt=loop1stunde'
-sp/0: 'http://www.spiegel.de/spam'
-titsa>/1:
+rb 0:
+  url: 'http://www.niederschlagsradar.de/h.aspx?regio=bln&j=-3&srt=loop1stunde'
+  title: Niederschlagsradar Berlin
+sp 0:
+  url: 'http://www.spiegel.de/spam'
+  title: sp
+titsa> 1:
   url: 'https://www.google.com/maps?saddr=puente zurita, Santa Cruz de Tenerife,+Espa%C3%B1a&daddr={%destino},%20Tenerife,%20Espa%C3%B1a&f=d&dirflg=r'
   title: Transportes Interurbanos de Tenerife
   tags:
@@ -101,7 +105,7 @@ titsa>/1:
   - maps
   examples:
     trinidad: Próxima connection a Trinidad
-wipo/0:
+wipo 0:
   url: 'https://patentscope.wipo.int/search/en/search.jsf'
   post parameters:
     simpleSearchSearchForm: simpleSearchSearchForm
