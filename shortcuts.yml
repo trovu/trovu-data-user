@@ -88,12 +88,8 @@ np/2:
 np/3:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
   title: DB-Auskunft von S Nöldnerplatz Textversion
-rb/0:
-  url: 'http://www.niederschlagsradar.de/h.aspx?regio=bln&j=-3&srt=loop1stunde'
-  title: Niederschlagsradar Berlin
-sp/0:
-  url: 'http://www.spiegel.de/spam'
-  title: sp
+rb/0: 'http://www.niederschlagsradar.de/h.aspx?regio=bln&j=-3&srt=loop1stunde'
+sp/0: 'http://www.spiegel.de/spam'
 titsa>/1:
   url: 'https://www.google.com/maps?saddr=puente zurita, Santa Cruz de Tenerife,+Espa%C3%B1a&daddr={%destino},%20Tenerife,%20Espa%C3%B1a&f=d&dirflg=r'
   title: Transportes Interurbanos de Tenerife
