@@ -115,4 +115,4 @@ wipo 0:
     'simpleSearchSearchForm:j_idt411': workaround
     javax.faces.ViewState: '6080588354588600159:-6093555034371762015'
   title: WIPO Patent Search
-zz: https://www.google.de/search?hl=de&q=%22zeitzeichen%22%20{%query}&ie=utf-8
+zz 1: https://www.google.de/search?hl=de&q=%22zeitzeichen%22%20{%query}&ie=utf-8
