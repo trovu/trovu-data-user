@@ -119,4 +119,4 @@ zz 1: https://www.google.de/search?hl=de&q=%22zeitzeichen%22%20{%query}&ie=utf-8
 pjs 1: https://www.google.de/search?hl=de&q=site%3Aplainjs.com%2F%20{%query}&ie=utf-8
 jetf 1: https://www.justetf.com/en/find-etf.html?query={%query}
 radio 1: http://www.radio-browser.info/gui/#!/byname/{%station}
-cs 1: https://de.langenscheidt.com/deutsch-tschechisch/{%Wort}
+cs 1: https://de.langenscheidt.com/deutsch-tschechisch/search?term={%Wort}
