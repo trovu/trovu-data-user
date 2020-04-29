@@ -1,6 +1,0 @@
-url: https://wiki.corp.thales/dosearchsite.action?queryString={%query}
-title: Thales Wiki
-description: ""
-examples:
-  berlin: Search for "thales"
-tests: []

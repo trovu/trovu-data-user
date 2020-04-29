@@ -1,8 +1,0 @@
-url: https://www.wetteronline.de/wettertrend/{%Ort}
-title: Wetter
-description: ""
-tags:
-- weather
-examples:
-  berlin: Search for "berlin"
-tests: []

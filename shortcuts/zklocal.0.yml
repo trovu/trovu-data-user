@@ -1,6 +1,0 @@
-url: http://localhost:9411/zipkin/?serviceName=vms-api-gateway&spanName=all&lookback=604800000&startTs=1557498309862&endTs=1557501909862&annotationQuery=&minDuration=&limit=1000&sortOrder=timestamp-desc
-title: Zipkin local
-description: ""
-tags: []
-examples: []
-tests: []

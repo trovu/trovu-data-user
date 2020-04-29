@@ -1,6 +1,0 @@
-url: http://www.brandenburg-abc.de/veranstaltungen/rubrik.php?nummer=10&beginn={%Datum|type=date|output=YYYY-MM-DD}&ende={%Datum|type=date|output=YYYY-MM-DD}
-title: Brandenburg ABC
-description: ""
-tags: []
-examples: []
-tests: []
