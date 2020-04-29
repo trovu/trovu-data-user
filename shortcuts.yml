@@ -1,27 +1,122 @@
-# This is a YAML file, more abouts its syntax: https://en.wikipedia.org/wiki/YAML
-
-# First example shortcut: Short notation.
-# Use 
-#
-#   KEYWORDNAME ARGCOUNT
-#
-# as the key, and the target URL as the value.
-# This shortcut will match for "examplekeyword" with no arguments.
-examplekeyword 0: http://www.example.com/
-
-# This shortcut will match for "examplekeyword foo", 
-# so for the same keyword but with one argument.
-examplekeyword 1: http://www.example.com/?q={%query} 
-
-# Another example: extended notation
-# This shortcut will match for "examplekeyword foo, bar", 
-# Here you can define optional title, description and tags.
-examplekeyword 2:
-  url: http://www.example.com/?q={%query}&p={%puery}
-  title: Custom shortcut 
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+'- 1':
+  url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
+  title: 'Google Web, go directly to first result'
   tags:
-  - example
-
-# Make sure that the keys are unique, 
-# e.g. that the every "KEYWORDNAME ARGCOUNT" is only used once in this file.
+  - web search
+  - google
+  examples:
+    berlin: Search for "berlin"
+br 1:
+  url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel|type=city}&start=1'
+  title: DB-Auskunft von Betriebsbahnhof Rummelsburg
+br 2:
+  url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&start=1'
+  title: DB-Auskunft von Betriebsbahnhof Rummelsburg
+br 3:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
+  title: DB-Auskunft von Betriebsbahnhof Rummelsburg
+db< 1:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&start=1'
+  title: DB-Auskunft nach Hause
+db< 2:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&T={%Zeit}&start=1'
+  title: DB-Auskunft nach Hause
+db< 3:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&T={%Zeit}&D={%Datum}&start=1'
+  title: DB-Auskunft nach Hause
+db> 1:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper!&Z={%Ziel|type=city}&start=1'
+  title: DB-Auskunft von Zuhause
+db> 2:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper%21&Z={%Ziel|type=city}&T={%Zeit|type=time|output=HH:mm}&start=1'
+  title: DB-Auskunft von Zuhause
+db> 3:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper%21&Z={%Ziel|type=city}&T={%Zeit|type=time|output=HH:mm}&D={%Datum|type=date|output=DD.MM.YYYY}&start=1'
+  title: DB-Auskunft von Zuhause
+dbt< 1:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&start=1'
+  title: DB-Auskunft nach Hause Textversion
+dbt< 2:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&T={%Zeit}&start=1'
+  title: DB-Auskunft nach Hause Textversion
+dbt< 3:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&T={%Zeit}&D={%Datum}&start=1'
+  title: DB-Auskunft nach Hause Textversion
+dbtp 1:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s%20prenzlauer%21&Z={%Ziel}&start=1'
+  title: DB-Auskunft von S Prenzlauer Textversion
+ff 1:
+  url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=000733102&Z={%Ziel|type=city}&start=1'
+  title: DB-Auskunft von U Friedrichsfelde Textversion
+ff 2:
+  url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=000733102&Z={%Ziel}&T={%Zeit|type=time}&start=1'
+  title: DB-Auskunft von U Friedrichsfelde Textversion
+ff 3:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=000733102&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
+  title: DB-Auskunft von U Friedrichsfelde Textversion
+g! 0:
+  url: 'https://www.geo.de/'
+gd> 1:
+  url: 'http://maps.google.com/maps?hl={$language}&saddr=berlin&daddr={%destination}'
+  title: Google Maps Directions (Routing)
+  tags:
+  - maps
+  - google
+  - routing
+  - route
+kvv 0:
+  url: 'http://www.ling.uni-potsdam.de/kvv/akt/2'
+  title: Vorlesungsverzeichnis
+li 1:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&start=1'
+  title: DB-Auskunft von Lichtenberg Textversion
+li 2:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&start=1'
+  title: DB-Auskunft von Lichtenberg Textversion
+li 3:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
+  title: DB-Auskunft von Lichtenberg Textversion
+mb 0:
+  url: 'http://www.studentenwerk-potsdam.de/116'
+  title: Mensabegleiter
+np 1:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&start=1'
+  title: DB-Auskunft von S Nöldnerplatz Textversion
+np 2:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&T={%Zeit|type=time}&start=1'
+  title: DB-Auskunft von S Nöldnerplatz Textversion
+np 3:
+  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
+  title: DB-Auskunft von S Nöldnerplatz Textversion
+rb 0:
+  url: 'http://www.niederschlagsradar.de/h.aspx?regio=bln&j=-3&srt=loop1stunde'
+  title: Niederschlagsradar Berlin
+sp 0:
+  url: 'http://www.spiegel.de/spam'
+  title: sp
+titsa> 1:
+  url: 'https://www.google.com/maps?saddr=puente zurita, Santa Cruz de Tenerife,+Espa%C3%B1a&daddr={%destino},%20Tenerife,%20Espa%C3%B1a&f=d&dirflg=r'
+  title: Transportes Interurbanos de Tenerife
+  tags:
+  - tenerife
+  - titsa
+  - travel
+  - google
+  - maps
+  examples:
+    trinidad: Próxima connection a Trinidad
+wipo 0:
+  url: 'https://patentscope.wipo.int/search/en/search.jsf'
+  post parameters:
+    simpleSearchSearchForm: simpleSearchSearchForm
+    'simpleSearchSearchForm:j_idt343': FP
+    'simpleSearchSearchForm:fpSearch': foo1
+    'simpleSearchSearchForm:commandSimpleFPSearch': Search
+    'simpleSearchSearchForm:j_idt411': workaround
+    javax.faces.ViewState: '6080588354588600159:-6093555034371762015'
+  title: WIPO Patent Search
+zz 1: https://www.google.de/search?hl=de&q=%22zeitzeichen%22%20{%query}&ie=utf-8
+pjs 1: https://www.google.de/search?hl=de&q=site%3Aplainjs.com%2F%20{%query}&ie=utf-8
+jetf 1: https://www.justetf.com/en/find-etf.html?query={%query}
+radio 1: http://www.radio-browser.info/gui/#!/byname/{%station}
+cs 1: https://de.langenscheidt.com/deutsch-tschechisch/search?term={%Wort}
