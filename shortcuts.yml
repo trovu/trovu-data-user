@@ -9,18 +9,19 @@
 # This shortcut will match for "examplekeyword" with no arguments.
 examplekeyword 0: http://www.example.com/
 
-# This shortcut will match for "examplekeyword foobar", 
+# This shortcut will match for "examplekeyword foo", 
 # so for the same keyword but with one argument.
 examplekeyword 1: http://www.example.com/?q={%query} 
 
-# Same match but extended notation
+# Another example: extended notation
+# This shortcut will match for "examplekeyword foo, bar", 
 # Here you can define optional title, description and tags.
 examplekeyword 2:
-- url: http://www.example.com/?q={%query}&p={%puery}
-- title: Custom shortcut 
-- description: My custom shortcut with the keyword examplekeyword and 1 argument
-- tags:
+  url: http://www.example.com/?q={%query}&p={%puery}
+  title: Custom shortcut 
+  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+  tags:
   - example
 
 # Make sure that the keys are unique, 
-# e.g. that the same "KEYWORDNAME ARGCOUNT" is only used once in this file.
+# e.g. that the every "KEYWORDNAME ARGCOUNT" is only used once in this file.
