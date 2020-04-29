@@ -1,6 +1,0 @@
-url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper%21&Z={%Ziel|type=city}&T={%Zeit|type=time|output=HH:mm}&D={%Datum|type=date|output=DD.MM.YYYY}&start=1
-title: DB-Auskunft von Zuhause
-description: ""
-tags: []
-examples: []
-tests: []
