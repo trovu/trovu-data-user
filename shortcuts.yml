@@ -1,0 +1,330 @@
+a 0:
+  url: http://www.amazon.de/?_encoding=UTF8&camp=1638&creative=6742&linkCode=ur2&site-redirect=de&tag=serchilo-21
+  title: Amazon.de Startseite
+  tags:
+  - amazon
+  - shopping
+  - books
+a 1:
+  url: http://www.amazon.de/gp/search?ie=UTF8&camp=1638&creative=6742&index=aps&keywords={%Suche}&linkCode=ur2&tag=serchilo-21
+  title: Amazon.de
+  tags:
+  - amazon
+  - shopping
+  - books
+  examples:
+    goethe: Suche auf Amazon.de nach "goethe"
+cups 0:
+  url: http://localhost:631/
+  title: cups
+examplekeyword 1:
+  url: http://www.example.com/?q={%query}&this-is-available-with-calling-examplekeyword
+  title: My custom shortcut with the keyword examplekeyword and 1 argument
+fpt 0:
+  url: http://flickr.com/photos/texttheater
+  title: fpt
+gdr 0:
+  url: https://drive.google.com/
+  title: Google Drive
+  tags:
+  - cloud
+  - collaboration
+  examples:
+    gdr: Go to Google Drive home page
+gdr 1:
+  url: https://drive.google.com/#search/{%query}
+  title: Google Drive Search
+  tags:
+  - storage
+  - cloud
+  - documents
+  examples:
+    grades: Search for documents with keyword "grades" in your Google Drive
+go 0:
+  url: https://golang.org/pkg/
+  title: Go packages
+  tags:
+  - go
+  - golang
+  - programming
+  - programming language
+go 1:
+  url: https://golang.org/pkg/{%pkg}/
+  title: Go standard library
+  tags:
+  - golang
+  - go
+  - programming language
+  - programming
+  examples:
+    flag: Open documentation for Go standard library package flag
+gp 0:
+  url: https://play.google.com/store
+  title: Google Play
+  tags:
+  - music
+  - app
+  - apps
+  - store
+  - appstore
+  - movies
+  - books
+  - devices
+  - movie
+  - book
+gp 1:
+  url: https://play.google.com/store/search?q={%query}
+  title: Google Play
+  tags:
+  - music
+  - app
+  - apps
+  - store
+  - appstore
+  - movies
+  - books
+  - devices
+  - movie
+  - book
+  examples:
+    chambermaid swing: search for "Chambermaid Swing" in the Google Play store
+gpdf 1:
+  url: https://www.google.com/search?hl={$language}&q={%query}+filetype:pdf&ie=utf-8
+  title: Google.com filetype:pdf
+  tags:
+  - web search
+  - google
+  - pdf
+  examples:
+    berlin: Google search for "berlin"
+gpm 0:
+  url: https://play.google.com/music/listen
+  title: Google Play Music
+  tags:
+  - music
+gpm 1:
+  url: https://play.google.com/music/listen#{%query}_sr
+  title: Google Play Music
+  tags:
+  - music
+  examples:
+    prodigy: Search for music by The Prodigy in My Music
+gr 0:
+  url: https://www.goodreads.com/
+  title: Goodreads
+  tags:
+  - books
+  - reading
+  - literature
+  - social network
+gr 1:
+  url: https://www.goodreads.com/search?utf8=%E2%9C%93&query={%query}
+  title: Goodreads
+  tags:
+  - books
+  - reading
+  - literature
+  - social network
+  examples:
+    discworld: search for Discworld novels on Goodreads
+gtr 2:
+  url: http://translate.google.com/translate_t?sl=auto&tl={%target
+    language}&text={%phrase/url}
+  title: Google Translate
+  tags:
+  - google
+  - language
+  - translate
+  - translation
+  examples:
+    "fr, crêpe": Translate "crêpe" from French
+kym 1:
+  url: http://knowyourmeme.com/search?q={%query}
+  title: Know Your Meme
+  tags:
+  - fun
+  - meme
+  - internet culture
+  examples:
+    x y is x: search for the "X Y is X" meme
+ls 1:
+  url: http://labenz.texttheater.de/suche.php?sb={%query}
+  title: Freut euch des Labenz! - Suche
+lt 0:
+  url: http://labenz.texttheater.de
+  title: Freut euch des Labenz!
+lt 1:
+  url: http://labenz.texttheater.de/{%Labenz}
+  title: Freut euch des Labenz!
+mwo 0:
+  url: http://www.mediawiki.org
+  title: mediawiki.org
+mwo 1:
+  url: http://www.mediawiki.org/wiki/Special:Search?search={%query}&fulltext=Search
+  title: Suche auf mediawiki.org
+ons 1:
+  url: http://labenz.texttheater.de/ons.php?sa={%suchausdruck}
+  title: Labenz-Ortsnamensuche
+pmb 0:
+  url: http://pmb.let.rug.nl/explorer/phrase.php
+  title: PMB Explorer, phrase query form
+  tags:
+  - parallel meaning bank
+  - corpus
+  - linguistics
+pmb 1:
+  url: http://pmb.let.rug.nl/explorer/phrase.php?q={%phrasequery}
+  title: PMB Explorer, phrase query
+  tags:
+  - parallel meaning bank
+  - corpus
+  - linguistics
+  examples:
+    new york: search for "New York" in the Groningen Meaning Bank
+    can|pos=NN: search for "can" tagged as a noun in the Groningen Meaning Bank
+py3 1:
+  url: https://docs.python.org/3/search.html?q={%query}
+  title: Python 3 documentation
+  tags:
+  - programming
+  - python
+  examples:
+    tokenize: find information about the tokenize module etc.
+r 0:
+  url: https://feedly.com/i/latest
+  title: Current Google Reader replacement
+rl 0:
+  url: https://www.goodreads.com/review/list/7713465-kilian?order=d&shelf=to-read&sort=avg_rating
+  title: Kilian Evang's 'to-read' books on Goodreads
+  tags:
+  - book
+  - list
+  - reading
+swipl 0:
+  url: http://www.swi-prolog.org/pldoc/index.html
+  title: SWI-Prolog documentation
+  tags:
+  - manual
+  - prolog
+  - programming
+  - documentation
+  - doc
+swipl 1:
+  url: http://www.swi-prolog.org/pldoc/search?for={%query}&in=all&match=summary
+  title: SWi-Prolog documentation
+  tags:
+  - programming
+  - prolog
+  - documentation
+  - doc
+  - manual
+  examples:
+    append: Search SWI-Prolog site for documentation on appending
+tat 0:
+  url: https://tatoeba.org
+  title: Tatoeba
+  tags:
+  - language
+  - dictionary
+  - phrases
+  - phrasebook
+  - languages
+tat 1:
+  url: http://tatoeba.org/eng/sentences/search?query={%query}
+  title: Tatoeba
+  tags:
+  - langugage
+  - phrases
+  - phrasebook
+  - dictionary
+  - languages
+  examples:
+    not at all: search for translation of the phrase "not at all"
+tn* 1:
+  url: https://tweetnest.texttheater.net/search?q=%2A{%query}%2A
+  title: Tweets by @texttheater
+tn 0:
+  url: https://tweetnest.texttheater.net
+  title: Texttheater Tweet Nest
+  tags:
+  - tweets
+  - tweet
+  - twitter
+  - self
+  - ego
+tn 1:
+  url: https://tweetnest.texttheater.net/search?q={%query}
+  title: Tweets by @texttheater
+tttt! 1:
+  url: https://www.google.de/search?safe=off&site=&source=hp&q={%query}+site%3Atexttheater.net&btnI=Auf+gut+Gl%C3%BCck%21
+  title: Texttheater via Google I'm Feeling Lucky
+  tags:
+  - self
+tttt 1:
+  url: http://www.google.com/search?hl=de&safe=off&q={%query}+site%3Atexttheater.net&btnG=Suche&lr=
+  title: Google-Suche im Texttheater
+ud 1:
+  url: http://www.urbandictionary.com/define.php?term={%query}
+  title: Urban Dictionary
+  tags:
+  - dictionary
+  - slang
+  - english
+  examples:
+    wheelbo: Look up "wheelbo" in the Urban Dictionary
+ulb 1:
+  url: https://katalog.ulb.hhu.de/Search/Results?lng=de&type=AllFields&lookfor={%query}
+  title: Universitäts- und Landesbibliothek Düsseldorf, Katalog
+uvi 1:
+  url: http://stefanschramm.net/dev/postredirector/?_target=http://verbs.colorado.edu/verb-index/search.php&txtSearchRequest={%query}
+  title: Unified Verb Index
+  tags:
+  - language
+  - english
+  - linguistics
+  - grammar
+  examples:
+    walk: Look up the verb "walk"
+vf 0:
+  url: http://verben.texttheater.net/forum/index.php?action=unread;all;start=0
+  title: GSV-Forum
+vf 1:
+  url: http://verben.texttheater.net/forum/index.php?action=search2;search={%query}
+  title: Suche im GSV-Forum
+vv 0:
+  url: http://verben.texttheater.de/Starke_Verben
+  title: Starke Verben im GSV-Wiki
+vv 1:
+  url: http://verben.texttheater.de/Starke_Verben/{%buchstabe}
+  title: Starke Verben im GSV-Wiki
+vw 0:
+  url: http://verben.texttheater.de
+  title: GSV-Wiki
+vw 1:
+  url: http://verben.texttheater.net/index.php?title=Spezial%3ASuche&search={%query}
+  title: Artikel oder Suche im GSV-Wiki
+vws 1:
+  url: http://verben.texttheater.de/index.php?title={%title}&action=edit
+  title: GSV-Wiki, schreiben
+wl 0:
+  url: https://www.imdb.com/user/ur38214461/watchlist?sort=user_rating%2Cdesc&title_type=movie&view=detail
+  title: IMDb Watchlist
+  tags:
+  - movie
+  - film
+  - watchlist
+  - watch
+wordnet 1:
+  url: http://wordnetweb.princeton.edu/perl/webwn?s={%word_form}&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=1&o3=&o4=&h=000000000000000
+  title: WordNet Search, show sense keys
+  tags:
+  - linguistics
+  - english
+  - computational linguistics
+  - word
+  - words
+  - sense
+  - senses
+  - dictionary
+  examples:
+    complicated: look up senses of "complicated" in WordNet
