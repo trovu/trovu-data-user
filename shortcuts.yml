@@ -45,7 +45,7 @@ dbt< 3:
 dbtp 1:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s%20prenzlauer%21&Z={%Ziel}&start=1'
   title: DB-Auskunft von S Prenzlauer Textversion
-example: https://www.example.com/
+example 0: https://www.example.com/
 ff 1:
   url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=000733102&Z={%Ziel|type=city}&start=1'
   title: DB-Auskunft von U Friedrichsfelde Textversion
