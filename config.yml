@@ -2,6 +2,7 @@ namespaces:
 - o
 - de
 - .de
+- github: neubarth
 - github: .
 language: de
 country: de
