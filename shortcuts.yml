@@ -1,0 +1,217 @@
+ab 0:
+  url: http://www.antennebrandenburg.de/livestream/index.html
+  title: Antenne Brandenburg
+abc 1:
+  url: http://www.brandenburg-abc.de/veranstaltungen/rubrik.php?nummer=10&beginn={%Datum|type=date|output=YYYY-MM-DD}&ende={%Datum|type=date|output=YYYY-MM-DD}
+  title: Brandenburg ABC
+ascii 0:
+  url: http://www.torsten-horn.de/techdocs/ascii.htm
+  title: ASCII-Alphabet
+b2 0:
+  url: http://freestream.nmdn.net/freestream/download/radiob2regional/frameset.html
+  title: Radio B2
+bsr 0:
+  url: https://www.bsr.de/sperrmuellabfuhr-20237.php
+  title: BSR Abholung
+cs 0:
+  url: https://www.couchsurfing.com/nearby?utf8=%E2%9C%93&search_type=discussion&search_query=Berlin%2C+Germany&latitude=52.52000659999999&longitude=13.404954
+  title: Couchsurfing Berlin Discussions
+cse 0:
+  url: https://www.couchsurfing.com/events/search/1?latitude=52.519173&longitude=13.406091&order=date&perPage=20&search_query=Berlin%2C+Berlin%2C+Germany&search_type=event
+  title: Couchsurfing Events Berlin
+csg 0:
+  url: https://www.couchsurfing.com/groups
+  title: couchsurfing groups
+dax 0:
+  url: https://www.google.com/search?q=INDEXDB:+DAX
+  title: DAX
+dlf 0:
+  url: https://srv.deutschlandradio.de/themes/dradio/script/aod/index.html?audioMode=2&audioID=4&state=
+  title: Deutschlandfunk
+dnb 0:
+  url: http://dnbradio.com/player
+  title: dnbradio.com
+dnb2 0:
+  url: http://play.247drumandbass.com/flash/
+  title: 247 Drum'n'Bass
+ek 1:
+  url: http://kleinanzeigen.ebay.de/anzeigen/s-berlin/{%item}/k0l3331r20
+  title: Ebay Kleinanzeigen
+en 1:
+  url: http://www.dict.cc/?s={%query}
+  title: dict.cc
+ew 1:
+  url: https://en.wikipedia.org/wiki/Special:Search?go=Article&search={%article}
+  title: Wikipedia Article Search English
+  tags:
+  - wikipedia
+  - wiki
+  - encyclopedia
+  - copyleft
+  examples:
+    berlin: Wikipedia article about Berlin
+examplekeyword 1:
+  url: http://www.example.com/?q={%query}&this-is-available-with-calling-examplekeyword
+  title: My custom shortcut with the keyword examplekeyword and 1 argument
+fb 0:
+  url: https://login.facebook.com/login.php
+  title: Facebook
+ff 0:
+  url: http://wiki.serchilo.net/Serchilo:Browser_Integration
+  title: Serchilo Plugin for Firefox
+g+ 0:
+  url: https://hangouts.google.com/
+  title: Google Hangout
+g 1:
+  url: http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&tbs=li:1
+  title: google
+gita 0:
+  url: https://github.com/ai-ag/evergabe
+  title: Github Awarding
+gitb 0:
+  url: https://github.com/ai-ag/evo-bidding
+  title: Github Bidding
+h 0:
+  url: https://www.heise.de/newsticker/classic/
+  title: Heise
+he 0:
+  url: https://de.wikipedia.org/wiki/HTTP-Statuscode
+  title: HTTP error codes
+he 1:
+  url: http://httpstatus.es/{%code}
+  title: HTTP error codes
+ir 0:
+  url: http://www.inforadio.de/livestream/index.html
+  title: Inforadio
+java 1:
+  url: https://duckduckgo.com/?q=!
+    site%3Ahttps%3A%2F%2Fdocs.oracle.com%2Fen%2Fjava%2Fjavase%2F11+{%query}&ia=web
+  title: Java Platform SE 11 API
+  tags:
+  - java
+  - programming
+  - api
+  examples:
+    void: Search for docs about "void"
+ji 0:
+  url: https://jira.vilua.de/issues/?jql=project%20%3D%20VMS%20AND%20assignee%20in%20(currentUser())%20ORDER%20BY%20updated%20DESC%2C%20priority%20ASC
+  title: JIRA my tickets
+jira 0:
+  url: https://itask.app.de.corp.thales/secure/RapidBoard.jspa?rapidView=4370&projectKey=NXTMS
+  title: JIRA my tickets
+jira 1:
+  url: https://itask.app.de.corp.thales/browse/NXTMS-{%ticket}
+  title: JIRA
+key 1:
+  url: http://pgpkeys.pca.dfn.de/pks/lookup?search={%query}&op=vindex
+  title: PGP-keyserver
+kununu 1:
+  url: https://www.kununu.com/de/search#/?q={%query}
+  title: Kununu Deutschland
+  description: Suche nach Arbeitgeber-Bewertungen
+  tags:
+  - employer
+  examples:
+    acme: Suche nach Bewertungen der Firma ACME als Arbeitgeber
+ma 0:
+  url: https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120686&dienstleisterlist=122210,122217,122219,122227,122231,122243,122252,122260,122262,122254,122271,122273,122277,122280,122282,122284,122291,122285,122286,122296,150230,122301,122297,122294,122312,122314,122304,122311,122309,122281,122279,122276,122274,122267,122246,122251,122257,122208,122226&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120686%2F
+  title: Meldeamt
+met 0:
+  url: http://marion-etten-theater.de/
+  title: MET
+mu 0:
+  url: http://www.meetup.com/find/events/?allMeetups=true&radius=10&userFreeform=Berlin%2C+Germany&mcName=Berlin%2C+DE&lat=52.52&lon=13.38&eventFilter=all
+  title: Meetup
+myjira 0:
+  url: https://jira.vilua.de/issues/?jql=project%20%3D%20VMS%20AND%20assignee%20in%20(currentUser())%20ORDER%20BY%20updated%20DESC%2C%20priority%20ASC
+  title: JIRA my tickets
+nach 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=u+schwartzkopffstr.!&To={%Ziel}!&start=1
+  title: VBB-Auskunft
+nach 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=u+schwartzkopffstr.!&To={%Ziel}!&time={%Zeit}&start=1
+  title: VBB-Auskunft
+nach 3:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=u+schwartzkopffstr.!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
+ol 0:
+  url: https://mail.prof-thome-gruppe.de/owa/auth/logon.aspx
+  title: Outlook
+om 1:
+  url: http://nominatim.openstreetmap.org/search.php?q={%location}
+  title: OpenStreetMap Nominatim
+rlb 0:
+  url: https://www.reiseland-brandenburg.de/veranstaltungen-hoehepunkte/veranstaltungskalender/
+  title: Reiseland Brandenburg
+rm 1:
+  url: https://planb.webit.de/projects/evergabe-elektro/search?utf8=%E2%9C%93&issues=1&q={%query}
+  title: Redmine Suche
+rmwi 0:
+  url: https://planb.webit.de/projects/evergabe-elektro/wiki/index
+  title: Webit Redmine Wiki
+spo 0:
+  url: https://www.spontacts.com/account/sign_in?return_to=https%3A%2F%2Fwww.spontacts.com%2F
+  title: Spontacts
+spring 1:
+  url: https://www.google.com/search?hl={$language}&q=site%3Ahttp://docs.spring.io/spring/docs/current/javadoc-api/+{%query}+intitle%3A{%query}&ie=utf-8&btnI=1
+  title: Spring Java API
+  tags:
+  - programming
+  - java
+t 0:
+  url: https://power.dtst.de/index.php?where=User%20Telefonbuch
+  title: Telefonbuch
+thr 0:
+  url: https://web.threema.ch/
+  title: Threema
+user 0:
+  url: https://www.findfind.it/shortcuts?namespace=hannes
+  title: user
+veg 0:
+  url: http://www.berlin-vegan.de/berlin/restaurants/
+  title: veg
+von 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=u+schwartzkopffstr.!&start=1
+  title: VBB-Auskunft
+von 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=u+schwartzkopffstr.!&time={%Zeit}&start=1
+  title: VBB-Auskunft
+von 3:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=u+schwartzkopffstr.!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
+wa 0:
+  url: https://web.whatsapp.com/
+  title: Whatsapp
+we 1:
+  url: https://www.wetteronline.de/wettertrend/{%Ort}
+  title: Wetter
+  tags:
+  - weather
+  examples:
+    berlin: Search for "berlin"
+we3 0:
+  url: http://wind.met.fu-berlin.de/wind/radar/loop_radar200.php
+  title: Wetterradar für Berlin
+we4 0:
+  url: http://wind.met.fu-berlin.de/wind/radar/loop_radarde.php
+  title: Wetterradar für Deutschland
+wi 1:
+  url: https://wiki.corp.thales/dosearchsite.action?queryString={%query}
+  title: Thales Wiki
+  examples:
+    berlin: Search for "thales"
+ww 0:
+  url: https://www.wetteronline.de/wettertrend/Berlin
+  title: Wetteronline für Berlin
+x 0:
+  url: https://meinaccount.gmx.net/
+  title: GMX
+zkdev 0:
+  url: http://services-dev-01.xx-well.local:9411/zipkin/?serviceName=vms-api-gateway&spanName=all&lookback=604800000&startTs=1557498309862&endTs=1557501909862&annotationQuery=&minDuration=&limit=1000&sortOrder=timestamp-desc
+  title: Zipkin DEV
+zklocal 0:
+  url: http://localhost:9411/zipkin/?serviceName=vms-api-gateway&spanName=all&lookback=604800000&startTs=1557498309862&endTs=1557501909862&annotationQuery=&minDuration=&limit=1000&sortOrder=timestamp-desc
+  title: Zipkin local
+zkstage 0:
+  url: http://services-stage-01.claranet.rz:9411/zipkin/?serviceName=vms-api-gateway&spanName=all&lookback=604800000&startTs=1557498309862&endTs=1557501909862&annotationQuery=&minDuration=&limit=1000&sortOrder=timestamp-desc
+  title: Zipkin STAGE
