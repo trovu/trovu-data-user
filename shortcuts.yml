@@ -1,12 +1,6 @@
-azz 0:
-  url: http://www.google.com
-  title: test
 ab 0:
   url: http://www.antennebrandenburg.de/livestream/index.html
   title: Antenne Brandenburg
-abc 1:
-  url: http://www.brandenburg-abc.de/veranstaltungen/rubrik.php?nummer=10&beginn={%Datum|type=date|output=YYYY-MM-DD}&ende={%Datum|type=date|output=YYYY-MM-DD}
-  title: Brandenburg ABC
 ascii 0:
   url: http://www.torsten-horn.de/techdocs/ascii.htm
   title: ASCII-Alphabet
@@ -14,8 +8,8 @@ b2 0:
   url: http://freestream.nmdn.net/freestream/download/radiob2regional/frameset.html
   title: Radio B2
 bsr 0:
-  url: https://www.bsr.de/sperrmuellabfuhr-20237.php
-  title: BSR Abholung
+  url: https://www.bsr.de/abfuhrkalender-20520.php
+  title: BSR Abfuhrkalender
 cs 0:
   url: https://www.couchsurfing.com/nearby?utf8=%E2%9C%93&search_type=discussion&search_query=Berlin%2C+Germany&latitude=52.52000659999999&longitude=13.404954
   title: Couchsurfing Berlin Discussions
@@ -53,27 +47,18 @@ ew 1:
   - copyleft
   examples:
     berlin: Wikipedia article about Berlin
-examplekeyword 1:
-  url: http://www.example.com/?q={%query}&this-is-available-with-calling-examplekeyword
-  title: My custom shortcut with the keyword examplekeyword and 1 argument
 fb 0:
   url: https://login.facebook.com/login.php
   title: Facebook
 ff 0:
-  url: http://wiki.serchilo.net/Serchilo:Browser_Integration
-  title: Serchilo Plugin for Firefox
+  url: https://trovu.net/#github=neubarth
+  title: Trovu Plugin
 g+ 0:
   url: https://hangouts.google.com/
   title: Google Hangout
 g 1:
   url: http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&tbs=li:1
   title: google
-gita 0:
-  url: https://github.com/ai-ag/evergabe
-  title: Github Awarding
-gitb 0:
-  url: https://github.com/ai-ag/evo-bidding
-  title: Github Bidding
 h 0:
   url: https://www.heise.de/newsticker/classic/
   title: Heise
@@ -96,9 +81,6 @@ java 1:
   - api
   examples:
     void: Search for docs about "void"
-ji 0:
-  url: https://jira.vilua.de/issues/?jql=project%20%3D%20VMS%20AND%20assignee%20in%20(currentUser())%20ORDER%20BY%20updated%20DESC%2C%20priority%20ASC
-  title: JIRA my tickets
 jira 0:
   url: https://itask.app.de.corp.thales/secure/RapidBoard.jspa?rapidView=4370&projectKey=NXTMS
   title: JIRA my tickets
@@ -125,33 +107,39 @@ met 0:
 mu 0:
   url: http://www.meetup.com/find/events/?allMeetups=true&radius=10&userFreeform=Berlin%2C+Germany&mcName=Berlin%2C+DE&lat=52.52&lon=13.38&eventFilter=all
   title: Meetup
-myjira 0:
-  url: https://jira.vilua.de/issues/?jql=project%20%3D%20VMS%20AND%20assignee%20in%20(currentUser())%20ORDER%20BY%20updated%20DESC%2C%20priority%20ASC
-  title: JIRA my tickets
-nach 1:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=u+schwartzkopffstr.!&To={%Ziel}!&start=1
+nacha 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&start=1
   title: VBB-Auskunft
-nach 2:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=u+schwartzkopffstr.!&To={%Ziel}!&time={%Zeit}&start=1
+nacha 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&time={%Zeit}&start=1
   title: VBB-Auskunft
-nach 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=u+schwartzkopffstr.!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+nacha 3:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
   title: VBB-Auskunft
-ol 0:
-  url: https://mail.prof-thome-gruppe.de/owa/auth/logon.aspx
-  title: Outlook
-om 1:
-  url: http://nominatim.openstreetmap.org/search.php?q={%location}
+nachm 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&start=1
+  title: VBB-Auskunft
+nachm 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&time={%Zeit}&start=1
+  title: VBB-Auskunft
+nachm 3:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
+nachs 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&start=1
+  title: VBB-Auskunft
+nachs 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&time={%Zeit}&start=1
+  title: VBB-Auskunft
+nachs 3:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
+osmb 1:
+  url: https://www.openstreetmap.org/search?query={%location}%2C+berlin
   title: OpenStreetMap Nominatim
 rlb 0:
   url: https://www.reiseland-brandenburg.de/veranstaltungen-hoehepunkte/veranstaltungskalender/
   title: Reiseland Brandenburg
-rm 1:
-  url: https://planb.webit.de/projects/evergabe-elektro/search?utf8=%E2%9C%93&issues=1&q={%query}
-  title: Redmine Suche
-rmwi 0:
-  url: https://planb.webit.de/projects/evergabe-elektro/wiki/index
-  title: Webit Redmine Wiki
 spo 0:
   url: https://www.spontacts.com/account/sign_in?return_to=https%3A%2F%2Fwww.spontacts.com%2F
   title: Spontacts
@@ -168,19 +156,37 @@ thr 0:
   url: https://web.threema.ch/
   title: Threema
 user 0:
-  url: https://www.findfind.it/shortcuts?namespace=hannes
+  url: https://github.com/neubarth/trovu-data-user/edit/master/shortcuts.yml
   title: user
 veg 0:
   url: http://www.berlin-vegan.de/berlin/restaurants/
   title: veg
-von 1:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=u+schwartzkopffstr.!&start=1
+vona 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&start=1
   title: VBB-Auskunft
-von 2:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=u+schwartzkopffstr.!&time={%Zeit}&start=1
+vona 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&time={%Zeit}&start=1
   title: VBB-Auskunft
-von 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=u+schwartzkopffstr.!&time={%Zeit}&date={%Datum}&start=1
+vona 3:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
+vonm 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&start=1
+  title: VBB-Auskunft
+vonm 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&time={%Zeit}&start=1
+  title: VBB-Auskunft
+vonm 3:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
+vons 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&start=1
+  title: VBB-Auskunft
+vons 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&time={%Zeit}&start=1
+  title: VBB-Auskunft
+vons 3:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&time={%Zeit}&date={%Datum}&start=1
   title: VBB-Auskunft
 wa 0:
   url: https://web.whatsapp.com/
@@ -209,12 +215,4 @@ ww 0:
 x 0:
   url: https://meinaccount.gmx.net/
   title: GMX
-zkdev 0:
-  url: http://services-dev-01.xx-well.local:9411/zipkin/?serviceName=vms-api-gateway&spanName=all&lookback=604800000&startTs=1557498309862&endTs=1557501909862&annotationQuery=&minDuration=&limit=1000&sortOrder=timestamp-desc
-  title: Zipkin DEV
-zklocal 0:
-  url: http://localhost:9411/zipkin/?serviceName=vms-api-gateway&spanName=all&lookback=604800000&startTs=1557498309862&endTs=1557501909862&annotationQuery=&minDuration=&limit=1000&sortOrder=timestamp-desc
-  title: Zipkin local
-zkstage 0:
-  url: http://services-stage-01.claranet.rz:9411/zipkin/?serviceName=vms-api-gateway&spanName=all&lookback=604800000&startTs=1557498309862&endTs=1557501909862&annotationQuery=&minDuration=&limit=1000&sortOrder=timestamp-desc
-  title: Zipkin STAGE
+  
