@@ -209,6 +209,11 @@ wi 1:
   title: Thales Wiki
   examples:
     berlin: Search for "thales"
+wigdp 1:
+  url: https://wiki.corp.thales/dosearchsite.action?cql=siteSearch+~+%22{%query}%22+and+space+%3D+%22GTSSE%22&queryString={%query}
+  title: Thales Wiki
+  examples:
+    berlin: Search for "thales"
 ww 0:
   url: https://www.wetteronline.de/wettertrend/Berlin
   title: Wetteronline für Berlin
