@@ -134,6 +134,9 @@ nachs 2:
 nachs 3:
   url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
   title: VBB-Auskunft
+osmb 0:
+  url: https://www.openstreetmap.org/search?query=Hafenplatz%2C+berlin
+  title: OpenStreetMap Nominatim
 osmb 1:
   url: https://www.openstreetmap.org/search?query={%location}%2C+berlin
   title: OpenStreetMap Nominatim
