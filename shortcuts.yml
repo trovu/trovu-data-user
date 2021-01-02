@@ -177,6 +177,9 @@ py3 1:
 r 0:
   url: https://feedly.com/i/latest
   title: Current Google Reader replacement
+rewe 0:
+  url: https://shop.rewe.de
+  title: REWE Onlineshop
 rl 0:
   url: https://www.goodreads.com/review/list/7713465-kilian?order=d&shelf=to-read&sort=avg_rating
   title: Kilian Evang's 'to-read' books on Goodreads
