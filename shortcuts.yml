@@ -51,8 +51,8 @@ fb 0:
   url: https://login.facebook.com/login.php
   title: Facebook
 g+ 0:
-  url: https://hangouts.google.com/
-  title: Google Hangout
+  url: https://meet.google.com/
+  title: Google Meet
 g 1:
   url: http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&tbs=li:1
   title: google
