@@ -104,6 +104,9 @@ met 0:
 mu 0:
   url: http://www.meetup.com/find/events/?allMeetups=true&radius=10&userFreeform=Berlin%2C+Germany&mcName=Berlin%2C+DE&lat=52.52&lon=13.38&eventFilter=all
   title: Meetup
+mvn 1:
+  url: https://mvnrepository.com/search?q={%query}
+  title: Maven repos
 nacha 1:
   url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&start=1
   title: VBB-Auskunft
