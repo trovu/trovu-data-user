@@ -140,6 +140,18 @@ osmb 0:
 osmb 1:
   url: https://www.openstreetmap.org/search?query={%location}%2C+berlin
   title: OpenStreetMap Nominatim
+kaufland 0:
+  url: https://www.kaufland.de/
+  title: Kaufland Online Marktplatz
+  tags:
+  - shopping
+kaufland 1:
+  url: https://www.kaufland.de/item/search/?search_value={%Suche}
+  title: Kaufland Online Marktplatz
+  tags:
+  - shopping
+  examples:
+    spiele: Suche auf Kaufland.de nach "spiele"
 rlb 0:
   url: https://www.reiseland-brandenburg.de/veranstaltungen-hoehepunkte/veranstaltungskalender/
   title: Reiseland Brandenburg
