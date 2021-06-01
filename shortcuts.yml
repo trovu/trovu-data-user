@@ -79,10 +79,10 @@ java 1:
   examples:
     void: Search for docs about "void"
 jira 0:
-  url: https://itask.app.de.corp.thales/secure/RapidBoard.jspa?rapidView=4370&projectKey=NXTMS
+  url: https://dev-bosch.com/jira/projects/BOC3/issues/?filter=myopenissues
   title: JIRA my tickets
 jira 1:
-  url: https://itask.app.de.corp.thales/browse/NXTMS-{%ticket}
+  url: https://dev-bosch.com/jira/browse/BOC3-{%ticket}
   title: JIRA
 key 1:
   url: http://pgpkeys.pca.dfn.de/pks/lookup?search={%query}&op=vindex
