@@ -84,9 +84,6 @@ jira 0:
 jira 1:
   url: https://dev-bosch.com/jira/browse/BOC3-{%ticket}
   title: JIRA
-key 1:
-  url: http://pgpkeys.pca.dfn.de/pks/lookup?search={%query}&op=vindex
-  title: PGP-keyserver
 kununu 1:
   url: https://www.kununu.com/de/search#/?q={%query}
   title: Kununu Deutschland
@@ -152,6 +149,9 @@ kaufland 1:
   - shopping
   examples:
     spiele: Suche auf Kaufland.de nach "spiele"
+pgp 1:
+  url: http://keyserver.ubuntu.com/pks/lookup?search={%query}&fingerprint=on&op=index
+  title: PGP key search
 rlb 0:
   url: https://www.reiseland-brandenburg.de/veranstaltungen-hoehepunkte/veranstaltungskalender/
   title: Reiseland Brandenburg
