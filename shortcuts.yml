@@ -104,14 +104,14 @@ mu 0:
 mvn 1:
   url: https://mvnrepository.com/search?q={%query}
   title: Maven repos
+nacha 3:
+  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=s+anhalter+bahnhof!&to={%Ziel}&time={%Abfahrtszeit|type=time}&date={%Datum|type=date}
+  title: BVG-Fahrplanauskunft 
 nacha 1:
   url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&start=1
   title: VBB-Auskunft
 nacha 2:
   url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&time={%Zeit}&start=1
-  title: VBB-Auskunft
-nacha 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
   title: VBB-Auskunft
 nachm 1:
   url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&start=1
