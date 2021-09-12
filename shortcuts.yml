@@ -104,33 +104,33 @@ mu 0:
 mvn 1:
   url: https://mvnrepository.com/search?q={%query}
   title: Maven repos
-nacha 1:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=s+anhalter+bahnhof!&to={%Ziel}
-  title: BVG-Fahrplanauskunft 
-nacha 2:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=s+anhalter+bahnhof!&to={%Ziel}&time={%Abfahrtszeit|type=time}
-  title: BVG-Fahrplanauskunft 
 nacha 3:
   url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=s+anhalter+bahnhof!&to={%Ziel}&time={%Abfahrtszeit|type=time}&date={%Datum|type=date}
   title: BVG-Fahrplanauskunft 
+nacha 1:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&start=1
+  title: VBB-Auskunft
+nacha 2:
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&time={%Zeit}&start=1
+  title: VBB-Auskunft
 nachm 1:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=U+Mendelssohn-Bartholdy-Park!&to={%Ziel}
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&start=1
+  title: VBB-Auskunft
 nachm 2:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=U+Mendelssohn-Bartholdy-Park!&to={%Ziel}&time={%Abfahrtszeit|type=time}
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&time={%Zeit}&start=1
+  title: VBB-Auskunft
 nachm 3:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=U+Mendelssohn-Bartholdy-Park!&to={%Ziel}&time={%Abfahrtszeit|type=time}&date={%Datum|type=date}
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
 nachs 1:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=schöneberger+brücke!&to={%Ziel}
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&start=1
+  title: VBB-Auskunft
 nachs 2:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=schöneberger+brücke!&to={%Ziel}&time={%Abfahrtszeit|type=time}
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&time={%Zeit}&start=1
+  title: VBB-Auskunft
 nachs 3:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from=schöneberger+brücke!&to={%Ziel}&time={%Abfahrtszeit|type=time}&date={%Datum|type=date}
-  title: BVG-Fahrplanauskunft
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
 nr 0:
   url: https://login.newrelic.com/login?login%5Bemail%5D=external.Johannes.Neubarth%40de.bosch.com&button=
   title: New Relic
@@ -180,32 +180,32 @@ veg 0:
   url: http://www.berlin-vegan.de/berlin/restaurants/
   title: veg
 vona 1:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=s+anhalter+bahnhof!
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&start=1
+  title: VBB-Auskunft
 vona 2:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=s+anhalter+bahnhof!&time={%Abfahrtszeit|type=time}
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&time={%Zeit}&start=1
+  title: VBB-Auskunft
 vona 3:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=s+anhalter+bahnhof!&time={%Abfahrtszeit|type=time}&date={%Datum|type=date}
-  title: BVG-Fahrplanauskunft
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
 vonm 1:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=U+Mendelssohn-Bartholdy-Park!
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&start=1
+  title: VBB-Auskunft
 vonm 2:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=U+Mendelssohn-Bartholdy-Park!&time={%Abfahrtszeit|type=time}
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&time={%Zeit}&start=1
+  title: VBB-Auskunft
 vonm 3:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=U+Mendelssohn-Bartholdy-Park!&time={%Abfahrtszeit|type=time}&date={%Datum|type=date}
-  title: BVG-Fahrplanauskunft
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
 vons 1:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=schöneberger+brücke!
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&start=1
+  title: VBB-Auskunft
 vons 2:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=schöneberger+brücke!&time={%Abfahrtszeit|type=time}
-  title: BVG-Fahrplanauskunft 
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&time={%Zeit}&start=1
+  title: VBB-Auskunft
 vons 3:
-  url: http://fahrinfo.bvg.de/Fahrinfo/bin/?start=1&timesel=depart&from={%Start}&to=schöneberger+brücke!&time={%Abfahrtszeit|type=time}&date={%Datum|type=date}
-  title: BVG-Fahrplanauskunft
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&time={%Zeit}&date={%Datum}&start=1
+  title: VBB-Auskunft
 wa 0:
   url: https://web.whatsapp.com/
   title: Whatsapp
