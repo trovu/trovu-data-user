@@ -176,6 +176,9 @@ thr 0:
 user 0:
   url: https://github.com/neubarth/trovu-data-user/edit/master/shortcuts.yml
   title: user
+v 0:
+  url: https://www.vbb.de/fahrinfo/
+  title: vbb
 veg 0:
   url: http://www.berlin-vegan.de/berlin/restaurants/
   title: veg
