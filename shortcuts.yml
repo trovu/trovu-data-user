@@ -1,4 +1,4 @@
-qt 1: 'http://www.google.com/search?hl={$language}&q=qt%20{%query}&ie=utf-8'
+qt 1: http://www.google.com/search?hl={$language}&q=qt%20{%query}&ie=utf-8
 '- 1':
   url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
   title: 'Google Web, go directly to first result'
