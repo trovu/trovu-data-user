@@ -265,6 +265,14 @@ ud 1:
 ulb 1:
   url: https://katalog.ulb.hhu.de/Search/Results?lng=de&type=AllFields&lookfor={%query}
   title: Universitäts- und Landesbibliothek Düsseldorf, Katalog
+uvi 0:
+  url: http://verbs.colorado.edu/verb-index/
+  title: Unified Verb Index
+  tags:
+  - language
+  - english
+  - linguistics
+  - grammar
 uvi 1:
   url: http://stefanschramm.net/dev/postredirector/?_target=http://verbs.colorado.edu/verb-index/search.php&txtSearchRequest={%query}
   title: Unified Verb Index
