@@ -25,3 +25,8 @@ examplekeyword 2:
 
 # Make sure that the keys are unique, 
 # e.g. that the every "KEYWORDNAME ARGCOUNT" is only used once in this file.
+
+qt 1: http://www.google.com/search?hl={$language}&q=qt%20{%query}&ie=utf-8
+app 1: http://www.google.com/search?hl={$language}&q=app%20{%query}&ie=utf-8
+apple 1: http://www.google.com/search?hl={$language}&q=apple%20{%query}&ie=utf-8
+chrome 1: http://www.google.com/search?hl={$language}&q=chrome%20{%query}&ie=utf-8
