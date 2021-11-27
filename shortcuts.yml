@@ -23,7 +23,7 @@ dax 0:
   url: https://www.google.com/search?q=INDEXDB:+DAX
   title: DAX
 dlf 0:
-  url: https://srv.deutschlandradio.de/themes/dradio/script/aod/index.html?audioMode=2&audioID=4&state=
+  url: https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac?aggregator=web
   title: Deutschlandfunk
 dnb 0:
   url: http://dnbradio.com/player
