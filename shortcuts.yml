@@ -131,6 +131,9 @@ nachs 2:
 nachs 3:
   url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
   title: VBB-Auskunft
+nd 0:
+  url: https://www.google.com/finance/quote/NDX:INDEXNASDAQ?sa=X&ved=2ahUKEwjjqumUzNH0AhVKSPEDHWOqDfwQ_AUoAXoECAIQAw
+  title: Nasdaq 100
 nr 0:
   url: https://login.newrelic.com/login?login%5Bemail%5D=external.Johannes.Neubarth%40de.bosch.com&button=
   title: New Relic
