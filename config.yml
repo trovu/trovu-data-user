@@ -2,6 +2,7 @@
 namespaces:
 - o
 - cs
+- .cz
 - github: .
   name: my
 defaultKeyword: g 
