@@ -1,5 +1,6 @@
 namespaces:
 - o
+- es
 - de
 - .de
 - github: .
