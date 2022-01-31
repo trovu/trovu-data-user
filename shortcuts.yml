@@ -7,7 +7,9 @@
 #
 # as the key, and the target URL as the value.
 # This shortcut will match for "examplekeyword" with no arguments.
-examplekeyword 0: http://www.example.com/
+# examplekeyword 0: http://www.example.com/
+
+od 0: https://www.odorik.cz/ucet/nastaveni_volani.html?login_method=credentials
 
 # This shortcut will match for "examplekeyword foo", 
 # so for the same keyword but with one argument.
