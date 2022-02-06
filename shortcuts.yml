@@ -284,25 +284,25 @@ uvi 1:
   examples:
     walk: Look up the verb "walk"
 vf 0:
-  url: http://verben.texttheater.net/forum/index.php?action=unread;all;start=0
+  url: https://forum.neutsch.org/index.php?action=unread;all;start=0
   title: GSV-Forum
 vf 1:
-  url: http://verben.texttheater.net/forum/index.php?action=search2;search={%query}
+  url: https://forum.neutsch.org/index.php?action=search2;search={%query}
   title: Suche im GSV-Forum
 vv 0:
-  url: http://verben.texttheater.de/Starke_Verben
+  url: https://neutsch.org/Starke_Verben
   title: Starke Verben im GSV-Wiki
 vv 1:
-  url: http://verben.texttheater.de/Starke_Verben/{%buchstabe}
+  url: https://neutsch.org/Starke_Verben/{%buchstabe}
   title: Starke Verben im GSV-Wiki
 vw 0:
-  url: http://verben.texttheater.de
+  url: https://neutsch.org
   title: GSV-Wiki
 vw 1:
-  url: http://verben.texttheater.net/index.php?title=Spezial%3ASuche&search={%query}
+  url: https://neutsch.org/index.php?title=Spezial%3ASuche&search={%query}
   title: Artikel oder Suche im GSV-Wiki
 vws 1:
-  url: http://verben.texttheater.de/index.php?title={%title}&action=edit
+  url: https://neutsch.org/index.php?title={%title}&action=edit
   title: GSV-Wiki, schreiben
 wl 0:
   url: https://www.imdb.com/user/ur38214461/watchlist?sort=user_rating%2Cdesc&title_type=movie&view=detail
