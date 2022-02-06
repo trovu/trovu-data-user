@@ -149,6 +149,9 @@ mwo 1:
 ons 1:
   url: http://labenz.texttheater.de/ons.php?sa={%suchausdruck}
   title: Labenz-Ortsnamensuche
+opac 0:
+  url: https://opac-duesseldorf.itk-rheinland.de
+  title: Stadtbüchereien Düsseldorf, Web-OPAC
 pmb 0:
   url: http://pmb.let.rug.nl/explorer/phrase.php
   title: PMB Explorer, phrase query form
