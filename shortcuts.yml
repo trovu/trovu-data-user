@@ -31,6 +31,9 @@ dnb 0:
 dnb2 0:
   url: http://play.247drumandbass.com/flash/
   title: 247 Drum'n'Bass
+dod 0:
+  url: https://dev-bosch.com/confluence/x/E2NbBQ
+  title: Definition of Done
 ek 1:
   url: https://www.ebay-kleinanzeigen.de/s-10963/{%item}/k0l3376
   title: Ebay Kleinanzeigen
