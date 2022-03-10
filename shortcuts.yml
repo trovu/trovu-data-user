@@ -66,7 +66,7 @@ he 0:
   url: https://de.wikipedia.org/wiki/HTTP-Statuscode
   title: HTTP error codes
 he 1:
-  url: http://httpstatus.es/{%code}
+  url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/{%code}
   title: HTTP error codes
 ir 0:
   url: http://www.inforadio.de/livestream/index.html
