@@ -170,7 +170,7 @@ pmb 1:
     new york: search for "New York" in the Groningen Meaning Bank
     can|pos=NN: search for "can" tagged as a noun in the Groningen Meaning Bank
 pmbd 2:
-  url: hhttps://pmb.let.rug.nl/explorer/explore.php?part={%part}&doc_id={%doc_id}&type=drs.xml&alignment_language=en
+  url: https://pmb.let.rug.nl/explorer/explore.php?part={%part}&doc_id={%doc_id}&type=drs.xml&alignment_language=en
   title: PMB Explorer, document ID
   tags:
   - parallel meaning bank
