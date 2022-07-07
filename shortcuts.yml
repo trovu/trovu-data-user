@@ -82,10 +82,10 @@ java 1:
   examples:
     void: Search for docs about "void"
 jira 0:
-  url: https://dev-bosch.com/jira/projects/BOC3/issues/?filter=myopenissues
-  title: JIRA my tickets
+  url: https://jira.dkb.ag/issues/?filter=34600
+  title: JIRA open tickets created by me
 jira 1:
-  url: https://dev-bosch.com/jira/browse/BOC3-{%ticket}
+  url: https://jira.dkb.ag/browse/TESS-{%ticket}
   title: JIRA
 kununu 1:
   url: https://www.kununu.com/de/search#/?q={%query}
