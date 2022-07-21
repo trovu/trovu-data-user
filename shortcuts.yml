@@ -258,6 +258,9 @@ tn 0:
 tn 1:
   url: https://tweetnest.texttheater.net/search?q={%query}
   title: Tweets by @texttheater
+tnr 0:
+  url: https://texttheater.net/tnr/
+  title: Random Tweets by @texttheater
 tttt! 1:
   url: https://www.google.de/search?safe=off&site=&source=hp&q={%query}+site%3Atexttheater.net&btnI=Auf+gut+Gl%C3%BCck%21
   title: Texttheater via Google I'm Feeling Lucky
