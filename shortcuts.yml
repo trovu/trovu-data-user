@@ -321,7 +321,7 @@ vws 1:
   url: https://neutsch.org/index.php?title={%title}&action=edit
   title: GSV-Wiki, schreiben
 wl 0:
-  url: https://www.imdb.com/user/ur38214461/watchlist?sort=user_rating%2Cdesc&title_type=movie&view=detail
+  url: https://www.imdb.com/user/ur38214461/watchlist?sort=user_rating%2Cdesc&view=detail
   title: IMDb Watchlist
   tags:
   - movie
