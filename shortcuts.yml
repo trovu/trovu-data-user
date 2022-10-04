@@ -196,6 +196,12 @@ rewe 0:
 rewe 1:
   url: https://shop.rewe.de/productList?search={%query}&sorting=PRICE_ASC
   title: REWE Onlineshop (search and order by price, ascending)
+sf 0:
+  url: https://forum.solawi-duesseldorf.de/
+  title: SoLaWi-Düsseldorf-Forum
+sf 1:
+  url: https://forum.solawi-duesseldorf.de/search?q={%query}
+  title: SoLaWi-Düsseldorf-Forum
 rl 0:
   url: https://www.goodreads.com/review/list/7713465-kilian?order=d&shelf=to-read&sort=avg_rating
   title: Kilian Evang's 'to-read' books on Goodreads
