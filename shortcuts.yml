@@ -122,6 +122,12 @@ gtr 2:
   - translation
   examples:
     "fr, crêpe": Translate "crêpe" from French
+hik 0:
+  url: https://www.biograph.de/heute-im-kino
+  title: Heute im Kino (Düsseldorf/Neuss)
+  tags:
+  - cinema
+  - movie
 kym 1:
   url: http://knowyourmeme.com/search?q={%query}
   title: Know Your Meme
