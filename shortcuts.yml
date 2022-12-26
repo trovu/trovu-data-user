@@ -125,4 +125,4 @@ tp 1: https://www.topparrain.com/en/companies?utf8=%E2%9C%93&search%5Bname%5D={%
 100pp 1: https://www.100partnerprogramme.de/suche/?q={%query}
 trovu 0: https://trovu.net/#github=georgjaehnig
 deepl 1: https://www.deepl.com/translator#serchilo[fill][textarea]={%query} 
-cd 2: https://www.cd.cz/default.htm#serchilo[fill][%23connection-from]={%odkud|type=city}&serchilo[fill][%23connection-to]={%kam|type=city}&serchilo[submit]=button.search-btn
+cd 3: https://www.cd.cz/default.htm#test={%test|type=city}&serchilo[fill][%23connection-from]={%odkud|type=city}&serchilo[fill][%23connection-to]={%kam|type=city}&serchilo[submit]=button.search-btn
