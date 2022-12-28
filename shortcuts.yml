@@ -1,11 +1,78 @@
-# Documentation:
-# https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
-
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q={%query} 
-examplekeyword 2:
-  url: http://www.example.com/?q={%query}&p={%puery}
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
-  tags:
-  - example
+imdb 1:
+  url: http://www.imdb.com/find?s=all&q={%query}
+  title: IMDb Search
+yt 1:
+  url: http://www.youtube.com/results?search_query={%query}
+  title: yt
+gd> 1:
+  url: http://maps.google.com/maps?hl={$language}&f=d&saddr=Trumannskamp+21+Celle&daddr={%destination}
+  title: Google Directions von Zuhause
+gmail 0:
+  url: https://mail.google.com
+  title: Google Mail
+hp 0:
+  url: http://blog.lutz-lengemann.name
+  title: Homepage
+imdb 0:
+  url: http://www.imdb.com
+  title: IMDb Homepage
+listen 1:
+  url: http://www.last.fm/listen/artist/{%artist}
+  title: 'Last.fm: Interpret anhören'
+ez 0:
+  url: http://eztv.it/
+  title: EZTV
+last 1:
+  url: http://www.last.fm/music?q={%artist}
+  title: Last.fm Suche
+gd< 1:
+  url: http://maps.google.com/maps?hl={$language}&f=d&saddr={%start}&daddr=Trumannskamp+21+Celle
+  title: Google Directions nach Hause
+mp3 1:
+  url: http://www.google.com/search?hl=en&lr=&safe=off&q=intitle%3Aindex.of+%2B%22last+modified%22+%2B%22parent+directory%22+%2B%28mp3%7Cwma%7Cogg%29+%2B%22{%query}%22+-htm+-html+-php+-asp&btnG=Search
+  title: mp3
+db< 1:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=celle&start=1
+  title: DB-Auskunft nach Hause
+db< 2:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=celle&T={%Zeit}&start=1
+  title: DB-Auskunft nach Hause
+db> 1:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z={%Ziel}&start=1
+  title: DB-Auskunft von Zuhause
+db< 3:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=celle&T={%Zeit}&D={%Datum}&start=1
+  title: DB-Auskunft nach Hause
+db> 3:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z={%Ziel}&T={%Zeit}&D={%Datum}&start=1
+  title: DB-Auskunft von Zuhause
+db> 2:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z={%Ziel}&T={%Zeit}&start=1
+  title: DB-Auskunft von Zuhause
+gr 0:
+  url: https://feedly.com/i/collection/content/user/5a18b4a3-428a-4a9b-8e76-6fae95fca14d/category/_prio1
+  title: Feedly
+urld 1:
+  url: http://stefanschramm.net/dev/postredirector/?_target=http%3A//www.functions-online.com/de/index.php%3Fsite%3Durldecode&str={%input}
+  title: URL Decode
+pp 0:
+  url: http://www.passpack.com
+  title: Passpack
+dz 1:
+  url: https://www.google.com/search?hl=de&q=site%3Adealzeit.de%20{%query}&ie=utf-8
+  title: dealzeit.de Google Search
+qr 1:
+  url: http://qrcode.kaywa.com/img.php?s=8&d={%url}
+  title: Generation QR-Code
+'%l 0':
+  url: http://lengemann.serchilo.net
+  title: Lengemann-Serchilo
+ical 0:
+  url: http://calendar.google.com
+  title: ical
+a 0:
+  url: https://smile.amazon.de
+  title: Amazon Smile
+a 1:
+  url: http://smile.amazon.de/gp/search?ie=UTF8&keywords={%Suche}
+  title: Amazon Smile Suche
