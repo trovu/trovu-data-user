@@ -1,3 +1,11 @@
+yf 1:
+  url: https://finance.yahoo.com/lookup?s={%stock}
+  title: Yahoo Finance Lookup
+docs 1:
+  url: https://docs.google.com/document/u/0/?q={%word}
+  title: search your google docs
+  examples:
+    word: the word to find in documents
 leom 2:
   url: http://pda.leo.org/?lp={%lang}de&lang=de&searchLoc=0&cmpType=relaxed&relink=off&sectHdr=on&spellToler=&search={%word}
   title: mobile leo dictionary
