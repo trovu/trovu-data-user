@@ -1,11 +1,266 @@
 # Documentation:
 # https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
 
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q={%query} 
-examplekeyword 2:
-  url: http://www.example.com/?q={%query}&p={%puery}
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+dbab 1:
+  url: http://reiseauskunft.bahn.de/bin/bhftafel.exe/dn?input={%Bahnhof}&boardTyp=dep&time=actual&start=Anzeigen
+  title: Deutsche Bahn Abfahrtszeiten
   tags:
-  - example
+  - travel
+  - bahn
+  examples:
+    Berlin Hbf: Search Deutsche Bahn Abfahrtszeiten for "Berlin Hbf"
+dban 1:
+  url: http://reiseauskunft.bahn.de/bin/bhftafel.exe/dn?input={%Bahnhof}&boardTyp=arr&time=actual&start=Anzeigen
+  title: Deutsche Bahn Ankunftszeiten
+  tags:
+  - travel
+  - bahn
+  examples:
+    Berlin Hbf: Search Deutsche Bahn Ankunftszeiten for "Berlin Hbf"
+mu 1:
+  url: http://macupdate.com/search.php?keywords={%keyword}&os=macosx
+  title: macupdate
+  tags:
+  - software
+dbab 0:
+  url: 'http://reiseauskunft.bahn.de/bin/bhftafel.exe/dn?protocol=http:'
+  title: Deutsche Bahn Abfahrts-/Ankunftszeiten
+  tags:
+  - travel
+  - bahn
+teli 1:
+  url: http://www4.dastelefonbuch.de/?cmd=search&kw={%Nummer}
+  title: Telefonbuch-Inverssuche
+  tags:
+  - phone
+ne 1:
+  url: http://neusprech.org/?s={%query}
+  title: Neusprechsuche
+  tags:
+  - neusprech
+  examples:
+    Gefährder: German newspeak word you are looking for
+wn 1:
+  url: http://woerterbuchnetz.de/cgi-bin/WBNetz/startGlobalSearch.tcl?stichwort={%query}
+  title: Wörterbuchnetz
+  tags:
+  - dictionary
+  examples:
+    haus: looking for words in German Wörterbuchnetz (nouns can be written in Grimm
+      style with small capital)
+teli 2:
+  url: http://www2.dastelefonbuch.de/?bi=29&kw={%number|encoding=iso-8859-1}&ci={%query|encoding=iso-8859-1}&cmd=search
+  title: Telefonbuch-Inverssuche mit Ortsnamen
+  tags:
+  - phone
+  examples:
+    01705552342, Köln: number, town
+eu 1:
+  url: http://hiztegiak.elhuyar.org/eu_es_en_fr/{%word}#
+  title: Euskara (Elhuyar)
+  tags:
+  - dictionary
+  examples:
+    gazte: Basque word
+rae 1:
+  url: http://buscon.rae.es/drae/?val={%query}&val_aux=&origen=REDRAE
+  title: Diccionario RAE
+  tags:
+  - dictionary spanish
+  examples:
+    capaz: looks for "capaz" in RAE dictionary
+dudas 1:
+  url: http://lema.rae.es/dpd/?key={%query}
+  title: Diccionario panhispánico de dudas
+  tags:
+  - dictionary spanish
+  examples:
+    capaz: looks for "capaz" in RAE dictionary of doubts
+esen 1:
+  url: http://lema.rae.es/desen/?key={%query}
+  title: Diccionario esencial
+  tags:
+  - dictionary spanish
+  examples:
+    capaz: looks for "capaz" in RAE essencial dictionary
+drae 1:
+  url: http://lema.rae.es/drae/?val={%query}
+  title: Diccionario RAE
+  tags:
+  - dictionary spanish
+  examples:
+    capaz: looks for "capaz" in RAE dictionary
+lit 1:
+  url: http://www.littre.org/recherche?_hasdata=&f2={%query}
+  title: Littré
+  tags:
+  - dictionary french
+  examples:
+    word: search for French word in Littré dictionary
+tlf 1:
+  url: http://www.cnrtl.fr/definition/{%query}
+  title: Trésor de la langue française
+  tags:
+  - dictionary french
+  examples:
+    word: search for French word in Trésor de la langue française
+euen 1:
+  url: http://hiztegiak.elhuyar.org/en_eu/{%word}
+  title: English Euskara (Elhuyar)
+  tags:
+  - dictionary
+  - basque
+  examples:
+    young: gives the Basque equivalent of 'young'
+eues 1:
+  url: http://hiztegiak.elhuyar.org/en_eu/{%word}
+  title: Español Euskara (Elhuyar)
+  tags:
+  - dictionary
+  - basque
+  examples:
+    joven: gives the Basque equivalent of Spanish joven 'young'
+eufr 1:
+  url: http://hiztegiak.elhuyar.org/fr_eu/{%word}
+  title: Français Euskara (Elhuyar)
+  tags:
+  - dictionary
+  - basque
+  examples:
+    jeune: gives the Basque equivalent of French jeune 'young'
+ocfr 1:
+  url: http://www.panoccitan.org/diccionari.aspx?diccion={%paraula}&lenga=oc
+  title: Occitan-French
+  tags:
+  - dictionary
+froc 1:
+  url: http://www.panoccitan.org/diccionari.aspx?diccion={%mot}&lenga=fr
+  title: French-Occitan
+  tags:
+  - dictionary
+dicofr 1:
+  url: http://www.locongres.org/fr/applications/dicodoc-fr/dicodoc-recherche?type=fr-oc&dic%5B%5D=BASIC&dic%5B%5D=RBVD&dic%5B%5D=ALPC&dic%5B%5D=ATAU&dic%5B%5D=PROV&dic%5B%5D=PNST&dic%5B%5D=OMLH&dic%5B%5D=LAUS&q={%mot}&q2=&submit=Rechercher
+  title: Dico d'Oc
+  tags:
+  - dictionary
+dicooc 1:
+  url: http://www.locongres.org/fr/applications/dicodoc-fr/dicodoc-recherche?type=oc-fr&dic%5B%5D=RBVDOF&dic%5B%5D=LAUSOF&dic%5B%5D=GRANOF&dic%5B%5D=PNSTOF&dic%5B%5D=PROVOF&q={%paraula}&q2=&submit=Rechercher
+  title: Dico d'Oc occitan
+  tags:
+  - dictionary
+freu 1:
+  url: http://www.nolaerran.org/?h={%mot}&z=lit
+  title: Nola erran
+  tags:
+  - dictionary
+ca 1:
+  url: http://diccionaris.cat/?diccionario=77&empieza=empieza&palabra={%paraula}&imprimir=N
+  title: Catalan
+  tags:
+  - dictionary
+caen 1:
+  url: http://diccionaris.cat/?diccionario=74&empieza=empieza&palabra={%paraula}&imprimir=N
+  title: Catalan-English
+  tags:
+  - dictionary
+enca 1:
+  url: http://diccionaris.cat/?diccionario=73&empieza=empieza&palabra={%word}&imprimir=N
+  title: English-Catalan
+  tags:
+  - dictionary
+voxeu 1:
+  url: http://diccionaris.cat/?diccionario=97&empieza=empieza&palabra={%hitz}&imprimir=N
+  title: Euskara (Vox)
+  tags:
+  - dictionary
+dicc 1:
+  url: http://www.diccionarios.com/detalle.php?palabra={%palabra}&Buscar.x=58&Buscar.y=17&Buscar=submit&dicc_100=on&dicc_55=on&dicc_100=on&dicc_55=on&dicc_55=on
+  title: diccionarios
+  tags:
+  - dictionary spanish
+eh 1:
+  url: http://www.euskaltzaindia.eus/index.php?sarrera={%hitz}&option=com_hiztegianbilatu&view=frontpage&Itemid=410&lang=eu&bila=bai
+  title: Euskaltzaindiaren hiztegia
+  description: Dictionary of the Royal Basque Academia Euskaltzaindia
+  tags:
+  - dictionary
+  - diccionario
+  examples:
+    hitz: Search Euskaltzaindiaren hiztegia for "hitz"
+trakt 1:
+  url: https://trakt.tv/search?query={%film}
+  title: Trakt
+  description: search for film or tv show
+  tags:
+  - search engine
+  - tv
+  - film
+  examples:
+    trakt film: Search Trakt for "trakt film or tv show"
+coo 2:
+  url: https://www.openstreetmap.org/#map=10/{%lat}/{%lon}
+  title: OSM coordinates
+  description: Maps geolocation coordinates on openstreetmap
+  tags:
+  - openstreetmap
+  - map
+  - maps
+  - geolocation
+  examples:
+    -18.9790,169.6290: Search OSM coordinates for "-18.9790,169.6290"
+mv 1:
+  url: https://mediathekviewweb.de/#query={%query}
+  title: MediathekView Webview Search
+  tags:
+  - tv
+  - television
+  - mediathek
+  - video
+glo 2:
+  url: https://glosbe.com/{$language}/{%language}/{%query}
+  title: glosbe
+  description: Gives glosbe translation (onomasiologically)
+  tags:
+  - languages
+  - dictionary
+  examples:
+    id,Wort: Search glosbe for "id,Wort"
+glos 2:
+  url: https://glosbe.com/{%language}/{$language}/{%query}
+  title: glosbe reverse
+  description: Gives glosbe reverse translation (semasiologically)
+  tags:
+  - languages
+  - dictionary
+  examples:
+    id,word: Search glosbe reverse for "id,word"
+tmdb 1:
+  url: https://www.themoviedb.org/search?query={%title}
+  title: The Movie Database
+  description: search TMDb data
+  tags:
+  - tv
+  - movie
+  examples:
+    Breaking Bad: Search The Movie Database for "Breaking Bad"
+usito 1:
+  url: https://usito.usherbrooke.ca/définitions/{%mot}
+  title: Usito (dictionnaire français québécois)
+  description: searching a lexeme in the Canadian French dictionary Usito
+  tags:
+  - dictionary french
+  - dictionary
+  - français
+  - french
+  examples:
+    contrat: Search Usito (dictionnaire français québécois) for "contrat"
+
+#Original
+# examplekeyword 0: http://www.example.com/
+# examplekeyword 1: http://www.example.com/?q={%query} 
+# examplekeyword 2:
+#   url: http://www.example.com/?q={%query}&p={%puery}
+#   title: Custom shortcut
+#   description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+#   tags:
+#   - example
