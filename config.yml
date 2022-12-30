@@ -2,10 +2,24 @@
 # https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#custom-configuration
 namespaces:
 - o
-- en
-- .us
+- de
+- .de
+- berlin
+- old-o
+- dasrecht
+- eo
 - github: .
-  name: my
-# defaultKeyword: g 
-language: en
-country: us
+defaultKeyword: w
+language: de
+country: de
+
+# Original:
+# namespaces:
+# - o
+# - en
+# - .us
+# - github: .
+#   name: my
+# # defaultKeyword: g 
+# language: en
+# country: us
