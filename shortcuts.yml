@@ -40,14 +40,14 @@ ne 1:
   - neusprech
   examples:
     Gefährder: German newspeak word you are looking for
-wn 1:
-  url: http://woerterbuchnetz.de/cgi-bin/WBNetz/startGlobalSearch.tcl?stichwort={%query}
-  title: Wörterbuchnetz
+rv 1:
+  url: https://www.reta-vortaro.de/revo/dlg/index-2f.html?q={%query}
+  title: reta vortaro
   tags:
   - dictionary
+  - esperanto
   examples:
-    haus: looking for words in German Wörterbuchnetz (nouns can be written in Grimm
-      style with small capital)
+    vorto: looking for "vorto" in reta vortaro
 teli 2:
   url: http://www2.dastelefonbuch.de/?bi=29&kw={%number|encoding=iso-8859-1}&ci={%query|encoding=iso-8859-1}&cmd=search
   title: Telefonbuch-Inverssuche mit Ortsnamen
@@ -139,7 +139,7 @@ freu 1:
   title: Nola erran
   tags:
   - dictionary
-ca 1:
+cat 1:
   url: http://diccionaris.cat/?diccionario=77&empieza=empieza&palabra={%paraula}&imprimir=N
   title: Catalan
   tags:
