@@ -249,6 +249,21 @@ be 1:
   - bahn
   examples:
     NBA: search bahn.expert for "Bamberg"
+arg 1:
+  url: https://www.dictionnairedelazone.fr/dictionary/search/{%mot}
+  title: Dictionnaire de la zone
+  description: French argot
+  tags:
+  - dictionary
+  - french
+  examples:
+    teuf: search argot dictionary for "teuf"
+defr 1:
+  url: https://www.linguee.de/deutsch-franzoesisch/search?source=auto&query={%query}&cw=366
+  title: Linguee de-fr
+  tags:
+  - dictionary
+  - french
 
 #Original
 # examplekeyword 0: http://www.example.com/
