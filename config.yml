@@ -5,6 +5,8 @@ namespaces:
 - de
 - .de
 - eo
+- fr
+- .fr
 - github: .
 defaultKeyword: w
 language: de
