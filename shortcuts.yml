@@ -1,14 +1,14 @@
 # Documentation:
 # https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
 
-dbab 1:
-  url: http://reiseauskunft.bahn.de/bin/bhftafel.exe/dn?input={%Bahnhof}&boardTyp=dep&time=actual&start=Anzeigen
-  title: Deutsche Bahn Abfahrtszeiten
+ety 1:
+  url: https://www.etymonline.com/search?q={%word}
+  title: OED etymology
   tags:
-  - travel
-  - bahn
+  - dictionary
+  - english
   examples:
-    Berlin Hbf: Search Deutsche Bahn Abfahrtszeiten for "Berlin Hbf"
+    haggard: search oed for the etymology of "haggard"
 trk 1:
   url: https://www.seslisozluk.net/{%word}-nedir-ne-demek/
   title: sesli sözlük (speaking dictionary)
