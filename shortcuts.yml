@@ -240,6 +240,15 @@ usito 1:
   - french
   examples:
     contrat: Search Usito (dictionnaire français québécois) for "contrat"
+be 1:
+  url: https://bahn.expert/{%Bhf}
+  title: bahn.expert
+  description: searching for train station 
+  tags:
+  - travel
+  - bahn
+  examples:
+    NBA: search bahn.expert for "Bamberg"
 
 #Original
 # examplekeyword 0: http://www.example.com/
