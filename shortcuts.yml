@@ -234,15 +234,15 @@ glos 2:
   - dictionary
   examples:
     id,word: Search glosbe reverse for "id,word"
-tmdb 1:
-  url: https://www.themoviedb.org/search?query={%title}
-  title: The Movie Database
-  description: search TMDb data
+buske 1:
+  url: https://buske.de/shopsearch/result/?q={%title}
+  title: Buske-Verlag
+  description: search Buske data
   tags:
-  - tv
-  - movie
+  - search engine 
+  - books
   examples:
-    Breaking Bad: Search The Movie Database for "Breaking Bad"
+    Baskisch: Search for Buske books on "Baskisch"
 usito 1:
   url: https://usito.usherbrooke.ca/définitions/{%mot}
   title: Usito (dictionnaire français québécois)
