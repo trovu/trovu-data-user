@@ -9,14 +9,14 @@ dbab 1:
   - bahn
   examples:
     Berlin Hbf: Search Deutsche Bahn Abfahrtszeiten for "Berlin Hbf"
-dban 1:
-  url: http://reiseauskunft.bahn.de/bin/bhftafel.exe/dn?input={%Bahnhof}&boardTyp=arr&time=actual&start=Anzeigen
-  title: Deutsche Bahn Ankunftszeiten
+trk 1:
+  url: https://www.seslisozluk.net/{%word}-nedir-ne-demek/
+  title: sesli sözlük (speaking dictionary)
   tags:
-  - travel
-  - bahn
+  - turkish
+  - dictionary
   examples:
-    Berlin Hbf: Search Deutsche Bahn Ankunftszeiten for "Berlin Hbf"
+    söz: Search sesli sözlük for "söz"
 mu 1:
   url: http://macupdate.com/search.php?keywords={%keyword}&os=macosx
   title: macupdate
