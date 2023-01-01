@@ -22,12 +22,12 @@ mu 1:
   title: macupdate
   tags:
   - software
-dbab 0:
-  url: 'http://reiseauskunft.bahn.de/bin/bhftafel.exe/dn?protocol=http:'
-  title: Deutsche Bahn Abfahrts-/Ankunftszeiten
+tre 1:
+  url: https://www.treccani.it/vocabolario/{%parola}
+  title: Treccani vocabolario
   tags:
-  - travel
-  - bahn
+  - dictionary 
+  - italian
 teli 1:
   url: http://www4.dastelefonbuch.de/?cmd=search&kw={%Nummer}
   title: Telefonbuch-Inverssuche
