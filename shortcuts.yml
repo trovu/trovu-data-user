@@ -9,6 +9,13 @@
 #   examples:
 #    XY: search for "XY"   
     
+rob 1: 
+  url: https://dictionnaire.lerobert.com/definition/{%mot} 
+  title: Le Robert
+  tags:
+  - dictionary
+  examples:
+    malfrat: search Le Robertdictionary for "malfrat"
 lm 1: 
   url: https://www.latindictionary.io/dictionary?q={%query}&lang=latin 
   title: Latin Dictionary (morphology)
