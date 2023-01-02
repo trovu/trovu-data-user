@@ -32,15 +32,15 @@ lm 1:
   examples:
     cantaverit: analyze Latin "cantaverit"
 mac 1: 
-  url: https://www.macmillandictionary.com/dictionary/british/{%query] 
+  url: https://www.macmillandictionary.com/dictionary/british/{%query} 
   title: Macmillan (British)
   tags:
   - dictionary
   - english
   examples:
     grey: search Macmillian British English dictionary for "grey"
-mc 1: 
-  url: https://www.macmillandictionary.com/dictionary/american/{%query] 
+maca 1: 
+  url: https://www.macmillandictionary.com/dictionary/american/{%query} 
   title: Macmillan (American)
   tags:
   - dictionary
