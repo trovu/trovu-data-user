@@ -9,6 +9,13 @@
 #   examples:
 #    XY: search for "XY"   
     
+monde 1:
+  url: https://www.lemonde.fr/recherche/?search_keywords={%query}&search_sort=relevance_desc
+  title: Le Monde
+  tags:
+  - news
+  examples:
+    Merkel: search Le Monde for articles on "Merkel"
 ev 1:
   url: https://eventaservo.org/serchilo?query={%evento}
   title: Eventa Servo
