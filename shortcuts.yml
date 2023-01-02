@@ -9,6 +9,13 @@
 #   examples:
 #    XY: search for "XY"   
     
+ev 1:
+  url: https://eventaservo.org/serchilo?query={%evento}
+  title: Eventa Servo
+  tags: 
+  - esperanto
+  examples:
+    kumzico: search Eventa Servo for the event "kumzico"
 bvb 1: 
   url: https://bvb-new-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{%query}&tab=all_tab&search_scope=all_scope&vid=49BVB_VU1&lang=de_DE&offset=0&fromRedirectFilter=true 
   title: Bayerischer Verbundkatalog (primo)
