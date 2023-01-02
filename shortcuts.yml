@@ -10,13 +10,6 @@
 #    XY: search for "XY"   
     
 
-modi 1:
-  url: https://www.monde-diplomatique.fr/recherche?s={%query}
-  title: Le Monde diplomatique
-  tags:
-  - news
-  examples:
-    Merkel: search Le Monde diplomatique for articles on "Merkel"
 monde 1:
   url: https://www.lemonde.fr/recherche/?search_keywords={%query}&search_sort=relevance_desc
   title: Le Monde
