@@ -1,6 +1,61 @@
 # Documentation:
 # https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
-
+# ety 1:
+#   url: 
+#   title: 
+#   tags:
+#   - dictionary
+#   - english
+#   examples:
+#    XY: search for "XY"   
+    
+lm 1: 
+  url: https://www.latindictionary.io/dictionary?q={%query}&lang=latin 
+  title: Latin Dictionary (morphology)
+  tags:
+  - dictionary
+  - latin
+  examples:
+    cantaverit: analyze Latin "cantaverit"
+mac 1: 
+  url: https://www.macmillandictionary.com/dictionary/british/{%query] 
+  title: Macmillan (British)
+  tags:
+  - dictionary
+  - english
+  examples:
+    grey: search Macmillian British English dictionary for "grey"
+mc 1: 
+  url: https://www.macmillandictionary.com/dictionary/american/{%query] 
+  title: Macmillan (American)
+  tags:
+  - dictionary
+  - english
+  examples:
+    gray: search Macmillian American English dictionary for "gray"
+enla 1:
+  url: http://www.latin-dictionary.net/search/english/{%query} 
+  title: English-Latin
+  tags:
+  - dictionary
+  - latin
+  examples:
+    flame: search for "flame"
+lat 1:
+  url: http://www.latin-dictionary.net/search/latin/{%query} 
+  title: Latin-English
+  tags:
+  - dictionary
+  - latin
+  examples:
+    flamma: search for "flamma"
+kr 1:
+  url: https://www.kreuzwortraetsellexikon.de/hilfe/{%query}
+  title: Kreuzworträtsel
+  tags:
+  - reference
+  examples:
+    us-schaupielerin: search for "US-Schauspielerin"
 ety 1:
   url: https://www.etymonline.com/search?q={%word}
   title: OED etymology
