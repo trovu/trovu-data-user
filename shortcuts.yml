@@ -9,6 +9,13 @@
 #   examples:
 #    XY: search for "XY"   
     
+bvb 1: 
+  url: https://bvb-new-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{%query}&tab=all_tab&search_scope=all_scope&vid=49BVB_VU1&lang=de_DE&offset=0&fromRedirectFilter=true 
+  title: Bayerischer Verbundkatalog (primo)
+  tags:
+  - library
+  examples:
+    Luciano Canepari: search BVB for works by or about "Luciano Canepari"
 rob 1: 
   url: https://dictionnaire.lerobert.com/definition/{%mot} 
   title: Le Robert
