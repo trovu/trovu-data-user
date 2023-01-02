@@ -10,7 +10,7 @@
 #    XY: search for "XY"   
     
 
-diplo 1:
+modi 1:
   url: https://www.monde-diplomatique.fr/recherche?s={%query}
   title: Le Monde diplomatique
   tags:
