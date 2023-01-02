@@ -1,7 +1,13 @@
 namespaces:
 - o
 - de
+- eo
+- pl
+- cs
+- .pl
+- .cz
 - .de
+- github: texttheater
 - github: .
 language: de
 country: de
