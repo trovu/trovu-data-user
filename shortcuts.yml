@@ -37,13 +37,6 @@ ev 1:
   - esperanto
   examples:
     kumzico: search Eventa Servo for the event "kumzico"
-bvb 1: 
-  url: https://bvb-new-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{%query}&tab=all_tab&search_scope=all_scope&vid=49BVB_VU1&lang=de_DE&offset=0&fromRedirectFilter=true 
-  title: Bayerischer Verbundkatalog (primo)
-  tags:
-  - library
-  examples:
-    Luciano Canepari: search BVB for works by or about "Luciano Canepari"
 rob 1: 
   url: https://dictionnaire.lerobert.com/definition/{%mot} 
   title: Le Robert
@@ -145,13 +138,6 @@ rv 1:
   - esperanto
   examples:
     vorto: looking for "vorto" in reta vortaro
-teli 2:
-  url: http://www2.dastelefonbuch.de/?bi=29&kw={%number|encoding=iso-8859-1}&ci={%query|encoding=iso-8859-1}&cmd=search
-  title: Telefonbuch-Inverssuche mit Ortsnamen
-  tags:
-  - phone
-  examples:
-    01705552342, Köln: number, town
 eu 1:
   url: http://hiztegiak.elhuyar.org/eu_es_en_fr/{%word}#
   title: Euskara (Elhuyar)
@@ -337,15 +323,6 @@ usito 1:
   - french
   examples:
     contrat: Search Usito (dictionnaire français québécois) for "contrat"
-be 1:
-  url: https://bahn.expert/{%Bhf}
-  title: bahn.expert
-  description: searching for train station 
-  tags:
-  - travel
-  - bahn
-  examples:
-    NBA: search bahn.expert for "Bamberg"
 arg 1:
   url: https://www.dictionnairedelazone.fr/dictionary/search/{%mot}
   title: Dictionnaire de la zone
