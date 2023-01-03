@@ -1,13 +1,14 @@
 namespaces:
 - o
-- de
-- eo
-- pl
 - cs
-- .pl
 - .cz
+- pl
+- .pl
+- eo
+- de
 - .de
 - github: texttheater
+- github: m4h4
 - github: .
 language: de
 country: de
