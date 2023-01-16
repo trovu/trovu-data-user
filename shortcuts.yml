@@ -1,3 +1,6 @@
+360 1: 
+  url: https://www.aktienwelt360.de/?s={%query}
+  title: Aktienwelt360 durchsuchen
 yf 1:
   url: https://finance.yahoo.com/lookup?s={%stock}
   title: Yahoo Finance Lookup
