@@ -1,4 +1,10 @@
-bar 0: https://heise.de
+incl1 0: 
+  include:
+    key: kvv 0
+incl2 0: 
+  include:
+    namespace: de
+    key: en 1
 '- 1':
   url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
   title: 'Google Web, go directly to first result'
