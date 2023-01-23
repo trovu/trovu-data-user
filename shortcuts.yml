@@ -1,11 +1,50 @@
-# Documentation:
-# https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
-
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q={%query} 
-examplekeyword 2:
-  url: http://www.example.com/?q={%query}&p={%puery}
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+ft 1:
+  url: http://de.fotolia.com/search?k={%query}&search.x=0&search.y=0&filters[content_type%3Aphoto]=1&filters[content_type%3Aillustration]=1&filters[content_type%3Avector]=1&filters[content_type%3Avideo]=1&order=relevance
+  title: ft
+wen 1:
+  url: https://en.wikipedia.org/wiki/{%query}
+  title: WIkipedia english
   tags:
-  - example
+  - wen
+eis 1:
+  url: http://www.eis-machen.de/?s={%query}
+  title: Eis machen
+  tags:
+  - eis
+  - eis-machen.de
+  examples:
+    vanilleeis: Search for Vanilleeis
+afp 1:
+  url: http://www.alltageinesfotoproduzenten.de/?s={%query}&submit.x=0&submit.y=0
+  title: Alltag eines Fotoproduzenten
+  tags:
+  - alltageinesfotoproduzenten
+  - afp
+  - blog
+  examples:
+    Ringblitz: Search the Blog "Alltageinesfotoproduzenten.de" for Ringblitz
+a 1:
+  url: http://www.amazon.de/s?ie=UTF8&keywords={%query}
+  title: Amazon Deutschland
+  tags:
+  - amazon
+  - deutsch
+  - deutschland
+  - a
+  examples:
+    Kochbuch: Suche bei Amazon.de nach Kochbüchern
+gft 1:
+  url: https://gamesageddon.com/fotolia?query={%argument_name}&fOr=nb_downloads
+  title: GamesAgeddon
+safp 1:
+  url: http://shop.alltageinesfotoproduzenten.de/?search_parameters%5Bwords%5D={%query}
+  title: Shop / Alltag eines Fotoproduzenten
+mafp 1:
+  url: http://shop.alltageinesfotoproduzenten.de/media/{%media-id}
+  title: 'Shop / Alltag eines Fotoproduzenten: Media'
+as 1:
+  url: https://stock.adobe.com/search?k={%query}
+  title: Adobe Stock Search
+sp 1:
+  url: https://beta.stockperformer.com/stats/dashboard#asset/A/{%query}
+  title: Stock Performer File Details Adobe
