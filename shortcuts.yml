@@ -27,8 +27,8 @@ qw 1:
   examples:
     s: search string to look for
 scows 1:
-  url: https://swisscows.ch/?query={%query}
-  title: Swisscows
+  url: https://swisscows.com/de/web?query={%query}
+  title: Swisscows Suche
   tags:
   - search engine
   - swiss
