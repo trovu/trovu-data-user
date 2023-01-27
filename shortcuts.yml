@@ -1,3 +1,6 @@
+360p 1:
+  url: https://www.aktienwelt360.de/aktienkompass/?s={%query}
+  title: Aktienwelt360 Aktienkompass durchsuchen
 360 1: 
   url: https://www.aktienwelt360.de/?s={%query}
   title: Aktienwelt360 durchsuchen
