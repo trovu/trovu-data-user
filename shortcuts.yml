@@ -10,6 +10,7 @@
 # examplekeyword 0: http://www.example.com/
 
 od 0: https://www.odorik.cz/ucet/nastaveni_volani.html?login_method=credentials
+j 1: https://jira.televic.com/browse/{%query}
 
 # This shortcut will match for "examplekeyword foo", 
 # so for the same keyword but with one argument.
