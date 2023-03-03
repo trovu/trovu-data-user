@@ -1,8 +1,10 @@
 es 1:
   include:
-    key: de-en 1
+    key: de-es 1
     namespace: leo
   title: Spanisch-Deutsch (leo.org)
+  examples:
+    baum: Suche nach "baum" auf Spanisch
 incl1 0: 
   include:
     key: kvv 0
