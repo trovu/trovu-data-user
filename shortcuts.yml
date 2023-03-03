@@ -1,3 +1,8 @@
+es 1:
+  include:
+    key: de-en 1
+    namespace: leo
+  title: Spanisch-Deutsch (leo.org)
 incl1 0: 
   include:
     key: kvv 0
