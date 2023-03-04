@@ -6,6 +6,14 @@ en 1:
   include:
     key: en-de 1
     namespace: leo
+it 1:
+  include:
+    key: it-de 1
+    namespace: leo
+ru 1:
+  include:
+    key: ru-de 1
+    namespace: leo
 incl1 0: 
   include:
     key: kvv 0
