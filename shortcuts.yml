@@ -146,6 +146,9 @@ lt 0:
 lt 1:
   url: http://labenz.texttheater.de/{%Labenz}
   title: Freut euch des Labenz!
+mb 0:
+  url: https://mastodon.social/bookmarks
+  title: Bookmarks - Mastodon
 mwo 0:
   url: http://www.mediawiki.org
   title: mediawiki.org
