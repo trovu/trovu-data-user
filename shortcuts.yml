@@ -1,10 +1,10 @@
-de 1:
+test-include-leo-de-en 1:
   include:
     key: de-en 1
     namespace: leo
-en 1:
+test-include-leo-fr-de 1:
   include:
-    key: en-de 1
+    key: fr-de 1
     namespace: leo
 '- 1':
   url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
