@@ -6,11 +6,11 @@ test-include-leo-fr-de 1:
   include:
     key: fr-de 1
     namespace: leo
-pl-dpl 1:
+pl 1:
   include:
     key: pl-de 1
     namespace: dpl
-pl-dcm 1:
+sk 1:
   include:
     key: sk-de 1
     namespace: dcm
