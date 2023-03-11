@@ -6,7 +6,7 @@ test-include-leo-fr-de 1:
   include:
     key: fr-de 1
     namespace: leo
-pl 1:
+pl2 1:
   include:
     key: pl-de 1
     namespace: dpl
