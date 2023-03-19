@@ -1,11 +1,130 @@
 # Documentation:
 # https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
 
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q={%query} 
-examplekeyword 2:
-  url: http://www.example.com/?q={%query}&p={%puery}
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+# Alte Daten von findfindit. Na ja, von Serchilo.
+
+gh 1:
+  url: http://github.com/search?q={%query}
+  title: GitHub search
+imdb 1:
+  url: http://www.imdb.com/find?s=all&q={%query}
+  title: IMDb Search
+kl 1:
+  url: https://mpi-lingweb.shh.mpg.de/kanji/index.html?kanji={%kanji}
+  title: Kanjilexikon
+ak 0:
+  url: https://ankiweb.net/study/
+  title: Anki web, study page
+sg 1:
+  url: http://www.saiga-jp.com/cgi-bin/dic.cgi?m=search&sc=0&f=0&j={%query}
+  title: Saiga Kanjisuche
+db< 1:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=reutlingen&start=1
+  title: DB-Auskunft nach Reutlingen
+db< 3:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=reutlingen&T={%Zeit}&D={%Datum}&start=1
+  title: DB-Auskunft nach Reutlingen
+dfn 1:
+  url: http://pgpkeys.pca.dfn.de/pks/lookup?search={%query}
+  title: pgp key search at DFN
   tags:
-  - example
+  - pgp
+  - key
+cons 1:
+  url: http://www.conservapedia.com/Special:Search?go=Article&search={%article}
+  title: Conservapedia Article Search
+tw 1:
+  url: http://search.twitter.com/search?q={%query}
+  title: Twitter suche ohne Sprachangabe
+twl 1:
+  url: http://search.twitter.com/search?q={%query}&lang={$language}
+  title: Twitter suche mit Sprachbeschränkung
+wr 1:
+  url: http://en.wikipedia.org/w/index.php?title={%article}&redirect=no
+  title: English Wikipedia, no redirect
+cdb 1:
+  url: http://www.google.com/search?hl={$language}&q=site:www.cocktaildb.com {%query}&ie=utf-8
+  title: Google search the cocktaildb site
+imdbde 0:
+  url: http://german.imdb.com
+  title: IMDb Homepage
+imdbde 1:
+  url: http://german.imdb.com/find?s=all&q={%query}
+  title: IMDb Search
+idade 1:
+  url: http://german.imdb.com/find?s=tt&site=aka&q={%query}
+  title: IMDb AKA Title Search
+wp 1:
+  url: http://www.google.com/search?hl={$language}&q=site:en.wikipedia.org {%query}&ie=utf-8
+  title: Google search the whole wikipedia
+ida 1:
+  url: http://www.imdb.com/find?s=tt&site=aka&q={%query}
+  title: IMDb AKA Title Search
+he 0:
+  url: http://lvps87-230-27-33.dedicated.hosteurope.de/
+  title: Firma, alt
+imdb 0:
+  url: http://www.imdb.com
+  title: IMDb Homepage
+db> 3:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z={%Ziel}&T={%Zeit}&D={%Datum}&start=1
+  title: DB-Auskunft von Reutlingen
+db< 2:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=reutlingen&T={%Zeit}&start=1
+  title: DB-Auskunft nach Reutlingen
+db> 2:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z={%Ziel}&T={%Zeit}&start=1
+  title: DB-Auskunft von Reutlingen
+db> 1:
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z={%Ziel}&start=1
+  title: DB-Auskunft von Reutlingen
+thsrs 1:
+  url: http://www.ironicsans.com/thsrs/?q={%query}
+  title: Shortening thesaurus
+ew 1:
+  url: https://en.wikipedia.org/wiki/{%word}
+  title: Englische Wikipedia
+  examples:
+    word: Suchwort
+uc 1:
+  url: http://www.fileformat.info/info/unicode/char/search.htm?preview=entity&q={%query}
+  title: Unicode charater search
+  tags:
+  - unicode
+  - unicode character
+  - character
+  examples:
+    query: a character or a character code or name
+unichr 1:
+  url: http://www.fileformat.info/info/unicode/char/search.htm?preview=entity&q={%query}
+  title: Unicode charater search, Pythonic name
+  tags:
+  - unicode
+  - unicode character
+  - character
+os 1:
+  url: http://www.osiander.de/webdb/index.cfm?osiaction=search&search_uwk=true&key={%Suche}
+  title: Osiander-Suche
+  tags:
+  - books
+  - onlinestore
+  examples:
+    Iain M. Banks: Sucht nach dem Science-Fiction-Autor
+osi13 1:
+  url: http://www.osiander.de/details.cfm?isbn={%isbn13}
+  title: Osiander-Suche, ISBN13
+  tags:
+  - books
+  - onlinestore
+  - isbn13
+  examples:
+    9783442453023: Sucht nach einem bestimmten Buch
+thing 1:
+  url: https://www.thingiverse.com/search?q={%thing}
+  title: Search thingiverse.com
+  description: Search thingiverse.com for things, uploaded printable 3D designs.
+  tags:
+  - 3d-printing
+  - maker
+  examples:
+    fidget toy: Find designs to keep your hands busy
