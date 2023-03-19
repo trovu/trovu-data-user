@@ -7,7 +7,7 @@ namespaces:
 - .de
 - en
 - github: .
-  name: my
+  name: ospalh
 
 defaultKeyword: d
 #defaultKeyword: q # kein qwant bis jetzt. macht nichts. Q sollte gehen
