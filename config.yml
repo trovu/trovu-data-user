@@ -2,12 +2,12 @@
 # https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#custom-configuration
 # Alte Daten von findfindit. Na ja, von Serchilo.
 namespaces:
+- github: .
+  name: os
 - o
 - de
 - .de
 - en
-- github: .
-  name: ospalh
 
 defaultKeyword: d
 #defaultKeyword: q # kein qwant bis jetzt. macht nichts. Q sollte gehen
