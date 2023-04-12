@@ -158,14 +158,6 @@ wipo 1:
 banz 1:
   url: https://www.bundesanzeiger.de/ebanzwww/wexsservlet#serchilo[fill][%23idfd]={%query}&serchilo[submit]=%23id101
   title: Bundesanzeiger German company registry query
-gn 1:
-  url: https://news.google.com/news/search/section/q/{%query}?hl=de&ned=de
-  title: Google News (Deutschland)
-  tags:
-  - news
-  - google
-  examples:
-    obama: Google News nach obama durchsuchen
 marke 1:
   url: https://register.dpma.de/DPMAregister/marke/einsteiger#serchilo[fill][%23wm]=
     {%query}&serchilo[submit]=%23rechercheStarten
@@ -181,18 +173,12 @@ deepl 1:
   title: deepL Translator
   tags:
   - tampermonkey
-gn 2:
-  url: https://news.google.com/search?hl={%lg}&gl={%lg}&ceid={%lg}:{%lg}&q={%query}
-  title: Google News with language choice
 wkn 1:
   url: https://www.deutsche-bank.de/pfb/content/marktinformationen/tools-wertpapiersuche-ergebnis.uebersicht.html?types%5B%5D=stk&searchfor={%stock_name}&exakt=exakt
   title: Deutsche Bank Aktiensuche
 guv 1:
   url: https://www.findfind.it/u/caeschfloh?query=g! {%company} ariva GuV
   title: Ariva GuV Zeitreihe
-gn 3:
-  url: https://news.google.com/search?hl={%lg}&gl={%ulg}&ceid={%ulg}:{%lg}&q={%query}
-  title: Google News with language choice 2
 gtr 1:
   url: https://trends.google.de/trends/explore?geo=DE&q={%keyword}
   title: Google Trends
