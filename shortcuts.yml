@@ -11,6 +11,10 @@
 
 od 0: https://www.odorik.cz/ucet/nastaveni_volani.html?login_method=credentials
 j 1: https://jira.televic.com/browse/{%query}
+bvg 2:
+  include:
+    key: bvg 2
+    namespace: .de
 
 # This shortcut will match for "examplekeyword foo", 
 # so for the same keyword but with one argument.
