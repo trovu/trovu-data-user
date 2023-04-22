@@ -125,3 +125,11 @@ thing 1:
   - maker
   examples:
     fidget toy: Find designs to keep your hands busy
+frv 1:
+  url: https://{$language}.forvo.com/search/{%word}/
+  title: Forvo
+  tags:
+  - language
+  - pronunciation
+  examples:
+    berlin: Search for the pronunciation of "berlin"
