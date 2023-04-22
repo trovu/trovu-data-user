@@ -126,7 +126,8 @@ thing 1:
   examples:
     fidget toy: Find designs to keep your hands busy
 frv 1:
-  url: https://{$language}.forvo.com/search/{%word}/
+  # url: https://{$language}.forvo.com/search/{%word}/
+  url: https://de.forvo.com/search/{%word}/
   title: Forvo
   tags:
   - language
