@@ -100,7 +100,7 @@ unichr 1:
   - unicode character
   - character
 os 1:
-  url: https://www.osiander.de/webdb/index.cfm?osiaction=search&search_uwk=true&key={%Suche}
+  url: https://www.osiander.de/suche?sq={%Suche}
   title: Osiander-Suche
   tags:
   - books
