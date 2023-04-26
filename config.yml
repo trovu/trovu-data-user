@@ -9,8 +9,7 @@ namespaces:
 - .de
 - de
 
-defaultKeyword: d
-#defaultKeyword: q # kein qwant bis jetzt. macht nichts. Q sollte gehen
+defaultKeyword: qw
 
 language: de
 
