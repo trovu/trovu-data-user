@@ -125,3 +125,13 @@ thing 1:
   - maker
   examples:
     fidget toy: Find designs to keep your hands busy
+schwab 1:
+  url: http://www.schwaebisches-woerterbuch.de/default.asp?q={%Suchwort}
+  title: Schwäbisches Wörterbuch
+  tags:
+    - dialect
+    - dictionary
+    - German
+    - Swabian
+  example:
+    Gschäfd: Der Ort, wo man schafft.
