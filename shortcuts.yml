@@ -142,10 +142,96 @@ b7 1:
     - books
     - bookshop
     - Germany
+  examples:
+    Windward Banks: Suche nach einem Buch nach Titel und Autor, unspezifisch
 buch7 1:
-  url: https://www.buch7.de/suche?search={%Suche}
+  url: https://www.buch7.de/suche?utf8=%E2%9C%93&search={%Suche}
   title: Buch7 Online-Buchhändler
   tags:
     - books
     - bookshop
     - Germany
+  examples:
+    down out magic: Buchsuche nach Schlagworten
+buch7isbn 1:
+    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
+    title: Buch7-Suche nach isbn
+  tags:
+    - books
+    - bookshop
+    - Germany
+    - ISBN
+  examples:
+    978-0140089226: Suche nach einem Buch mit bekannter ISBN
+b7i 1:
+    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
+    title: Buch7-Suche nach isbn
+  tags:
+    - books
+    - bookshop
+    - Germany
+    - ISBN
+  examples:
+    9780226389578: Sucht nach einem Buch mit bekannter ISBN
+buch7autor 1:
+    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&contributor={%autor}
+    title: Buch7-Suche nach Autor (»contributor«)
+  tags:
+    - books
+    - bookshop
+    - Germany
+    - Autor
+  examples:
+    Katie Mack: Suche nach Büchern einer bestimmten Autorin
+b7a 1:
+    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&contributor={%autor}
+    title: Buch7-Suche nach Autor (»contributor«)
+  tags:
+    - books
+    - bookshop
+    - Germany
+    - Autor
+  examples:
+    Sarah Gailey: Suche nach Büchern einer bestimmten Autorin
+buch7titel 1:
+    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}
+    title: Buch7-Suche nach Titel
+  tags:
+    - books
+    - bookshop
+    - Germany
+    - Titel
+  examples:
+    Red Lightning: Buchsuche nach Tilel
+b7t 1:
+    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}
+    title: Buch7-Suche nach Titel
+  tags:
+    - books
+    - bookshop
+    - Germany
+    - Titel
+  examples:
+    all men of genius: Buchsuche nach Titel
+buch7titelautor 2:
+    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
+    title: Buch7-Suche nach Titel und Autor
+  tags:
+    - books
+    - bookshop
+    - Germany
+    - Titel
+    - Autor
+  examples:
+    ceremony, Silko: Buchsuche nach Titel und Autor
+buch7ta 2:
+    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
+    title: Buch7-Suche nach Titel und Autor
+  tags:
+    - books
+    - bookshop
+    - Germany
+    - Titel
+    - Autor
+  examples:
+    Cheer, Frasier: Buchsuche nach Titel und Autor
