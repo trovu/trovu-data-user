@@ -155,7 +155,7 @@ buch7 1:
     down out magic: Buchsuche nach Schlagworten
 buch7isbn 1:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
-    title: Buch7-Suche nach isbn
+  title: Buch7-Suche nach isbn
   tags:
     - books
     - bookshop
@@ -165,7 +165,7 @@ buch7isbn 1:
     978-0140089226: Suche nach einem Buch mit bekannter ISBN
 b7i 1:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
-    title: Buch7-Suche nach isbn
+  title: Buch7-Suche nach isbn
   tags:
     - books
     - bookshop
