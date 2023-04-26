@@ -135,3 +135,17 @@ schwab 1:
     - Swabian
   examples:
     Gschäfd: Der Ort, wo man schafft.
+b7 1:
+  url: https://www.buch7.de/suche?search={%Suche}
+  title: Buch7 Online-Buchhändler
+  tags:
+    - books
+    - bookshop
+    - Germany
+buch7 1:
+  url: https://www.buch7.de/suche?search={%Suche}
+  title: Buch7 Online-Buchhändler
+  tags:
+    - books
+    - bookshop
+    - Germany
