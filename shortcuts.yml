@@ -154,7 +154,7 @@ buch7 1:
   examples:
     down out magic: Buchsuche nach Schlagworten
 buch7isbn 1:
-    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
+  url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
     title: Buch7-Suche nach isbn
   tags:
     - books
@@ -164,7 +164,7 @@ buch7isbn 1:
   examples:
     978-0140089226: Suche nach einem Buch mit bekannter ISBN
 b7i 1:
-    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
+  url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
     title: Buch7-Suche nach isbn
   tags:
     - books
@@ -174,8 +174,8 @@ b7i 1:
   examples:
     9780226389578: Sucht nach einem Buch mit bekannter ISBN
 buch7autor 1:
-    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&contributor={%autor}
-    title: Buch7-Suche nach Autor (»contributor«)
+  url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&contributor={%autor}
+  title: Buch7-Suche nach Autor (»contributor«)
   tags:
     - books
     - bookshop
@@ -184,8 +184,8 @@ buch7autor 1:
   examples:
     Katie Mack: Suche nach Büchern einer bestimmten Autorin
 b7a 1:
-    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&contributor={%autor}
-    title: Buch7-Suche nach Autor (»contributor«)
+  url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&contributor={%autor}
+  title: Buch7-Suche nach Autor (»contributor«)
   tags:
     - books
     - bookshop
@@ -194,8 +194,8 @@ b7a 1:
   examples:
     Sarah Gailey: Suche nach Büchern einer bestimmten Autorin
 buch7titel 1:
-    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}
-    title: Buch7-Suche nach Titel
+  url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}
+  title: Buch7-Suche nach Titel
   tags:
     - books
     - bookshop
@@ -204,8 +204,8 @@ buch7titel 1:
   examples:
     Red Lightning: Buchsuche nach Tilel
 b7t 1:
-    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}
-    title: Buch7-Suche nach Titel
+  url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}
+  title: Buch7-Suche nach Titel
   tags:
     - books
     - bookshop
@@ -214,8 +214,8 @@ b7t 1:
   examples:
     all men of genius: Buchsuche nach Titel
 buch7titelautor 2:
-    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
-    title: Buch7-Suche nach Titel und Autor
+  url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
+  title: Buch7-Suche nach Titel und Autor
   tags:
     - books
     - bookshop
@@ -225,8 +225,8 @@ buch7titelautor 2:
   examples:
     ceremony, Silko: Buchsuche nach Titel und Autor
 buch7ta 2:
-    url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
-    title: Buch7-Suche nach Titel und Autor
+  url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
+  title: Buch7-Suche nach Titel und Autor
   tags:
     - books
     - bookshop
