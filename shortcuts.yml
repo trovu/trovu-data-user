@@ -138,6 +138,7 @@ schwab 1:
 b7 0:
   url: https://www.buch7.de
   title: Buch7 Online-Buchhändler
+  description: Startseite des Online-Buchhändlers buch7
   tags:
     - books
     - bookshop
@@ -145,6 +146,7 @@ b7 0:
 b7 1:
   url: https://www.buch7.de/suche?search={%Suche}
   title: Buch7 Online-Buchhändler
+  description: Allgemeine Suche beim Online-Buchhändlers buch7
   tags:
     - books
     - bookshop
@@ -154,6 +156,7 @@ b7 1:
 buch7 1:
   url: https://www.buch7.de/suche?utf8=%E2%9C%93&search={%Suche}
   title: Buch7 Online-Buchhändler
+  description: Allgemeine Suche beim Online-Buchhändlers buch7, Kurzversion
   tags:
     - books
     - bookshop
@@ -163,6 +166,7 @@ buch7 1:
 buch7isbn 1:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
   title: Buch7-Suche nach isbn
+  description: Suche nach ISBN beim Online-Buchhändlers buch7
   tags:
     - books
     - bookshop
@@ -173,6 +177,7 @@ buch7isbn 1:
 b7i 1:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&isbn={%isbn}
   title: Buch7-Suche nach isbn
+  description: Suche nach ISBN beim Online-Buchhändlers buch7, Kurzversion
   tags:
     - books
     - bookshop
@@ -183,6 +188,7 @@ b7i 1:
 buch7autor 1:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&contributor={%autor}
   title: Buch7-Suche nach Autor (»contributor«)
+  description: Suche nach Autor (»contributor«) beim Online-Buchhändlers buch7
   tags:
     - books
     - bookshop
@@ -193,6 +199,7 @@ buch7autor 1:
 b7a 1:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&contributor={%autor}
   title: Buch7-Suche nach Autor (»contributor«)
+  description: Suche nach Autor (»contributor«) beim Online-Buchhändlers buch7, Kurzversion
   tags:
     - books
     - bookshop
@@ -203,6 +210,7 @@ b7a 1:
 buch7titel 1:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}
   title: Buch7-Suche nach Titel
+  description: Suche nach Buchtitel beim Online-Buchhändlers buch7
   tags:
     - books
     - bookshop
@@ -213,6 +221,7 @@ buch7titel 1:
 b7t 1:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}
   title: Buch7-Suche nach Titel
+  description: Suche nach Buchtitel beim Online-Buchhändlers buch7, Kurzversion
   tags:
     - books
     - bookshop
@@ -223,6 +232,7 @@ b7t 1:
 buch7titelautor 2:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
   title: Buch7-Suche nach Titel und Autor
+  description: Suche nach Titel und Autor beim Online-Buchhändlers buch7
   tags:
     - books
     - bookshop
@@ -234,6 +244,7 @@ buch7titelautor 2:
 b7ta 2:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
   title: Buch7-Suche nach Titel und Autor
+  description: Suche nach Titel und Autor beim Online-Buchhändlers buch7, Kurzversion
   tags:
     - books
     - bookshop
