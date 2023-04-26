@@ -4,10 +4,10 @@
 namespaces:
 - github: .
   name: os
-- o
-- de
-- .de
 - en
+- o
+- .de
+- de
 
 defaultKeyword: d
 #defaultKeyword: q # kein qwant bis jetzt. macht nichts. Q sollte gehen
