@@ -224,7 +224,7 @@ buch7titelautor 2:
     - Autor
   examples:
     ceremony, Silko: Buchsuche nach Titel und Autor
-buch7ta 2:
+b7ta 2:
   url: https://www.buch7.de/erweiterte-suche?utf8=%E2%9C%93&titel={%titel}&contributor={%autor}
   title: Buch7-Suche nach Titel und Autor
   tags:
