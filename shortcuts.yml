@@ -198,7 +198,7 @@ bu7ta 2:
     - Autor
   examples:
     Cheer, Frasier: Buchsuche nach Titel und Autor
-lafrv 2:
+tfrv 2:
   # url: https://{$language}.forvo.com/search/{%word}/
   url: https://{%language}.forvo.com/search/{%word}/
   title: Forvo
