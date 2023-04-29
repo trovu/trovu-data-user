@@ -200,7 +200,7 @@ bu7ta 2:
     Cheer, Frasier: Buchsuche nach Titel und Autor
 lafrv 1:
   # url: https://{$language}.forvo.com/search/{%word}/
-  url: https://{%language}.forvo.com/search/{%word}/
+  url: https://{%p1}.forvo.com/search/{%word}/
   title: Forvo
   tags:
   - language
