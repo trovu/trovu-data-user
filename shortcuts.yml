@@ -126,7 +126,7 @@ thing 1:
   examples:
     fidget toy: Find designs to keep your hands busy
 swb 1:
-  url: http://www.schwaebisches-woerterbuch.de/default.asp?q={%Suchwort}
+  url: http://www.schwaebisches-woerterbuch.de/default.asp?q={%Suchwort|encoding=iso-8859-1}
   title: Schwäbisches Wörterbuch
   description: Suche im schwäbischen Wörterbuch
   tags:
