@@ -128,6 +128,7 @@ thing 1:
 swb 1:
   url: http://www.schwaebisches-woerterbuch.de/default.asp?q={%Suchwort}
   title: Schwäbisches Wörterbuch
+  description: Suche im schwäbischen Wörterbuch
   tags:
     - dialect
     - dictionary
