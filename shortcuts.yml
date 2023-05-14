@@ -1,3 +1,11 @@
+pl 1:
+  include:
+  - key: pl 1
+    namespace: dcm
+  - key: pl 1
+    namespace: dcc
+  - key: pl 1
+    namespace: lgs
 '- 1':
   url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
   title: 'Google Web, go directly to first result'
