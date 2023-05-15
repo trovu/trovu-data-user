@@ -6,7 +6,7 @@ pl 1:
     namespace: dcc
   - key: pl 1
     namespace: lgs
-el 1:
+el2 1:
   include:
   - key: el 1
     namespace: dcm
