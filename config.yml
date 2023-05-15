@@ -8,6 +8,9 @@ namespaces:
 - eo
 - de
 - .de
+- pka
+- dcm
+- lge
 - github: texttheater
 - github: m4h4
 - github: .
