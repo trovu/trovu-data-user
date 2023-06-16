@@ -242,7 +242,7 @@ wigdp 1:
   examples:
     berlin: Search for "thales"
 ww 0:
-  url: https://www.wetteronline.de/wettertrend/Berlin
+  url: https://www.wetteronline.de/wetter/piedras-blancas
   title: Wetteronline für Berlin
 x 0:
   url: https://meinaccount.gmx.net/
