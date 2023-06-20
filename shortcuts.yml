@@ -40,7 +40,7 @@ ek 1:
 en 1:
   include:
     key: en 1
-    namespace: dcm
+    namespace: dcc
 es 1:
   include:
     key: es 1
