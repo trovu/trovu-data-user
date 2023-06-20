@@ -40,6 +40,14 @@ ek 1:
 en 1:
   url: http://www.dict.cc/?s={%query}
   title: dict.cc
+en 1:
+  include:
+    key: en 1
+    namespace: dcm
+es 1:
+  include:
+    key: es 1
+    namespace: leo
 ew 1:
   url: https://en.wikipedia.org/wiki/Special:Search?go=Article&search={%article}
   title: Wikipedia Article Search English
