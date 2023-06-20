@@ -38,9 +38,6 @@ ek 1:
   url: https://www.ebay-kleinanzeigen.de/s-10963/{%item}/k0l3376
   title: Ebay Kleinanzeigen
 en 1:
-  url: http://www.dict.cc/?s={%query}
-  title: dict.cc
-en 1:
   include:
     key: en 1
     namespace: dcm
