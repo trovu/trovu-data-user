@@ -126,7 +126,7 @@ thing 1:
   examples:
     fidget toy: Find designs to keep your hands busy
 gii 0:
-  url:https://www.gesetze-im-internet.de/
+  url: https://www.gesetze-im-internet.de/
   title: Gesetze im Internet
   tags:
   - gesetze
