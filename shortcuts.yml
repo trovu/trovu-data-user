@@ -131,3 +131,71 @@ thing 1:
   - maker
   examples:
     fidget toy: Find designs to keep your hands busy
+lfm 0:
+  url: https://libro.fm/
+  title: Libro.fm, Your Independent Bookstore for Digital Audiobooks
+  tags:
+    - books
+    - onlinestore
+    - audiobooks
+    - nodrm
+lfm 1:
+  url: https://libro.fm/search?utf8=%E2%9C%93&q={%query}
+  title: Libro.fm audiobook search
+  examples:
+    Robert Burns poem: Search for readings of Scots poems
+  tags:
+    - books
+    - onlinestore
+    - audiobooks
+    - nodrm
+lfma 1:
+  url: https://libro.fm/search?q={%quary}&searchby=authors&sortby=relevance#results
+  title: Libro.fm audiobook search by author
+  examples:
+    Herman Wouk: Search for this author
+  tags:
+    - books
+    - onlinestore
+    - audiobooks
+    - nodrm
+lfmt 1:
+  url: https://libro.fm/search?q={%quary}&searchby=title&sortby=relevance#results
+  title: Libro.fm audiobook search by author
+  examples:
+    Rule 34: There may be porn of it, but this audiobook is not on Libro FM
+  tags:
+    - books
+    - onlinestore
+    - audiobooks
+    - nodrm
+lfmu 1:
+  url: https://libro.fm/search?utf8=%E2%9C%93&q={%query}&format_unabridged=true
+  title: Libro.fm audiobook search, unabridged only
+  examples:
+    Europe Africa Rodney: Search for a book by parts of title and author
+  tags:
+    - books
+    - onlinestore
+    - audiobooks
+    - nodrm
+lfmau 1:
+  url: https://libro.fm/search?q={%quary}&searchby=authors&sortby=relevance&format_unabridged=true#results
+  title: Libro.fm audiobook search by author, unabridged only
+  examples:
+    Nnedi Okorafor: Search for this author
+  tags:
+    - books
+    - onlinestore
+    - audiobooks
+    - nodrm
+lfmtu 1:
+  url: https://libro.fm/search?q={%quary}&searchby=title&sortby=relevance&format_unabridged=true#results
+  title: Libro.fm audiobook search by title, unabridged only
+  examples:
+    Her Royal Coven: Search for a book with this in the title
+  tags:
+    - books
+    - onlinestore
+    - audiobooks
+    - nodrm
