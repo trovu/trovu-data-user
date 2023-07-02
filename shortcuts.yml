@@ -99,6 +99,12 @@ unichr 1:
   - unicode
   - unicode character
   - character
+osi 0:
+  url: https://www.osiander.de/
+  title: Osiander (Buchhändler)
+  tags:
+  - books
+  - onlinestore
 osi 1:
   url: https://www.osiander.de/suche?sq={%Suche}
   title: Osiander-Suche
@@ -125,19 +131,3 @@ thing 1:
   - maker
   examples:
     fidget toy: Find designs to keep your hands busy
-gii 0:
-  url: https://www.gesetze-im-internet.de/
-  title: Gesetze im Internet
-  tags:
-  - gesetze
-  - law
-gii 2:
-  url: https://www.google.com/search?hl={$language}&ie=utf-8&btnI=1&q=site%3Awww.gesetze-im-internet.de%20{%Paragraph}%20{%Gesetz}
-  title: Gesetze im Internet
-  tags:
-  - gesetze
-  - law
-  examples:
-    5, gg: Zeige Artikel 5 des Grundgesetzes
-    12, bgb: Zeige Paragraph 12 des Bürgerlichen Gesetzbuchs
-    129a, stgb: Zeige Paragraph 129a des Strafgesetzbuchs
