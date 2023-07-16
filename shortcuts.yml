@@ -1,9 +1,18 @@
+# Documentation:
+# https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
+
+examplekeyword 0: http://www.example.com/
+examplekeyword 1: http://www.example.com/?q={%query} 
+examplekeyword 2:
+  url: http://www.example.com/?q={%query}&p={%puery}
+  title: Custom shortcut
+  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+  tags:
+  - example
+
 cups 0:
   url: http://localhost:631/
   title: cups
-examplekeyword 1:
-  url: http://www.example.com/?q={%query}&this-is-available-with-calling-examplekeyword
-  title: My custom shortcut with the keyword examplekeyword and 1 argument
 fpt 0:
   url: http://flickr.com/photos/texttheater
   title: fpt
@@ -81,18 +90,6 @@ gpdf 1:
   - pdf
   examples:
     berlin: Google search for "berlin"
-gpm 0:
-  url: https://play.google.com/music/listen
-  title: Google Play Music
-  tags:
-  - music
-gpm 1:
-  url: https://play.google.com/music/listen#{%query}_sr
-  title: Google Play Music
-  tags:
-  - music
-  examples:
-    prodigy: Search for music by The Prodigy in My Music
 gr 0:
   url: https://www.goodreads.com/
   title: Goodreads
@@ -111,17 +108,6 @@ gr 1:
   - social network
   examples:
     discworld: search for Discworld novels on Goodreads
-gtr 2:
-  url: http://translate.google.com/translate_t?sl=auto&tl={%target
-    language}&text={%phrase/url}
-  title: Google Translate
-  tags:
-  - google
-  - language
-  - translate
-  - translation
-  examples:
-    "fr, crêpe": Translate "crêpe" from French
 hik 0:
   url: https://www.biograph.de/heute-im-kino
   title: Heute im Kino (Düsseldorf/Neuss)
@@ -199,12 +185,6 @@ py3 1:
 r 0:
   url: https://feedly.com/i/latest
   title: Current Google Reader replacement
-rewe 0:
-  url: https://shop.rewe.de
-  title: REWE Onlineshop
-rewe 1:
-  url: https://shop.rewe.de/productList?search={%query}&sorting=PRICE_ASC
-  title: REWE Onlineshop (search and order by price, ascending)
 sf 0:
   url: https://forum.solawi-duesseldorf.de/
   title: SoLaWi-Düsseldorf-Forum
@@ -276,14 +256,9 @@ tn 1:
 tnr 0:
   url: https://texttheater.net/tnr/
   title: Random Tweets by @texttheater
-tttt! 1:
-  url: https://www.google.de/search?safe=off&site=&source=hp&q={%query}+site%3Atexttheater.net&btnI=Auf+gut+Gl%C3%BCck%21
-  title: Texttheater via Google I'm Feeling Lucky
-  tags:
-  - self
 tttt 1:
-  url: http://www.google.com/search?hl=de&safe=off&q={%query}+site%3Atexttheater.net&btnG=Suche&lr=
-  title: Google-Suche im Texttheater
+  url: https://duckduckgo.com/?q={%query}+site%253Atexttheater
+  title: DuckDuckGo-Suche im Texttheater
 ud 1:
   url: http://www.urbandictionary.com/define.php?term={%query}
   title: Urban Dictionary
@@ -325,6 +300,9 @@ wl 0:
   - film
   - watchlist
   - watch
+wordnet 0:
+  url: http://wordnetweb.princeton.edu/perl/webwn
+  title: WordNet Search
 wordnet 1:
   url: http://wordnetweb.princeton.edu/perl/webwn?s={%word_form}&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=1&o3=&o4=&h=000000000000000
   title: WordNet Search, show sense keys
