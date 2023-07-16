@@ -257,7 +257,7 @@ tnr 0:
   url: https://texttheater.net/tnr/
   title: Random Tweets by @texttheater
 tttt 1:
-  url: https://duckduckgo.com/?q={%query}+site%253Atexttheater
+  url: https://duckduckgo.com/?q={%query}+site%253Atexttheater.net
   title: DuckDuckGo-Suche im Texttheater
 ud 1:
   url: http://www.urbandictionary.com/define.php?term={%query}
