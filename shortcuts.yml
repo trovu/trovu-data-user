@@ -1,4 +1,3 @@
-one 1 : zwei: 2
 '- 1':
   url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
   title: 'Google Web, go directly to first result'
@@ -7,7 +6,7 @@ one 1 : zwei: 2
   - google
   examples:
     berlin: Search for "berlin"
-br:
+br 1:
   url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel|type=city}&start=1'
   title: DB-Auskunft von Betriebsbahnhof Rummelsburg
 br 2:
