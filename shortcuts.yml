@@ -6,7 +6,7 @@
   - google
   examples:
     berlin: Search for "berlin"
-br 1:
+br:
   url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel|type=city}&start=1'
   title: DB-Auskunft von Betriebsbahnhof Rummelsburg
 br 2:
