@@ -1,4 +1,5 @@
-sfsdf:
+one 1:
+two 2:
 '- 1':
   url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
   title: 'Google Web, go directly to first result'
