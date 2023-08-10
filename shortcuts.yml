@@ -1,6 +1,3 @@
-cov 1:
-  url: https://drive.google.com/drive/search?q=%22Coverage%20{%companyname}%22
-  title: Coverage-Doc anzeigen
 360fmd 1:
   url: https://www.aktienwelt360.de/das-fintech-megatrend/?s={%query}
   title: Aktienwelt360 Fintech Megatrend Depot durchsuchen
@@ -13,6 +10,9 @@ cov 1:
 360 1: 
   url: https://www.aktienwelt360.de/?s={%query}
   title: Aktienwelt360 durchsuchen
+cov 1:
+  url: https://drive.google.com/drive/search?q=%22Coverage%20{%companyname}%22
+  title: Coverage-Doc anzeigen
 yf 1:
   url: https://finance.yahoo.com/lookup?s={%stock}
   title: Yahoo Finance Lookup
