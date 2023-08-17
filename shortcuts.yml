@@ -12,7 +12,7 @@ br 1:
 br 2:
   url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&start=1'
   title: DB-Auskunft von Betriebsbahnhof Rummelsburg
-br 3:
+br 4:
   url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
   title: DB-Auskunft von Betriebsbahnhof Rummelsburg
 db< 1:
