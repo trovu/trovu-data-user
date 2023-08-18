@@ -2,8 +2,6 @@ namespaces:
 - o
 - de
 - .de
-- old-de
-- old-o
 - github: .
 defaultKeyword: g
 language: de
