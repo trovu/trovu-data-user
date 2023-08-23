@@ -1,11 +1,77 @@
 # Documentation:
 # https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
 
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q={%query} 
-examplekeyword 2:
-  url: http://www.example.com/?q={%query}&p={%puery}
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+csdblp 1:
+  url: http://dblp.org/search?q={%query}
+  title: CompleteSearch DBLP
   tags:
-  - example
+  - academia
+  examples:
+    Alan M. Turing: Search for "Alan M. Turing"
+csdblp 0:
+  url: http://www.dblp.org/search/
+  title: 'CompleteSearch DBLP: Load plain website'
+  tags:
+  - academia
+d 0:
+  url: https://duckduckgo.com/
+  title: Duck Duck Go Homepage
+  tags:
+  - web search
+d 1:
+  url: https://duckduckgo.com/?q={%query}
+  title: Duck Duck Go
+  tags:
+  - web search
+  examples:
+    berlin: Search for "berlin"
+wv 1:
+  url: https://{$language}.wikivoyage.org/wiki/index.php?title=Special%3ASearch&go=Article&search={%query}
+  title: Wikivoyage
+  tags:
+  - travel
+  examples:
+    Berlin: Wikivoyage page for Berlin
+eprint 1:
+  url: https://eprint.iacr.org/search?q={%query}
+  title: IACR Cryptology ePrint Archive
+  tags:
+  - academia
+  examples:
+    random oracle: Search IACR Cryptology ePrint Archive for "random oracle"
+di 1:
+  url: https://duckduckgo.com/?q={%query}&t=h_&iax=1&ia=images
+  title: Duck Duck Go Images
+rfc 1:
+  url: https://tools.ietf.org/html/rfc{%query}
+  title: RFC (Request for Comments)
+  tags:
+  - rfc
+  - standard
+  examples:
+    1945: Open RFC 1945
+sbb 2:
+  url: https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?suche=true&von={%von}&nach={%nach}
+  title: SBB Fahrplan
+  tags:
+  - bahn
+  - travel
+  examples:
+    Bern, Basel: Nächste Verbindung von Bern nach Basel
+sbb 3:
+  url: https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?suche=true&von={%von}&nach={%nach}&zeit={%zeit}
+  title: SBB Fahrplan
+  tags:
+  - bahn
+  - travel
+  examples:
+    Bern, Basel, 10:00: Verbindung von Bern nach Basel um 10:00 Uhr
+sbb 4:
+  url: https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml?suche=true&von={%von}&nach={%nach}&datum={%datum}&zeit={%zeit}
+  title: SBB Fahrplan
+  tags:
+  - bahn
+  - travel
+  examples:
+    Bern, Basel, 01.01.2020, 10:00: Verbindung von Bern nach Basel am 01.01.2020 um
+      10:00 Uhr
