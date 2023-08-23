@@ -40,7 +40,7 @@ eprint 1:
   examples:
     random oracle: Search IACR Cryptology ePrint Archive for "random oracle"
 di 1:
-  url: https://duckduckgo.com/?q={%query}&t=h_&iax=1&ia=images
+  url: https://duckduckgo.com/?q={%query}&t=h_&iax=images&ia=images
   title: Duck Duck Go Images
 rfc 1:
   url: https://tools.ietf.org/html/rfc{%query}
