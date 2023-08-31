@@ -3,7 +3,9 @@
 namespaces:
 - o
 - de
+- dcc
 - .de
+- .ch
 - github: .
 defaultKeyword: d
 language: de
