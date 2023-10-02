@@ -6,6 +6,6 @@ namespaces:
 - .de
 - github: .
   name: kevang
-defaultKeyword: g
+defaultKeyword: d
 language: de
 country: de
