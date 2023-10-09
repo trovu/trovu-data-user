@@ -2,7 +2,7 @@ namespaces:
 - o
 - de
 - .de
-- github: smen0
-defaultKeyword: g
+- github: .
+defaultKeyword: s
 language: de
 country: de
