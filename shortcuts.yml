@@ -16,8 +16,6 @@ cups 0:
 fpt 0:
   url: http://flickr.com/photos/texttheater
   title: fpt
-g 1:
-  url: https://duckduckgo.com/?q={%query}
 gdr 0:
   url: https://drive.google.com/
   title: Google Drive
