@@ -4,6 +4,7 @@ namespaces:
 - o
 - de
 - .de
+- leo
 - github: .
   name: kevang
 defaultKeyword: g
