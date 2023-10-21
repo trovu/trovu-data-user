@@ -7,47 +7,17 @@
   examples:
     berlin: Search for "berlin"
 br 1:
-  url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel|type=city}&start=1'
-  title: DB-Auskunft von Betriebsbahnhof Rummelsburg
-br 2:
-  url: 'http://mobile.bahn.de/bin/mobil/query.exe/dox?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&start=1'
-  title: DB-Auskunft von Betriebsbahnhof Rummelsburg
-br 3:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
-  title: DB-Auskunft von Betriebsbahnhof Rummelsburg
-db< 1:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&start=1'
-  title: DB-Auskunft nach Hause
-db< 2:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&T={%Zeit}&start=1'
-  title: DB-Auskunft nach Hause
-db< 3:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=s%20ostb%21&T={%Zeit}&D={%Datum}&start=1'
-  title: DB-Auskunft nach Hause
-db> 1:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper!&Z={%Ziel|type=city}&start=1'
-  title: DB-Auskunft von Zuhause
-db> 2:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper%21&Z={%Ziel|type=city}&T={%Zeit|type=time|output=HH:mm}&start=1'
-  title: DB-Auskunft von Zuhause
-db> 3:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/d?S=s%20zeper%21&Z={%Ziel|type=city}&T={%Zeit|type=time|output=HH:mm}&D={%Datum|type=date|output=DD.MM.YYYY}&start=1'
-  title: DB-Auskunft von Zuhause
-dbt< 1:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&start=1'
-  title: DB-Auskunft nach Hause Textversion
-dbt< 2:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&T={%Zeit}&start=1'
-  title: DB-Auskunft nach Hause Textversion
-dbt< 3:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S={%Start}&Z=balatonstr%21&T={%Zeit}&D={%Datum}&start=1'
-  title: DB-Auskunft nach Hause Textversion
-f> 2:
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=s&20betr!={%Ziel}&start=1
+  title: DB-Auskunft von U Friedrichsfelde
+ff 1:
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel}&start=1
+  title: DB-Auskunft von U Friedrichsfelde
+ff 2:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel}&T={%Zeit|type=time}&start=1
-  title: DB-Auskunft von U Friedrichsfelde Textversion
-f> 3:
+  title: DB-Auskunft von U Friedrichsfelde
+ff 3:
   url: https://reiseauskunft.bahn.de/bin/query.exe/dS=000733102&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
-  title: DB-Auskunft von U Friedrichsfelde Textversion
+  title: DB-Auskunft von U Friedrichsfelde
 g! 0:
   url: 'https://www.geo.de/'
 gd> 1:
