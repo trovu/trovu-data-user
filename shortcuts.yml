@@ -7,7 +7,7 @@
   examples:
     berlin: Search for "berlin"
 br 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=s&20betr!={%Ziel}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel}&start=1
   title: DB-Auskunft von U Friedrichsfelde
 ff 1:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel}&start=1
