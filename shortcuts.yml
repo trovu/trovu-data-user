@@ -6,7 +6,6 @@
   - google
   examples:
     berlin: Search for "berlin"
-    733099
 b> 1:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel}&start=1
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
