@@ -6,16 +6,32 @@
   - google
   examples:
     berlin: Search for "berlin"
-br 1:
+    733099
+b> 1:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel}&start=1
-  title: DB-Auskunft von U Friedrichsfelde
-ff 1:
+  title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
+b> 2:
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&start=1
+  title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
+b> 3:
+  url: https://reiseauskunft.bahn.de/bin/query.exe/dS=8089006&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
+m> 1:
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel}&start=1
+  title: DB-Auskunft von Michiganseestr.
+m> 2:
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel}&T={%Zeit|type=time}&start=1
+  title: DB-Auskunft von Michiganseestr.
+m> 3:
+  url: https://reiseauskunft.bahn.de/bin/query.exe/dS=733099&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  title: DB-Auskunft von Michiganseestr.
+f> 1:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel}&start=1
   title: DB-Auskunft von U Friedrichsfelde
-ff 2:
+f> 2:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel}&T={%Zeit|type=time}&start=1
   title: DB-Auskunft von U Friedrichsfelde
-ff 3:
+f> 3:
   url: https://reiseauskunft.bahn.de/bin/query.exe/dS=000733102&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
   title: DB-Auskunft von U Friedrichsfelde
 g! 0:
