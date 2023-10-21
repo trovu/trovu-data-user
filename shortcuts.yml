@@ -105,4 +105,4 @@ trovu 0: https://trovu.net/#github=georgjaehnig
 deepl 1: https://www.deepl.com/translator#serchilo[fill][textarea]={%query} 
 cd 2: https://www.cd.cz/default.htm#serchilo[fill][%23connection-from]={%odkud|type=city}&serchilo[fill][%23connection-to]={%kam|type=city}&serchilo[submit]=button.search-btn
 cd 3: https://www.cd.cz/default.htm#serchilo[fill][%23connection-from]={%odkud|type=city}&serchilo[fill][%23connection-to]={%kam|type=city}&serchilo[fill][input%5Bname%3Dcalendar%5D]={%datum|type=date|output=DD/MM/YYYY}&serchilo[submit]=button.search-btn
-g 0: https://www.google.de/
+g 0:  https://www.google.de/
