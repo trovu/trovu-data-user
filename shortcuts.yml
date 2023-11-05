@@ -162,7 +162,7 @@ tja 1:
   url: http://noticias.tarija.bo/?submit=&s={%consulta}
   title: Tarija municipal news search
 wipo 1:
-  url: https://patentscope.wipo.int/search/en/search.jsf#serchilo[fill][%23simpleSearchForm\:fpSearch\:input]={%query}&serchilo[submit]=%23simpleSearchForm\:fpSearch\:j_idt1014
+  url: https://patentscope.wipo.int/search/en/search.jsf#serchilo[fill][%23simpleSearchForm\:fpSearch\:input]={%query}&serchilo[submit]=%23simpleSearchForm\:fpSearch\:https://patentscope.wipo.int/search/en/search.jsf#serchilo[fill][%23simpleSearchForm\:fpSearch\:input]=Bosch&serchilo[submit]=%23simpleSearchForm\:fpSearch\:j_idt1371
   title: WIPO Patent Search
 banz 1:
   url: https://www.bundesanzeiger.de/ebanzwww/wexsservlet#serchilo[fill][%23idfd]={%query}&serchilo[submit]=%23id101
