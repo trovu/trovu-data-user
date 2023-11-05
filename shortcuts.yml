@@ -85,7 +85,7 @@ titsa> 1:
   examples:
     trinidad: Próxima connection a Trinidad
 wipo 1:
-  url: https://patentscope.wipo.int/search/en/search.jsf#serchilo[fill][%23simpleSearchForm:fpSearch:input]={%query}&serchilo[submit]=%5Bid%5E%3D%22simpleSearchForm%3AfpSearch%3Aj%22%5D
+  url: https://patentscope.wipo.int/search/en/search.jsf#serchilo[fill][%23simpleSearchForm\:fpSearch\:input]={%query}&serchilo[submit]=%5Bid%5E%3D%22simpleSearchForm%3AfpSearch%3Aj%22%5D
   title: WIPO search with userscript
 wipo 0:
   url: 'https://patentscope.wipo.int/search/en/search.jsf'
