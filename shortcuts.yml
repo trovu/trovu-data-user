@@ -167,6 +167,9 @@ wipo 1:
 banz 1:
   url: https://www.bundesanzeiger.de/pub/de/start?12#trovu[fill][%23id2d]={%query}&trovu[submit]=input[name=%22search_button%22]
   title: Bundesanzeiger German company registry query
+banz2 1:
+  url: https://bundesanzeiger.de/pub/de/start?0#trovu[fill]=input[placeholder=%22Suchbegriff eingeben%22]&trovu[submit]=input[name=%22search_button%22]&q={%query}
+  title: Bundesanzeiger German company registry query
 marke 1:
   url: https://register.dpma.de/DPMAregister/marke/einsteiger#serchilo[fill][%23wm]=
     {%query}&serchilo[submit]=%23rechercheStarten
