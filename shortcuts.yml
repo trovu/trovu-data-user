@@ -1,102 +1,33 @@
-'- 1':
-  url: 'http://www.google.com/search?hl={$language}&q={%query}&ie=utf-8&btnI=1'
-  title: 'Google Web, go directly to first result'
-  tags:
-  - web search
-  - google
-  examples:
-    berlin: Search for "berlin"
 b] 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel|type=city}%21start=1
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
 b] 2:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel}&T={%Zeit|type=time}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel|type=city}%21T={%Zeit|type=time}&start=1
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
 b] 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/dS=8089006&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/dS=8089006&Z={%Ziel|type=city}%21T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
 m] 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel|type=city}%21start=1
   title: DB-Auskunft von Michiganseestr.
 m] 2:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel}&T={%Zeit|type=time}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel|type=city}%21T={%Zeit|type=time}&start=1
   title: DB-Auskunft von Michiganseestr.
 m] 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel|type=city}%21T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
   title: DB-Auskunft von Michiganseestr.
 f] 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel|type=city}%21start=1
   title: DB-Auskunft von U Friedrichsfelde
 f] 2:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel}&T={%Zeit|type=time}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel|type=city}%21T={%Zeit|type=time}&start=1
   title: DB-Auskunft von U Friedrichsfelde
 f] 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel|type=city}%21T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
   title: DB-Auskunft von U Friedrichsfelde
-g! 0:
-  url: 'https://www.geo.de/'
-gd> 1:
-  url: 'http://maps.google.com/maps?hl={$language}&saddr=berlin&daddr={%destination}'
-  title: Google Maps Directions (Routing)
-  tags:
-  - maps
-  - google
-  - routing
-  - route
-kvv 0:
-  url: 'http://www.ling.uni-potsdam.de/kvv/akt/2'
-  title: Vorlesungsverzeichnis
-li 1:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&start=1'
-  title: DB-Auskunft von Lichtenberg Textversion
-li 2:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&start=1'
-  title: DB-Auskunft von Lichtenberg Textversion
-li 3:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s Lichtenberg%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
-  title: DB-Auskunft von Lichtenberg Textversion
-mb 0:
-  url: 'http://www.studentenwerk-potsdam.de/116'
-  title: Mensabegleiter
-np 1:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&start=1'
-  title: DB-Auskunft von S Nöldnerplatz Textversion
-np 2:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&T={%Zeit|type=time}&start=1'
-  title: DB-Auskunft von S Nöldnerplatz Textversion
-np 3:
-  url: 'http://reiseauskunft.bahn.de/bin/query.exe/dl?S=s nöldnerplatz%21&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1'
-  title: DB-Auskunft von S Nöldnerplatz Textversion
 rb 0:
   url: 'http://www.niederschlagsradar.de/h.aspx?regio=bln&j=-3&srt=loop1stunde'
   title: Niederschlagsradar Berlin
-sp 0:
-  url: 'http://www.spiegel.de/spam'
-  title: sp
-titsa> 1:
-  url: 'https://www.google.com/maps?saddr=puente zurita, Santa Cruz de Tenerife,+Espa%C3%B1a&daddr={%destino},%20Tenerife,%20Espa%C3%B1a&f=d&dirflg=r'
-  title: Transportes Interurbanos de Tenerife
-  tags:
-  - tenerife
-  - titsa
-  - travel
-  - google
-  - maps
-  examples:
-    trinidad: Próxima connection a Trinidad
-wipo 1:
-  url: https://patentscope.wipo.int/search/en/search.jsf#serchilo[fill][%23simpleSearchForm\:fpSearch\:input]={%query}&serchilo[submit]=%5Bid%5E%3D%22simpleSearchForm%3AfpSearch%3Aj%22%5D
-  title: WIPO search with userscript
-wipo 0:
-  url: 'https://patentscope.wipo.int/search/en/search.jsf'
-  post parameters:
-    simpleSearchSearchForm: simpleSearchSearchForm
-    'simpleSearchSearchForm:j_idt343': FP
-    'simpleSearchSearchForm:fpSearch': foo1
-    'simpleSearchSearchForm:commandSimpleFPSearch': Search
-    'simpleSearchSearchForm:j_idt411': workaround
-    javax.faces.ViewState: '6080588354588600159:-6093555034371762015'
-  title: WIPO Patent Search
 zz 1: https://www.google.de/search?hl=de&q=%22zeitzeichen%22%20{%query}&ie=utf-8
 pjs 1: https://www.google.de/search?hl=de&q=site%3Aplainjs.com%2F%20{%query}&ie=utf-8
 jetf 1: https://www.justetf.com/en/find-etf.html?query={%query}
@@ -105,7 +36,5 @@ radio 1: https://www.radio-browser.info/search?page=1&order=clickcount&reverse=t
 tp 1: https://www.topparrain.com/en/companies?utf8=%E2%9C%93&search%5Bname%5D={%query}
 100pp 1: https://www.100partnerprogramme.de/suche/?q={%query}
 trovu 0: https://trovu.net/#github=georgjaehnig
-deepl 1: https://www.deepl.com/translator#serchilo[fill][textarea]={%query} 
 cd 2: https://www.cd.cz/default.htm#serchilo[fill][%23connection-from]={%odkud|type=city}&serchilo[fill][%23connection-to]={%kam|type=city}&serchilo[submit]=button.search-btn
 cd 3: https://www.cd.cz/default.htm#serchilo[fill][%23connection-from]={%odkud|type=city}&serchilo[fill][%23connection-to]={%kam|type=city}&serchilo[fill][input%5Bname%3Dcalendar%5D]={%datum|type=date|output=DD/MM/YYYY}&serchilo[submit]=button.search-btn
-g 0:  https://www.google.de/
