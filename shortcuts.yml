@@ -15,7 +15,7 @@ b] 2:
 b] 3:
   url: https://reiseauskunft.bahn.de/bin/query.exe/dS=8089006&Z={%Ziel}&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
-gm 1:
+ciné 1:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel}&start=1
   title: Test overriding
 m] 1:
