@@ -9,5 +9,7 @@ examplekeyword 2:
   description: My custom shortcut with the keyword examplekeyword and 2 arguments.
   tags:
   - example
-
+k 0: https://www.kleinanzeigen.de/stadt/berlin/
+title: Kleinanzeigen berlin
+k 1: https://www.kleinanzeigen.de/s-berlin/?q={%query} /k0l3331
 
