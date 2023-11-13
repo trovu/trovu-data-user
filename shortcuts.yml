@@ -11,5 +11,5 @@ examplekeyword 2:
   - example
 k 0: https://www.kleinanzeigen.de/stadt/berlin/
 
-k 1: https://www.kleinanzeigen.de/s-berlin/?q={%query}/k0l3331
+k 1: https://www.kleinanzeigen.de/s-berlin/{%query}/k0l3331
 
