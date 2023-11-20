@@ -3,6 +3,7 @@ namespaces:
 - es
 - de
 - .de
+- .es
 - github: .
   name: hannes
 language: de
