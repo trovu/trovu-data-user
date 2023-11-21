@@ -11,6 +11,7 @@ namespaces:
 - pka
 - dcm
 - lge
+- github: texttheater
 - github: .
 language: de
 country: de
