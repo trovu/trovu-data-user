@@ -5,7 +5,7 @@ b] 2:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel|type=city}%21&T={%Zeit|type=time}&start=1
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
 b] 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel|type=city}%21T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel|type=city}%21&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
 m] 1:
   url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel|type=city}%21&start=1
