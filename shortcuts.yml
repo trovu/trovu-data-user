@@ -1,41 +1,18 @@
-# This is a YAML file, more abouts its syntax: https://en.wikipedia.org/wiki/YAML
-
-# First example shortcut: Short notation.
-# Use 
-#
-#   KEYWORDNAME ARGCOUNT
-#
-# as the key, and the target URL as the value.
-# This shortcut will match for "examplekeyword" with no arguments.
-# examplekeyword 0: http://www.example.com/
-
 od 0: https://www.odorik.cz/ucet/nastaveni_volani.html?login_method=credentials
-j 1: https://jira.televic.com/browse/{%query}
-ws 1: https://webshare.cz/#/search?what={%query}
-
+j 1: https://jira.televic.com/browse/<query>
+ws 1: https://webshare.cz/#/search?what=<query>
 bvg 2:
   include:
     key: bvg 2
     namespace: .de
-
-# This shortcut will match for "examplekeyword foo", 
-# so for the same keyword but with one argument.
-examplekeyword 1: http://www.example.com/?q={%query} 
-
-# Another example: extended notation
-# This shortcut will match for "examplekeyword foo, bar", 
-# Here you can define optional title, description and tags.
+examplekeyword 1: http://www.example.com/?q=<query>
 examplekeyword 2:
-  url: http://www.example.com/?q={%query}&p={%puery}
+  url: http://www.example.com/?q=<query>&p=<puery>
   title: Custom shortcut
   description: My custom shortcut with the keyword examplekeyword and 2 arguments.
   tags:
   - example
-
-# Make sure that the keys are unique, 
-# e.g. that the every "KEYWORDNAME ARGCOUNT" is only used once in this file.
-
-qt 1: http://www.google.com/search?hl={$language}&q=qt%20{%query}&ie=utf-8
-app 1: http://www.google.com/search?hl={$language}&q=app%20{%query}&ie=utf-8
-apple 1: http://www.google.com/search?hl={$language}&q=apple%20{%query}&ie=utf-8
-chrome 1: http://www.google.com/search?hl={$language}&q=chrome%20{%query}&ie=utf-8
+qt 1: http://www.google.com/search?hl=<$language>&q=qt%20<query>&ie=utf-8
+app 1: http://www.google.com/search?hl=<$language>&q=app%20<query>&ie=utf-8
+apple 1: http://www.google.com/search?hl=<$language>&q=apple%20<query>&ie=utf-8
+chrome 1: http://www.google.com/search?hl=<$language>&q=chrome%20<query>&ie=utf-8
