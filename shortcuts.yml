@@ -1,32 +1,32 @@
 b] 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel|type=city}%21&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z=<Ziel: {type: city}>%21&start=1'
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
 b] 2:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel|type=city}%21&T={%Zeit|type=time}&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z=<Ziel: {type: city}>%21&T=<Zeit: {type: time}>&start=1'
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
 b] 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z={%Ziel|type=city}%21&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=8089006&Z=<Ziel: {type: city}>%21&T=<Zeit: {type: time}>&D=<Datum: {type: date, output: DD.MM.YY}>&start=1'
   title: DB-Auskunft von S Betriebsbahnhof Rummelsburg
 m] 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel|type=city}%21&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z=<Ziel: {type: city}>%21&start=1'
   title: DB-Auskunft von Michiganseestr.
 m] 2:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel|type=city}%21&T={%Zeit|type=time}&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z=<Ziel: {type: city}>%21&T=<Zeit: {type: time}>&start=1'
   title: DB-Auskunft von Michiganseestr.
 m] 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z={%Ziel|type=city}%21&T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=733099&Z=<Ziel: {type: city}>%21&T=<Zeit: {type: time}>&D=<Datum: {type: date, output: DD.MM.YY}>&start=1'
   title: DB-Auskunft von Michiganseestr.
 f] 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel|type=city}%21&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z=<Ziel: {type: city}>%21&start=1'
   title: DB-Auskunft von U Friedrichsfelde
 f] 2:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel|type=city}%21&T={%Zeit|type=time}&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z=<Ziel: {type: city}>%21&T=<Zeit: {type: time}>&start=1'
   title: DB-Auskunft von U Friedrichsfelde
 f] 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z={%Ziel|type=city}%21T={%Zeit|type=time}&D={%Datum|type=date|output=DD.MM.YY}&start=1
+  url: 'https://reiseauskunft.bahn.de/bin/query.exe/d?S=000733102&Z=<Ziel: {type: city}>%21T=<Zeit: {type: time}>&D=<Datum: {type: date, output: DD.MM.YY}>&start=1'
   title: DB-Auskunft von U Friedrichsfelde
 rb 0:
-  url: 'http://www.niederschlagsradar.de/h.aspx?regio=bln&j=-3&srt=loop1stunde'
+  url: http://www.niederschlagsradar.de/h.aspx?regio=bln&j=-3&srt=loop1stunde
   title: Niederschlagsradar Berlin
 zz 1: https://www.google.de/search?hl=de&q=%22zeitzeichen%22%20{%query}&ie=utf-8
 pjs 1: https://www.google.de/search?hl=de&q=site%3Aplainjs.com%2F%20{%query}&ie=utf-8
