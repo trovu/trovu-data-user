@@ -35,7 +35,7 @@ dod 0:
   url: https://dev-bosch.com/confluence/x/E2NbBQ
   title: Definition of Done
 ek 1:
-  url: https://www.ebay-kleinanzeigen.de/s-10963/{%item}/k0l3376
+  url: https://www.ebay-kleinanzeigen.de/s-10963/<item>/k0l3376
   title: Ebay Kleinanzeigen
 en 1:
   include:
@@ -46,13 +46,13 @@ es 1:
     key: es 1
     namespace: leo
 ew 1:
-  url: https://en.wikipedia.org/wiki/Special:Search?go=Article&search={%article}
+  url: https://en.wikipedia.org/wiki/Special:Search?go=Article&search=<article>
   title: Wikipedia Article Search English
   tags:
-  - wikipedia
-  - wiki
-  - encyclopedia
   - copyleft
+  - encyclopedia
+  - wiki
+  - wikipedia
   examples:
     berlin: Wikipedia article about Berlin
 fb 0:
@@ -62,7 +62,7 @@ g+ 0:
   url: https://meet.google.com/
   title: Google Meet
 g 1:
-  url: http://www.google.com/search?q={%query}&ie=utf-8&tbs=li:1
+  url: http://www.google.com/search?q=<query>&ie=utf-8&tbs=li:1
   title: google
 h 0:
   url: https://www.heise.de/newsticker/classic/
@@ -71,29 +71,28 @@ he 0:
   url: https://de.wikipedia.org/wiki/HTTP-Statuscode
   title: HTTP error codes
 he 1:
-  url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/{%code}
+  url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/<code>
   title: HTTP error codes
 ir 0:
   url: http://www.inforadio.de/livestream/index.html
   title: Inforadio
 java 1:
-  url: https://duckduckgo.com/?q=!
-    site%3Ahttps%3A%2F%2Fdocs.oracle.com%2Fen%2Fjava%2Fjavase%2F11+{%query}&ia=web
+  url: https://duckduckgo.com/?q=! site%3Ahttps%3A%2F%2Fdocs.oracle.com%2Fen%2Fjava%2Fjavase%2F11+<query>&ia=web
   title: Java Platform SE 11 API
   tags:
+  - api
   - java
   - programming
-  - api
   examples:
     void: Search for docs about "void"
 jira 0:
   url: https://jira.dkb.ag/issues/?filter=34600
   title: JIRA open tickets created by me
 jira 1:
-  url: https://jira.dkb.ag/browse/TESS-{%ticket}
+  url: https://jira.dkb.ag/browse/TESS-<ticket>
   title: JIRA
 kununu 1:
-  url: https://www.kununu.com/de/search#/?q={%query}
+  url: https://www.kununu.com/de/search#/?q=<query>
   title: Kununu Deutschland
   description: Suche nach Arbeitgeber-Bewertungen
   tags:
@@ -110,34 +109,34 @@ mu 0:
   url: http://www.meetup.com/find/events/?allMeetups=true&radius=10&userFreeform=Berlin%2C+Germany&mcName=Berlin%2C+DE&lat=52.52&lon=13.38&eventFilter=all
   title: Meetup
 mvn 1:
-  url: https://mvnrepository.com/search?q={%query}
+  url: https://mvnrepository.com/search?q=<query>
   title: Maven repos
 nacha 1:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To=<Ziel>!&start=1
   title: VBB-Auskunft
 nacha 2:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&time={%Zeit}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To=<Ziel>!&time=<Zeit>&start=1
   title: VBB-Auskunft
 nacha 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=s+anhalter+bahnhof!&To=<Ziel>!&time=<Zeit>&date=<Datum>&start=1
   title: VBB-Auskunft
 nachm 1:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To=<Ziel>!&start=1
   title: VBB-Auskunft
 nachm 2:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&time={%Zeit}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To=<Ziel>!&time=<Zeit>&start=1
   title: VBB-Auskunft
 nachm 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=U+Mendelssohn-Bartholdy-Park!&To=<Ziel>!&time=<Zeit>&date=<Datum>&start=1
   title: VBB-Auskunft
 nachs 1:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To=<Ziel>!&start=1
   title: VBB-Auskunft
 nachs 2:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&time={%Zeit}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To=<Ziel>!&time=<Zeit>&start=1
   title: VBB-Auskunft
 nachs 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To={%Ziel}!&time={%Zeit}&date={%Datum}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=schöneberger+brücke!&To=<Ziel>!&time=<Zeit>&date=<Datum>&start=1
   title: VBB-Auskunft
 nd 0:
   url: https://www.google.com/finance/quote/NDX:INDEXNASDAQ?sa=X&ved=2ahUKEwjjqumUzNH0AhVKSPEDHWOqDfwQ_AUoAXoECAIQAw
@@ -149,7 +148,7 @@ osmb 0:
   url: https://www.openstreetmap.org/search?query=Hafenplatz%2C+berlin
   title: OpenStreetMap Nominatim
 osmb 1:
-  url: https://www.openstreetmap.org/search?query={%location}%2C+berlin
+  url: https://www.openstreetmap.org/search?query=<location>%2C+berlin
   title: OpenStreetMap Nominatim
 kaufland 0:
   url: https://www.kaufland.de/
@@ -157,14 +156,14 @@ kaufland 0:
   tags:
   - shopping
 kaufland 1:
-  url: https://www.kaufland.de/item/search/?search_value={%Suche}
+  url: https://www.kaufland.de/item/search/?search_value=<Suche>
   title: Kaufland Online Marktplatz
   tags:
   - shopping
   examples:
     spiele: Suche auf Kaufland.de nach "spiele"
 pgp 1:
-  url: http://keyserver.ubuntu.com/pks/lookup?search={%query}&fingerprint=on&op=index
+  url: http://keyserver.ubuntu.com/pks/lookup?search=<query>&fingerprint=on&op=index
   title: PGP key search
 rlb 0:
   url: https://www.reiseland-brandenburg.de/veranstaltungen-hoehepunkte/veranstaltungskalender/
@@ -173,11 +172,11 @@ spo 0:
   url: https://www.spontacts.com/account/sign_in?return_to=https%3A%2F%2Fwww.spontacts.com%2F
   title: Spontacts
 spring 1:
-  url: https://www.google.com/search?hl={$language}&q=site%3Ahttp://docs.spring.io/spring/docs/current/javadoc-api/+{%query}+intitle%3A{%query}&ie=utf-8&btnI=1
+  url: https://www.google.com/search?hl=<$language>&q=site%3Ahttp://docs.spring.io/spring/docs/current/javadoc-api/+<query>+intitle%3A<query>&ie=utf-8&btnI=1
   title: Spring Java API
   tags:
-  - programming
   - java
+  - programming
 t 0:
   url: https://trovu.net/#github=neubarth
   title: Trovu
@@ -194,37 +193,37 @@ veg 0:
   url: http://www.berlin-vegan.de/berlin/restaurants/
   title: veg
 vona 1:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=s+anhalter+bahnhof!&start=1
   title: VBB-Auskunft
 vona 2:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&time={%Zeit}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=s+anhalter+bahnhof!&time=<Zeit>&start=1
   title: VBB-Auskunft
 vona 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=s+anhalter+bahnhof!&time={%Zeit}&date={%Datum}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=s+anhalter+bahnhof!&time=<Zeit>&date=<Datum>&start=1
   title: VBB-Auskunft
 vonm 1:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=U+Mendelssohn-Bartholdy-Park!&start=1
   title: VBB-Auskunft
 vonm 2:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&time={%Zeit}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=U+Mendelssohn-Bartholdy-Park!&time=<Zeit>&start=1
   title: VBB-Auskunft
 vonm 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=U+Mendelssohn-Bartholdy-Park!&time={%Zeit}&date={%Datum}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=U+Mendelssohn-Bartholdy-Park!&time=<Zeit>&date=<Datum>&start=1
   title: VBB-Auskunft
 vons 1:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=schöneberger+brücke!&start=1
   title: VBB-Auskunft
 vons 2:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&time={%Zeit}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=schöneberger+brücke!&time=<Zeit>&start=1
   title: VBB-Auskunft
 vons 3:
-  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From={%Start}!&To=schöneberger+brücke!&time={%Zeit}&date={%Datum}&start=1
+  url: http://fahrinfo.vbb.de/bin/query.exe/dn?From=<Start>!&To=schöneberger+brücke!&time=<Zeit>&date=<Datum>&start=1
   title: VBB-Auskunft
 wa 0:
   url: https://web.whatsapp.com/
   title: Whatsapp
 we 1:
-  url: https://www.wetteronline.de/wettertrend/{%Ort}
+  url: https://www.wetteronline.de/wettertrend/<Ort>
   title: Wetter
   tags:
   - weather
@@ -237,12 +236,12 @@ we4 0:
   url: http://wind.met.fu-berlin.de/wind/radar/loop_radarde.php
   title: Wetterradar für Deutschland
 wi 1:
-  url: https://wiki.corp.thales/dosearchsite.action?queryString={%query}
+  url: https://wiki.corp.thales/dosearchsite.action?queryString=<query>
   title: Thales Wiki
   examples:
     berlin: Search for "thales"
 wigdp 1:
-  url: https://wiki.corp.thales/dosearchsite.action?cql=siteSearch+~+%22{%query}%22+and+space+%3D+%22GTSSE%22&queryString={%query}
+  url: https://wiki.corp.thales/dosearchsite.action?cql=siteSearch+~+%22<query>%22+and+space+%3D+%22GTSSE%22&queryString=<query>
   title: Thales Wiki
   examples:
     berlin: Search for "thales"
@@ -252,4 +251,3 @@ ww 0:
 x 0:
   url: https://meinaccount.gmx.net/
   title: GMX
-  
