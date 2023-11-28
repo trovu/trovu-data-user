@@ -126,3 +126,4 @@ db 2:
     b, hh: Nächste Bahn-Verbindung von Berlin nach Hamburg, Eingabe über Autokennzeichen
     sxf, txl: Nächste Bahn-Verbindung von Flughafen Berlin-Tegel zum Flughafen Berlin-Schönefeld,
       Eingabe über IATA-Flughafencodes
+
