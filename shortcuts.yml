@@ -1,67 +1,56 @@
-# Documentation:
-# https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
-# ety 1:
-#   url: 
-#   title: 
-#   tags:
-#   - dictionary
-#   - english
-#   examples:
-#    XY: search for "XY"   
-    
 diplod 1:
-  url: https://monde-diplomatique.de/archiv-text?text={%query}
+  url: https://monde-diplomatique.de/archiv-text?text=<query>
   title: 'Le Monde diplomatique (deutsch): Textarchiv'
   tags:
   - news
   examples:
     Merkel: search the German archive of Le Monde diplomatique for articles on "Merkel"
 diplo 1:
-  url: https://www.monde-diplomatique.fr/recherche?s={%query}
+  url: https://www.monde-diplomatique.fr/recherche?s=<query>
   title: Le Monde diplomatique
   tags:
   - news
   examples:
     Merkel: search Le Monde diplomatique for articles on "Merkel"
 monde 1:
-  url: https://www.lemonde.fr/recherche/?search_keywords={%query}&search_sort=relevance_desc
+  url: https://www.lemonde.fr/recherche/?search_keywords=<query>&search_sort=relevance_desc
   title: Le Monde
   tags:
   - news
   examples:
     Merkel: search Le Monde for articles on "Merkel"
 ev 1:
-  url: https://eventaservo.org/serchilo?query={%evento}
+  url: https://eventaservo.org/serchilo?query=<evento>
   title: Eventa Servo
-  tags: 
+  tags:
   - esperanto
   examples:
     kumzico: search Eventa Servo for the event "kumzico"
-rob 1: 
-  url: https://dictionnaire.lerobert.com/definition/{%mot} 
+rob 1:
+  url: https://dictionnaire.lerobert.com/definition/<mot>
   title: Le Robert
   tags:
   - dictionary
   examples:
     malfrat: search Le Robertdictionary for "malfrat"
-lm 1: 
-  url: https://www.latindictionary.io/dictionary?q={%query}&lang=latin 
+lm 1:
+  url: https://www.latindictionary.io/dictionary?q=<query>&lang=latin
   title: Latin Dictionary (morphology)
   tags:
   - dictionary
   - latin
   examples:
     cantaverit: analyze Latin "cantaverit"
-mac 1: 
-  url: https://www.macmillandictionary.com/dictionary/british/{%query} 
+mac 1:
+  url: https://www.macmillandictionary.com/dictionary/british/<query>
   title: Macmillan (British)
   tags:
   - dictionary
   - english
   examples:
     grey: search Macmillian British English dictionary for "grey"
-maca 1: 
-  url: https://www.macmillandictionary.com/dictionary/american/{%query} 
+maca 1:
+  url: https://www.macmillandictionary.com/dictionary/american/<query>
   title: Macmillan (American)
   tags:
   - dictionary
@@ -69,7 +58,7 @@ maca 1:
   examples:
     gray: search Macmillian American English dictionary for "gray"
 enla 1:
-  url: http://www.latin-dictionary.net/search/english/{%query} 
+  url: http://www.latin-dictionary.net/search/english/<query>
   title: English-Latin
   tags:
   - dictionary
@@ -77,7 +66,7 @@ enla 1:
   examples:
     flame: search for "flame"
 lat 1:
-  url: http://www.latin-dictionary.net/search/latin/{%query} 
+  url: http://www.latin-dictionary.net/search/latin/<query>
   title: Latin-English
   tags:
   - dictionary
@@ -85,14 +74,14 @@ lat 1:
   examples:
     flamma: search for "flamma"
 kr 1:
-  url: https://www.kreuzwortraetsellexikon.de/hilfe/{%query}
+  url: https://www.kreuzwortraetsellexikon.de/hilfe/<query>
   title: Kreuzworträtsel
   tags:
   - reference
   examples:
     us-schaupielerin: search for "US-Schauspielerin"
 ety 1:
-  url: https://www.etymonline.com/search?q={%word}
+  url: https://www.etymonline.com/search?q=<word>
   title: OED etymology
   tags:
   - dictionary
@@ -100,38 +89,38 @@ ety 1:
   examples:
     haggard: search oed for the etymology of "haggard"
 trk 1:
-  url: https://www.seslisozluk.net/{%word}-nedir-ne-demek/
+  url: https://www.seslisozluk.net/<word>-nedir-ne-demek/
   title: sesli sözlük (speaking dictionary)
   tags:
-  - turkish
   - dictionary
+  - turkish
   examples:
     söz: Search sesli sözlük for "söz"
 mu 1:
-   url: http://macupdate.com/search.php?keywords={%keyword}&os=macosx
-   title: macupdate
-   tags:
-   - software
+  url: http://macupdate.com/search.php?keywords=<keyword>&os=macosx
+  title: macupdate
+  tags:
+  - software
 tre 1:
-  url: https://www.treccani.it/vocabolario/{%parola}
+  url: https://www.treccani.it/vocabolario/<parola>
   title: Treccani vocabolario
   tags:
-  - dictionary 
+  - dictionary
   - italian
 owid 1:
-  url: https://www.owid.de/suche/wort?wort={%query}
+  url: https://www.owid.de/suche/wort?wort=<query>
   title: Online-Wörterbuch des IDS
   tags:
   - dictionary
 ne 1:
-  url: http://neusprech.org/?s={%query}
+  url: http://neusprech.org/?s=<query>
   title: Neusprechsuche
   tags:
   - neusprech
   examples:
     Gefährder: German newspeak word you are looking for
 rv 1:
-  url: https://www.reta-vortaro.de/revo/dlg/index-2f.html?q={%query}
+  url: https://www.reta-vortaro.de/revo/dlg/index-2f.html?q=<query>
   title: reta vortaro
   tags:
   - dictionary
@@ -139,192 +128,192 @@ rv 1:
   examples:
     vorto: looking for "vorto" in reta vortaro
 eu 1:
-  url: http://hiztegiak.elhuyar.org/eu_es_en_fr/{%word}#
+  url: http://hiztegiak.elhuyar.org/eu_es_en_fr/<word>#
   title: Euskara (Elhuyar)
   tags:
   - dictionary
   examples:
     gazte: Basque word
 rae 1:
-  url: http://buscon.rae.es/drae/?val={%query}&val_aux=&origen=REDRAE
+  url: http://buscon.rae.es/drae/?val=<query>&val_aux=&origen=REDRAE
   title: Diccionario RAE
   tags:
   - dictionary spanish
   examples:
     capaz: looks for "capaz" in RAE dictionary
 dudas 1:
-  url: http://lema.rae.es/dpd/?key={%query}
+  url: http://lema.rae.es/dpd/?key=<query>
   title: Diccionario panhispánico de dudas
   tags:
   - dictionary spanish
   examples:
     capaz: looks for "capaz" in RAE dictionary of doubts
 esen 1:
-  url: http://lema.rae.es/desen/?key={%query}
+  url: http://lema.rae.es/desen/?key=<query>
   title: Diccionario esencial
   tags:
   - dictionary spanish
   examples:
     capaz: looks for "capaz" in RAE essencial dictionary
 drae 1:
-  url: http://lema.rae.es/drae/?val={%query}
+  url: http://lema.rae.es/drae/?val=<query>
   title: Diccionario RAE
   tags:
   - dictionary spanish
   examples:
     capaz: looks for "capaz" in RAE dictionary
 euen 1:
-  url: http://hiztegiak.elhuyar.org/en_eu/{%word}
+  url: http://hiztegiak.elhuyar.org/en_eu/<word>
   title: English Euskara (Elhuyar)
   tags:
-  - dictionary
   - basque
+  - dictionary
   examples:
     young: gives the Basque equivalent of 'young'
 eues 1:
-  url: http://hiztegiak.elhuyar.org/en_eu/{%word}
+  url: http://hiztegiak.elhuyar.org/en_eu/<word>
   title: Español Euskara (Elhuyar)
   tags:
-  - dictionary
   - basque
+  - dictionary
   examples:
     joven: gives the Basque equivalent of Spanish joven 'young'
 eufr 1:
-  url: http://hiztegiak.elhuyar.org/fr_eu/{%word}
+  url: http://hiztegiak.elhuyar.org/fr_eu/<word>
   title: Français Euskara (Elhuyar)
   tags:
-  - dictionary
   - basque
+  - dictionary
   examples:
     jeune: gives the Basque equivalent of French jeune 'young'
 ocfr 1:
-  url: http://www.panoccitan.org/diccionari.aspx?diccion={%paraula}&lenga=oc
+  url: http://www.panoccitan.org/diccionari.aspx?diccion=<paraula>&lenga=oc
   title: Occitan-French
   tags:
   - dictionary
 froc 1:
-  url: http://www.panoccitan.org/diccionari.aspx?diccion={%mot}&lenga=fr
+  url: http://www.panoccitan.org/diccionari.aspx?diccion=<mot>&lenga=fr
   title: French-Occitan
   tags:
   - dictionary
 dicofr 1:
-  url: http://www.locongres.org/fr/applications/dicodoc-fr/dicodoc-recherche?type=fr-oc&dic%5B%5D=BASIC&dic%5B%5D=RBVD&dic%5B%5D=ALPC&dic%5B%5D=ATAU&dic%5B%5D=PROV&dic%5B%5D=PNST&dic%5B%5D=OMLH&dic%5B%5D=LAUS&q={%mot}&q2=&submit=Rechercher
+  url: http://www.locongres.org/fr/applications/dicodoc-fr/dicodoc-recherche?type=fr-oc&dic%5B%5D=BASIC&dic%5B%5D=RBVD&dic%5B%5D=ALPC&dic%5B%5D=ATAU&dic%5B%5D=PROV&dic%5B%5D=PNST&dic%5B%5D=OMLH&dic%5B%5D=LAUS&q=<mot>&q2=&submit=Rechercher
   title: Dico d'Oc
   tags:
   - dictionary
 dicooc 1:
-  url: http://www.locongres.org/fr/applications/dicodoc-fr/dicodoc-recherche?type=oc-fr&dic%5B%5D=RBVDOF&dic%5B%5D=LAUSOF&dic%5B%5D=GRANOF&dic%5B%5D=PNSTOF&dic%5B%5D=PROVOF&q={%paraula}&q2=&submit=Rechercher
+  url: http://www.locongres.org/fr/applications/dicodoc-fr/dicodoc-recherche?type=oc-fr&dic%5B%5D=RBVDOF&dic%5B%5D=LAUSOF&dic%5B%5D=GRANOF&dic%5B%5D=PNSTOF&dic%5B%5D=PROVOF&q=<paraula>&q2=&submit=Rechercher
   title: Dico d'Oc occitan
   tags:
   - dictionary
 freu 1:
-  url: http://www.nolaerran.org/?h={%mot}&z=lit
+  url: http://www.nolaerran.org/?h=<mot>&z=lit
   title: Nola erran
   tags:
   - dictionary
 cat 1:
-  url: http://diccionaris.cat/?diccionario=77&empieza=empieza&palabra={%paraula}&imprimir=N
+  url: http://diccionaris.cat/?diccionario=77&empieza=empieza&palabra=<paraula>&imprimir=N
   title: Catalan
   tags:
   - dictionary
 caen 1:
-  url: http://diccionaris.cat/?diccionario=74&empieza=empieza&palabra={%paraula}&imprimir=N
+  url: http://diccionaris.cat/?diccionario=74&empieza=empieza&palabra=<paraula>&imprimir=N
   title: Catalan-English
   tags:
   - dictionary
 enca 1:
-  url: http://diccionaris.cat/?diccionario=73&empieza=empieza&palabra={%word}&imprimir=N
+  url: http://diccionaris.cat/?diccionario=73&empieza=empieza&palabra=<word>&imprimir=N
   title: English-Catalan
   tags:
   - dictionary
 voxeu 1:
-  url: http://diccionaris.cat/?diccionario=97&empieza=empieza&palabra={%hitz}&imprimir=N
+  url: http://diccionaris.cat/?diccionario=97&empieza=empieza&palabra=<hitz>&imprimir=N
   title: Euskara (Vox)
   tags:
   - dictionary
 dicc 1:
-  url: http://www.diccionarios.com/detalle.php?palabra={%palabra}&Buscar.x=58&Buscar.y=17&Buscar=submit&dicc_100=on&dicc_55=on&dicc_100=on&dicc_55=on&dicc_55=on
+  url: http://www.diccionarios.com/detalle.php?palabra=<palabra>&Buscar.x=58&Buscar.y=17&Buscar=submit&dicc_100=on&dicc_55=on&dicc_100=on&dicc_55=on&dicc_55=on
   title: diccionarios
   tags:
   - dictionary spanish
 eh 1:
-  url: http://www.euskaltzaindia.eus/index.php?sarrera={%hitz}&option=com_hiztegianbilatu&view=frontpage&Itemid=410&lang=eu&bila=bai
+  url: http://www.euskaltzaindia.eus/index.php?sarrera=<hitz>&option=com_hiztegianbilatu&view=frontpage&Itemid=410&lang=eu&bila=bai
   title: Euskaltzaindiaren hiztegia
   description: Dictionary of the Royal Basque Academia Euskaltzaindia
   tags:
-  - dictionary
   - diccionario
+  - dictionary
   examples:
     hitz: Search Euskaltzaindiaren hiztegia for "hitz"
 trakt 1:
-  url: https://trakt.tv/search?query={%film}
+  url: https://trakt.tv/search?query=<film>
   title: Trakt
   description: search for film or tv show
   tags:
+  - film
   - search engine
   - tv
-  - film
   examples:
     trakt film: Search Trakt for "trakt film or tv show"
 coo 2:
-  url: https://www.openstreetmap.org/#map=10/{%lat}/{%lon}
+  url: https://www.openstreetmap.org/#map=10/<lat>/<lon>
   title: OSM coordinates
   description: Maps geolocation coordinates on openstreetmap
   tags:
-  - openstreetmap
+  - geolocation
   - map
   - maps
-  - geolocation
+  - openstreetmap
   examples:
-    -18.9790,169.6290: Search OSM coordinates for "-18.9790,169.6290"
+    '-18.9790,169.6290': Search OSM coordinates for "-18.9790,169.6290"
 mv 1:
-  url: https://mediathekviewweb.de/#query={%query}
+  url: https://mediathekviewweb.de/#query=<query>
   title: MediathekView Webview Search
   tags:
-  - tv
-  - television
   - mediathek
+  - television
+  - tv
   - video
 glo 2:
-  url: https://glosbe.com/{$language}/{%language}/{%query}
+  url: https://glosbe.com/<$language>/<language>/<query>
   title: glosbe
   description: Gives glosbe translation (onomasiologically)
   tags:
-  - languages
   - dictionary
+  - languages
   examples:
     id,Wort: Search glosbe for "id,Wort"
 glos 2:
-  url: https://glosbe.com/{%language}/{$language}/{%query}
+  url: https://glosbe.com/<language>/<$language>/<query>
   title: glosbe reverse
   description: Gives glosbe reverse translation (semasiologically)
   tags:
-  - languages
   - dictionary
+  - languages
   examples:
     id,word: Search glosbe reverse for "id,word"
 buske 1:
-  url: https://buske.de/shopsearch/result/?q={%title}
+  url: https://buske.de/shopsearch/result/?q=<title>
   title: Buske-Verlag
   description: search Buske data
   tags:
-  - search engine 
   - books
+  - search engine
   examples:
     Baskisch: Search for Buske books on "Baskisch"
 usito 1:
-  url: https://usito.usherbrooke.ca/définitions/{%mot}
+  url: https://usito.usherbrooke.ca/définitions/<mot>
   title: Usito (dictionnaire français québécois)
   description: searching a lexeme in the Canadian French dictionary Usito
   tags:
-  - dictionary french
   - dictionary
+  - dictionary french
   - français
   - french
   examples:
     contrat: Search Usito (dictionnaire français québécois) for "contrat"
 arg 1:
-  url: https://www.dictionnairedelazone.fr/dictionary/search/{%mot}
+  url: https://www.dictionnairedelazone.fr/dictionary/search/<mot>
   title: Dictionnaire de la zone
   description: French argot
   tags:
@@ -333,18 +322,8 @@ arg 1:
   examples:
     teuf: search argot dictionary for "teuf"
 defr 1:
-  url: https://www.linguee.de/deutsch-franzoesisch/search?source=auto&query={%query}&cw=366
+  url: https://www.linguee.de/deutsch-franzoesisch/search?source=auto&query=<query>&cw=366
   title: Linguee de-fr
   tags:
   - dictionary
   - french
-
-#Original
-# examplekeyword 0: http://www.example.com/
-# examplekeyword 1: http://www.example.com/?q={%query} 
-# examplekeyword 2:
-#   url: http://www.example.com/?q={%query}&p={%puery}
-#   title: Custom shortcut
-#   description: My custom shortcut with the keyword examplekeyword and 2 arguments.
-#   tags:
-#   - example
