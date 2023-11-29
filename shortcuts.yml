@@ -1,104 +1,99 @@
-# Documentation:
-# https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
-
-# Alte Daten von findfindit. Na ja, von Serchilo.
-
 gh 1:
-  url: https://github.com/search?q={%query}
+  url: https://github.com/search?q=<query>
   title: GitHub search
 imdb 1:
-  url: https://www.imdb.com/find?s=all&q={%query}
+  url: https://www.imdb.com/find?s=all&q=<query>
   title: IMDb Search
 kl 1:
-  url: https://mpi-lingweb.shh.mpg.de/kanji/index.html?kanji={%kanji}
+  url: https://mpi-lingweb.shh.mpg.de/kanji/index.html?kanji=<kanji>
   title: Kanjilexikon
 ak 0:
   url: https://ankiweb.net/study/
   title: Anki web, study page
 sg 1:
-  url: https://www.saiga-jp.com/cgi-bin/dic.cgi?m=search&sc=0&f=0&j={%query}
+  url: https://www.saiga-jp.com/cgi-bin/dic.cgi?m=search&sc=0&f=0&j=<query>
   title: Saiga Kanjisuche
 db< 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=reutlingen&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=<Start>&Z=reutlingen&start=1
   title: DB-Auskunft nach Reutlingen
 db< 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=reutlingen&T={%Zeit}&D={%Datum}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=<Start>&Z=reutlingen&T=<Zeit>&D=<Datum>&start=1
   title: DB-Auskunft nach Reutlingen
 dfn 1:
-  url: https://pgpkeys.pca.dfn.de/pks/lookup?search={%query}
+  url: https://pgpkeys.pca.dfn.de/pks/lookup?search=<query>
   title: pgp key search at DFN
   tags:
-  - pgp
   - key
+  - pgp
 cons 1:
-  url: https://www.conservapedia.com/Special:Search?go=Article&search={%article}
+  url: https://www.conservapedia.com/Special:Search?go=Article&search=<article>
   title: Conservapedia Article Search
 tw 1:
-  url: https://search.twitter.com/search?q={%query}
+  url: https://search.twitter.com/search?q=<query>
   title: Twitter suche ohne Sprachangabe
 twl 1:
-  url: https://search.twitter.com/search?q={%query}&lang={$language}
+  url: https://search.twitter.com/search?q=<query>&lang=<$language>
   title: Twitter suche mit Sprachbeschränkung
 wr 1:
-  url: https://en.wikipedia.org/w/index.php?title={%article}&redirect=no
+  url: https://en.wikipedia.org/w/index.php?title=<article>&redirect=no
   title: English Wikipedia, no redirect
 cdb 1:
-  url: https://www.google.com/search?hl={$language}&q=site:www.cocktaildb.com {%query}&ie=utf-8
+  url: https://www.google.com/search?hl=<$language>&q=site:www.cocktaildb.com <query>&ie=utf-8
   title: Google search the cocktaildb site
 imdbde 0:
   url: https://german.imdb.com
   title: IMDb Homepage
 imdbde 1:
-  url: https://german.imdb.com/find?s=all&q={%query}
+  url: https://german.imdb.com/find?s=all&q=<query>
   title: IMDb Search
 idade 1:
-  url: https://german.imdb.com/find?s=tt&site=aka&q={%query}
+  url: https://german.imdb.com/find?s=tt&site=aka&q=<query>
   title: IMDb AKA Title Search
 wp 1:
-  url: https://www.google.com/search?hl={$language}&q=site:en.wikipedia.org {%query}&ie=utf-8
+  url: https://www.google.com/search?hl=<$language>&q=site:en.wikipedia.org <query>&ie=utf-8
   title: Google search the whole wikipedia
 ida 1:
-  url: https://www.imdb.com/find?s=tt&site=aka&q={%query}
+  url: https://www.imdb.com/find?s=tt&site=aka&q=<query>
   title: IMDb AKA Title Search
 imdb 0:
   url: https://www.imdb.com
   title: IMDb Homepage
 db> 3:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z={%Ziel}&T={%Zeit}&D={%Datum}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z=<Ziel>&T=<Zeit>&D=<Datum>&start=1
   title: DB-Auskunft von Reutlingen
 db< 2:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=reutlingen&T={%Zeit}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=<Start>&Z=reutlingen&T=<Zeit>&start=1
   title: DB-Auskunft nach Reutlingen
 db> 2:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z={%Ziel}&T={%Zeit}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z=<Ziel>&T=<Zeit>&start=1
   title: DB-Auskunft von Reutlingen
 db> 1:
-  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z={%Ziel}&start=1
+  url: https://reiseauskunft.bahn.de/bin/query.exe/d?S=reutlingen&Z=<Ziel>&start=1
   title: DB-Auskunft von Reutlingen
 thsrs 1:
-  url: https://www.ironicsans.com/thsrs/?q={%query}
+  url: https://www.ironicsans.com/thsrs/?q=<query>
   title: Shortening thesaurus
 ew 1:
-  url: https://en.wikipedia.org/wiki/{%word}
+  url: https://en.wikipedia.org/wiki/<word>
   title: Englische Wikipedia
   examples:
     word: Suchwort
 uc 1:
-  url: https://www.fileformat.info/info/unicode/char/search.htm?preview=entity&q={%query}
+  url: https://www.fileformat.info/info/unicode/char/search.htm?preview=entity&q=<query>
   title: Unicode charater search
   tags:
+  - character
   - unicode
   - unicode character
-  - character
   examples:
     query: a character or a character code or name
 unichr 1:
-  url: https://www.fileformat.info/info/unicode/char/search.htm?preview=entity&q={%query}
+  url: https://www.fileformat.info/info/unicode/char/search.htm?preview=entity&q=<query>
   title: Unicode charater search, Pythonic name
   tags:
+  - character
   - unicode
   - unicode character
-  - character
 osi 0:
   url: https://www.osiander.de/
   title: Osiander (Buchhändler)
@@ -106,7 +101,7 @@ osi 0:
   - books
   - onlinestore
 osi 1:
-  url: https://www.osiander.de/suche?sq={%Suche}
+  url: https://www.osiander.de/suche?sq=<Suche>
   title: Osiander-Suche
   tags:
   - books
@@ -114,16 +109,16 @@ osi 1:
   examples:
     Iain M. Banks: Sucht nach dem Science-Fiction-Autor
 osii 1:
-  url: https://www.osiander.de/details.cfm?isbn={%isbn13}
+  url: https://www.osiander.de/details.cfm?isbn=<isbn13>
   title: Osiander-Suche, ISBN13
   tags:
   - books
-  - onlinestore
   - isbn13
+  - onlinestore
   examples:
-    9783442453023: Sucht nach einem bestimmten Buch
+    '9783442453023': Sucht nach einem bestimmten Buch
 thing 1:
-  url: https://www.thingiverse.com/search?q={%thing}
+  url: https://www.thingiverse.com/search?q=<thing>
   title: Search thingiverse.com
   description: Search thingiverse.com for things, uploaded printable 3D designs.
   tags:
@@ -135,67 +130,67 @@ lfm 0:
   url: https://libro.fm/
   title: Libro.fm, Your Independent Bookstore for Digital Audiobooks
   tags:
-    - books
-    - onlinestore
-    - audiobooks
-    - nodrm
+  - audiobooks
+  - books
+  - nodrm
+  - onlinestore
 lfm 1:
-  url: https://libro.fm/search?utf8=%E2%9C%93&q={%query}
+  url: https://libro.fm/search?utf8=%E2%9C%93&q=<query>
   title: Libro.fm audiobook search
   examples:
     Robert Burns poem: Search for readings of Scots poems
   tags:
-    - books
-    - onlinestore
-    - audiobooks
-    - nodrm
+  - audiobooks
+  - books
+  - nodrm
+  - onlinestore
 lfma 1:
-  url: https://libro.fm/search?q={%quary}&searchby=authors&sortby=relevance#results
+  url: https://libro.fm/search?q=<quary>&searchby=authors&sortby=relevance#results
   title: Libro.fm audiobook search by author
   examples:
     Herman Wouk: Search for this author
   tags:
-    - books
-    - onlinestore
-    - audiobooks
-    - nodrm
+  - audiobooks
+  - books
+  - nodrm
+  - onlinestore
 lfmt 1:
-  url: https://libro.fm/search?q={%quary}&searchby=title&sortby=relevance#results
+  url: https://libro.fm/search?q=<quary>&searchby=title&sortby=relevance#results
   title: Libro.fm audiobook search by author
   examples:
     Rule 34: There may be porn of it, but this audiobook is not on Libro FM
   tags:
-    - books
-    - onlinestore
-    - audiobooks
-    - nodrm
+  - audiobooks
+  - books
+  - nodrm
+  - onlinestore
 lfmu 1:
-  url: https://libro.fm/search?utf8=%E2%9C%93&q={%query}&format_unabridged=true
+  url: https://libro.fm/search?utf8=%E2%9C%93&q=<query>&format_unabridged=true
   title: Libro.fm audiobook search, unabridged only
   examples:
     Europe Africa Rodney: Search for a book by parts of title and author
   tags:
-    - books
-    - onlinestore
-    - audiobooks
-    - nodrm
+  - audiobooks
+  - books
+  - nodrm
+  - onlinestore
 lfmau 1:
-  url: https://libro.fm/search?q={%quary}&searchby=authors&sortby=relevance&format_unabridged=true#results
+  url: https://libro.fm/search?q=<quary>&searchby=authors&sortby=relevance&format_unabridged=true#results
   title: Libro.fm audiobook search by author, unabridged only
   examples:
     Nnedi Okorafor: Search for this author
   tags:
-    - books
-    - onlinestore
-    - audiobooks
-    - nodrm
+  - audiobooks
+  - books
+  - nodrm
+  - onlinestore
 lfmtu 1:
-  url: https://libro.fm/search?q={%quary}&searchby=title&sortby=relevance&format_unabridged=true#results
+  url: https://libro.fm/search?q=<quary>&searchby=title&sortby=relevance&format_unabridged=true#results
   title: Libro.fm audiobook search by title, unabridged only
   examples:
     Her Royal Coven: Search for a book with this in the title
   tags:
-    - books
-    - onlinestore
-    - audiobooks
-    - nodrm
+  - audiobooks
+  - books
+  - nodrm
+  - onlinestore
