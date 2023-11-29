@@ -1,10 +1,7 @@
-# Documentation:
-# https://github.com/trovu/trovu.github.io/wiki/Advanced-settings-&-personal-shortcuts#personal-shortcuts
-
 examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q={%query} 
+examplekeyword 1: http://www.example.com/?q=<query>
 examplekeyword 2:
-  url: http://www.example.com/?q={%query}&p={%puery}
+  url: http://www.example.com/?q=<query>&p=<puery>
   title: Custom shortcut
   description: My custom shortcut with the keyword examplekeyword and 2 arguments.
   tags:
