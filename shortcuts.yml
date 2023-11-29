@@ -1,13 +1,13 @@
 ft 1:
-  url: http://de.fotolia.com/search?k={%query}&search.x=0&search.y=0&filters[content_type%3Aphoto]=1&filters[content_type%3Aillustration]=1&filters[content_type%3Avector]=1&filters[content_type%3Avideo]=1&order=relevance
+  url: http://de.fotolia.com/search?k=<query>&search.x=0&search.y=0&filters[content_type%3Aphoto]=1&filters[content_type%3Aillustration]=1&filters[content_type%3Avector]=1&filters[content_type%3Avideo]=1&order=relevance
   title: ft
 wen 1:
-  url: https://en.wikipedia.org/wiki/{%query}
+  url: https://en.wikipedia.org/wiki/<query>
   title: WIkipedia english
   tags:
   - wen
 eis 1:
-  url: http://www.eis-machen.de/?s={%query}
+  url: http://www.eis-machen.de/?s=<query>
   title: Eis machen
   tags:
   - eis
@@ -15,36 +15,36 @@ eis 1:
   examples:
     vanilleeis: Search for Vanilleeis
 afp 1:
-  url: http://www.alltageinesfotoproduzenten.de/?s={%query}&submit.x=0&submit.y=0
+  url: http://www.alltageinesfotoproduzenten.de/?s=<query>&submit.x=0&submit.y=0
   title: Alltag eines Fotoproduzenten
   tags:
-  - alltageinesfotoproduzenten
   - afp
+  - alltageinesfotoproduzenten
   - blog
   examples:
     Ringblitz: Search the Blog "Alltageinesfotoproduzenten.de" for Ringblitz
 a 1:
-  url: http://www.amazon.de/s?ie=UTF8&keywords={%query}
+  url: http://www.amazon.de/s?ie=UTF8&keywords=<query>
   title: Amazon Deutschland
   tags:
+  - a
   - amazon
   - deutsch
   - deutschland
-  - a
   examples:
     Kochbuch: Suche bei Amazon.de nach Kochbüchern
 gft 1:
-  url: https://gamesageddon.com/fotolia?query={%argument_name}&fOr=nb_downloads
+  url: https://gamesageddon.com/fotolia?query=<argument_name>&fOr=nb_downloads
   title: GamesAgeddon
 safp 1:
-  url: http://shop.alltageinesfotoproduzenten.de/?search_parameters%5Bwords%5D={%query}
+  url: http://shop.alltageinesfotoproduzenten.de/?search_parameters%5Bwords%5D=<query>
   title: Shop / Alltag eines Fotoproduzenten
 mafp 1:
-  url: http://shop.alltageinesfotoproduzenten.de/media/{%media-id}
+  url: http://shop.alltageinesfotoproduzenten.de/media/<media-id>
   title: 'Shop / Alltag eines Fotoproduzenten: Media'
 as 1:
-  url: https://stock.adobe.com/search?k={%query}
+  url: https://stock.adobe.com/search?k=<query>
   title: Adobe Stock Search
 sp 1:
-  url: https://beta.stockperformer.com/stats/dashboard#asset/A/{%query}
+  url: https://beta.stockperformer.com/stats/dashboard#asset/A/<query>
   title: Stock Performer File Details Adobe
