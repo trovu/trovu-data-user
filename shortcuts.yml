@@ -1,37 +1,36 @@
----
 a 0:
   title: Amazon Smile
   url: https://smile.amazon.de
 a 1:
   title: Amazon Smile Suche
-  url: http://smile.amazon.de/gp/search?ie=UTF8&keywords={%Suche}
+  url: http://smile.amazon.de/gp/search?ie=UTF8&keywords=<Suche>
 db< 1:
   title: DB-Auskunft nach Hause
-  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=celle&start=1
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=<Start>&Z=celle&start=1
 db< 2:
   title: DB-Auskunft nach Hause
-  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=celle&T={%Zeit}&start=1
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=<Start>&Z=celle&T=<Zeit>&start=1
 db< 3:
   title: DB-Auskunft nach Hause
-  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S={%Start}&Z=celle&T={%Zeit}&D={%Datum}&start=1
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=<Start>&Z=celle&T=<Zeit>&D=<Datum>&start=1
 db> 1:
   title: DB-Auskunft von Zuhause
-  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z={%Ziel}&start=1
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z=<Ziel>&start=1
 db> 2:
   title: DB-Auskunft von Zuhause
-  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z={%Ziel}&T={%Zeit}&start=1
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z=<Ziel>&T=<Zeit>&start=1
 db> 3:
   title: DB-Auskunft von Zuhause
-  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z={%Ziel}&T={%Zeit}&D={%Datum}&start=1
+  url: http://reiseauskunft.bahn.de/bin/query.exe/d?S=celle&Z=<Ziel>&T=<Zeit>&D=<Datum>&start=1
 ez 0:
   title: EZTV
   url: http://eztv.it/
 gd< 1:
   title: Google Directions nach Hause
-  url: http://maps.google.com/maps?hl={$language}&f=d&saddr={%start}&daddr=Trumannskamp+21+Celle
+  url: http://maps.google.com/maps?hl=<$language>&f=d&saddr=<start>&daddr=Trumannskamp+21+Celle
 gd> 1:
   title: Google Directions von Zuhause
-  url: http://maps.google.com/maps?hl={$language}&f=d&saddr=Trumannskamp+21+Celle&daddr={%destination}
+  url: http://maps.google.com/maps?hl=<$language>&f=d&saddr=Trumannskamp+21+Celle&daddr=<destination>
 gmail 0:
   title: Google Mail
   url: https://mail.google.com
@@ -43,10 +42,10 @@ hp 0:
   url: http://blog.lutz-lengemann.name
 qr 1:
   title: Generation QR-Code
-  url: http://qrcode.kaywa.com/img.php?s=8&d={%url}
+  url: http://qrcode.kaywa.com/img.php?s=8&d=<url>
 urld 1:
   title: URL Decode
-  url: http://stefanschramm.net/dev/postredirector/?_target=http%3A//www.functions-online.com/de/index.php%3Fsite%3Durldecode&str={%input}
+  url: http://stefanschramm.net/dev/postredirector/?_target=http%3A//www.functions-online.com/de/index.php%3Fsite%3Durldecode&str=<input>
 yt 1:
   title: yt
-  url: http://www.youtube.com/results?search_query={%query}
+  url: http://www.youtube.com/results?search_query=<query>
