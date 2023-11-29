@@ -1,206 +1,205 @@
 360fmd 1:
-  url: https://www.aktienwelt360.de/das-fintech-megatrend/?s={%query}
+  url: https://www.aktienwelt360.de/das-fintech-megatrend/?s=<query>
   title: Aktienwelt360 Fintech Megatrend Depot durchsuchen
 36010x 1:
-  url: https://www.aktienwelt360.de/das-projekt-10x/?s={%query}
+  url: https://www.aktienwelt360.de/das-projekt-10x/?s=<query>
   title: Aktienwelt360 Projekt 10X durchsuchen
 360ak 1:
-  url: https://www.aktienwelt360.de/aktienkompass/?s={%query}
+  url: https://www.aktienwelt360.de/aktienkompass/?s=<query>
   title: Aktienwelt360 Aktienkompass durchsuchen
-360 1: 
-  url: https://www.aktienwelt360.de/?s={%query}
+360 1:
+  url: https://www.aktienwelt360.de/?s=<query>
   title: Aktienwelt360 durchsuchen
 cov 1:
-  url: https://drive.google.com/drive/search?q=%22Coverage%20{%companyname}%22
+  url: https://drive.google.com/drive/search?q=%22Coverage%20<companyname>%22
   title: Coverage-Doc anzeigen
 yf 1:
-  url: https://finance.yahoo.com/lookup?s={%stock}
+  url: https://finance.yahoo.com/lookup?s=<stock>
   title: Yahoo Finance Lookup
 docs 1:
-  url: https://docs.google.com/document/u/0/?q={%word}
+  url: https://docs.google.com/document/u/0/?q=<word>
   title: search your google docs
   examples:
     word: the word to find in documents
 leom 2:
-  url: http://pda.leo.org/?lp={%lang}de&lang=de&searchLoc=0&cmpType=relaxed&relink=off&sectHdr=on&spellToler=&search={%word}
+  url: http://pda.leo.org/?lp=<lang>de&lang=de&searchLoc=0&cmpType=relaxed&relink=off&sectHdr=on&spellToler=&search=<word>
   title: mobile leo dictionary
   examples:
     lang: language
     word: word to translate
 qw 1:
-  url: https://www.qwant.com/?q={%query}
+  url: https://www.qwant.com/?q=<query>
   title: Qwant internet search
   tags:
-  - search engine
   - french
+  - search engine
   examples:
     s: search string to look for
 scows 1:
-  url: https://swisscows.com/de/web?query={%query}
+  url: https://swisscows.com/de/web?query=<query>
   title: Swisscows Suche
   tags:
   - search engine
-  - swiss
   - semantics
+  - swiss
   examples:
     number of Swiss cows: search for information about the number of Swiss cows
 bwire 1:
-  url: http://www.businesswire.com/portal/site/home/search/?searchType=news&searchTerm={%query}&searchPage=1
+  url: http://www.businesswire.com/portal/site/home/search/?searchType=news&searchTerm=<query>&searchPage=1
   title: Business Wire Press Releases Search
   tags:
-  - news
   - business
+  - news
   - press
   examples:
     Bolivia: Searching for press releases about Bolivia
 prnews 1:
-  url: http://www.prnewswire.com/search-results/news/{%query}-180-days-page-1-pagesize-200
+  url: http://www.prnewswire.com/search-results/news/<query>-180-days-page-1-pagesize-200
   title: PR Newswire
   tags:
-  - press
-  - news
   - business
+  - news
+  - press
   examples:
     Bolivia: Searching for press releases about Bolivia
 prweb 1:
-  url: http://www.prweb.com/search.aspx?search-releases={%query}&hitsPerPage=100&x=0&y=0
+  url: http://www.prweb.com/search.aspx?search-releases=<query>&hitsPerPage=100&x=0&y=0
   title: PRWeb
   tags:
-  - press
-  - news
   - business
+  - news
+  - press
   examples:
     Bolivia: Searching for press releases about Bolivia
 r2r 2:
-  url: http://www.rome2rio.com/de/map/{%from}/{%to}
+  url: http://www.rome2rio.com/de/map/<from>/<to>
   title: Rome2Rio
   tags:
   - navigation
-  - vacation
   - routing
   - travel
+  - vacation
 r2rf 1:
-  url: http://www.rome2rio.com/de/s/Frankfurt/{%destination}
+  url: http://www.rome2rio.com/de/s/Frankfurt/<destination>
   title: Rome2Rio from Frankfurt
 r2rt 1:
-  url: http://www.rome2rio.com/de/map/Tarija/{%destination}
+  url: http://www.rome2rio.com/de/map/Tarija/<destination>
   title: Rome2Rio from Tarija
 asc 0:
   url: https://www.findfind.it/node/add/shortcut
   title: Add Serchilo Command
 lines 1:
-  url: http://www.linguee.de/deutsch-spanisch/search?source=auto&query={%phrase}
+  url: http://www.linguee.de/deutsch-spanisch/search?source=auto&query=<phrase>
   title: Linguee DE-ES
   tags:
+  - german
   - language
   - spanish
-  - german
   - translation
 dvz 1:
-  url: http://www.dvz.de/suche.html?q={%query}&submit.x=0&submit.y=0&tx_solr%5Bsort%5D=
+  url: http://www.dvz.de/suche.html?q=<query>&submit.x=0&submit.y=0&tx_solr%5Bsort%5D=
   title: DVZ
   tags:
-  - logistics
-  - traffic
   - automotive
   - industry news
+  - logistics
+  - traffic
 logh 0:
   url: http://www.logistik-heute.de/search/node/Daimler%20Scania%20Volvo
   title: Logistik Heute
   tags:
-  - logistics
   - automotive
+  - logistics
   - warehousing
 tumb 1:
-  url: https://www.tumblr.com/search/{%query}
+  url: https://www.tumblr.com/search/<query>
   title: Tumblr Search
   tags:
-  - social network
   - blogs
   - pictures
+  - social network
 genios 1:
-  url: https://www.genios.de/dosearch?explicitSearch=true&q={%query}
+  url: https://www.genios.de/dosearch?explicitSearch=true&q=<query>
   title: Genios article database
   tags:
   - articles
 word 1:
-  url: http://wordnetweb.princeton.edu/perl/webwn?s={%word}
+  url: http://wordnetweb.princeton.edu/perl/webwn?s=<word>
   title: WordNet word features inquiry
 afc 0:
   url: https://www.findfind.it/node/add/shortcut
   title: Add Findfind Command
 mp3 1:
-  url: http://www.top7mp3.com/search?q={%SongOrGroup}
+  url: http://www.top7mp3.com/search?q=<SongOrGroup>
   title: Top7mp3 Search
 mw 1:
-  url: http://www.merriam-webster.com/dictionary/{%word}
+  url: http://www.merriam-webster.com/dictionary/<word>
   title: Merriam Webster Dictionary Query
 alpha 1:
-  url: http://seekingalpha.com/search/?q={%query}
+  url: http://seekingalpha.com/search/?q=<query>
   title: SeekingAlpha general search
   tags:
-  - investor
   - analysis
-  - news
   - articles
   - financial
+  - investor
+  - news
   examples:
     IBM: Search SeekingAlpha general search for "IBM"
 bai 1:
-  url: http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd={%query}
+  url: http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=<query>
   title: Baidu Search
 sec 2:
-  url: http://www.sec.gov/cgi-bin/browse-edgar?owner=exclude&action=getcompany&type={%type}&company={%company}
+  url: http://www.sec.gov/cgi-bin/browse-edgar?owner=exclude&action=getcompany&type=<type>&company=<company>
   title: SEC company filings enquiry
 fn 1:
-  url: https://www.finanznachrichten.de/suche/uebersicht.htm?suche={%company}
+  url: https://www.finanznachrichten.de/suche/uebersicht.htm?suche=<company>
   title: FinanzNachrichten Abfrage
 gnm 1:
-  url: https://www.google.com/m/search?pz=1&tbm=nws&cf=all&ned=de&hl=de&q={%query}
+  url: https://www.google.com/m/search?pz=1&tbm=nws&cf=all&ned=de&hl=de&q=<query>
   title: Google News mobile
 tja 1:
-  url: http://noticias.tarija.bo/?submit=&s={%consulta}
+  url: http://noticias.tarija.bo/?submit=&s=<consulta>
   title: Tarija municipal news search
 wipo 1:
-  url: https://patentscope.wipo.int/search/en/search.jsf#trovu[fill]=%23simpleSearchForm\:fpSearch\:input&trovu[submit]=button[onclick="PrimeFaces.onPost();"]&q={%query}
+  url: https://patentscope.wipo.int/search/en/search.jsf#trovu[fill]=%23simpleSearchForm\:fpSearch\:input&trovu[submit]=button[onclick="PrimeFaces.onPost();"]&q=<query>
   title: WIPO Patent Search
 banz 1:
-  url: https://bundesanzeiger.de/pub/de/start?0#trovu[fill]=input[placeholder=%22Suchbegriff eingeben%22]&trovu[submit]=input[name=%22search_button%22]&q={%query}
+  url: https://bundesanzeiger.de/pub/de/start?0#trovu[fill]=input[placeholder=%22Suchbegriff eingeben%22]&trovu[submit]=input[name=%22search_button%22]&q=<query>
   title: Bundesanzeiger German company registry query
 marke 1:
-  url: https://register.dpma.de/DPMAregister/marke/einsteiger#serchilo[fill][%23wm]=
-    {%query}&serchilo[submit]=%23rechercheStarten
+  url: https://register.dpma.de/DPMAregister/marke/einsteiger#serchilo[fill][%23wm]= <query>&serchilo[submit]=%23rechercheStarten
   title: 'simple German Brand Database DPMA Search '
 short 1:
-  url: https://www.bundesanzeiger.de/pub/de/to_nlp_start#serchilo[fill][input[type=text]]={%query}&serchilo[submit]=input[type=submit]
+  url: https://www.bundesanzeiger.de/pub/de/to_nlp_start#serchilo[fill][input[type=text]]=<query>&serchilo[submit]=input[type=submit]
   title: Bundesanzeiger short sellers registry query
 inv 1:
-  url: https://www.findfind.it/u/caeschfloh?query=g! {%company} Investor
+  url: https://www.findfind.it/u/caeschfloh?query=g! <company> Investor
   title: Investor Relations (Google be lucky)
 deepl 1:
-  url: https://www.deepl.com/translator#serchilo[fill][textarea]={%text}
+  url: https://www.deepl.com/translator#serchilo[fill][textarea]=<text>
   title: deepL Translator
   tags:
   - tampermonkey
 wkn 1:
-  url: https://www.deutsche-bank.de/pfb/content/marktinformationen/tools-wertpapiersuche-ergebnis.uebersicht.html?types%5B%5D=stk&searchfor={%stock_name}&exakt=exakt
+  url: https://www.deutsche-bank.de/pfb/content/marktinformationen/tools-wertpapiersuche-ergebnis.uebersicht.html?types%5B%5D=stk&searchfor=<stock_name>&exakt=exakt
   title: Deutsche Bank Aktiensuche
 guv 1:
-  url: https://www.findfind.it/u/caeschfloh?query=g! {%company} ariva GuV
+  url: https://www.findfind.it/u/caeschfloh?query=g! <company> ariva GuV
   title: Ariva GuV Zeitreihe
 gtr 1:
-  url: https://trends.google.de/trends/explore?geo=DE&q={%keyword}
+  url: https://trends.google.de/trends/explore?geo=DE&q=<keyword>
   title: Google Trends
 sec 1:
-  url: http://www.sec.gov/cgi-bin/browse-edgar?company={%company name}&CIK=&filenum=&State=&SIC=&owner=include&action=getcompany&type=
+  url: http://www.sec.gov/cgi-bin/browse-edgar?company=<company name>&CIK=&filenum=&State=&SIC=&owner=include&action=getcompany&type=
   title: EDGAR System of SEC for regulatory company information
   tags:
   - economy
   examples:
     Honeywell: General company search
 € 1:
-  url: https://www.google.de/search?q={%company}+aktie
+  url: https://www.google.de/search?q=<company>+aktie
   title: Google Aktie-Chart
 $ 1:
-  url: https://www.google.de/search?hl=en&q={%company}+stock
+  url: https://www.google.de/search?hl=en&q=<company>+stock
   title: Google Stock-Chart
