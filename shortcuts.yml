@@ -5,4 +5,5 @@ rfc 1:
   - rfc
   - standard
   examples:
-    1945: Open RFC 1945
+  - arguments: 1945
+    description: Open RFC 1945
