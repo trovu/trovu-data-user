@@ -13,7 +13,8 @@ eis 1:
   - eis
   - eis-machen.de
   examples:
-    vanilleeis: Search for Vanilleeis
+  - arguments: vanilleeis
+    description: Search for Vanilleeis
 afp 1:
   url: http://www.alltageinesfotoproduzenten.de/?s=<query>&submit.x=0&submit.y=0
   title: Alltag eines Fotoproduzenten
@@ -22,7 +23,8 @@ afp 1:
   - alltageinesfotoproduzenten
   - blog
   examples:
-    Ringblitz: Search the Blog "Alltageinesfotoproduzenten.de" for Ringblitz
+  - arguments: Ringblitz
+    description: Search the Blog "Alltageinesfotoproduzenten.de" for Ringblitz
 a 1:
   url: http://www.amazon.de/s?ie=UTF8&keywords=<query>
   title: Amazon Deutschland
@@ -32,7 +34,8 @@ a 1:
   - deutsch
   - deutschland
   examples:
-    Kochbuch: Suche bei Amazon.de nach Kochbüchern
+  - arguments: Kochbuch
+    description: Suche bei Amazon.de nach Kochbüchern
 gft 1:
   url: https://gamesageddon.com/fotolia?query=<argument_name>&fOr=nb_downloads
   title: GamesAgeddon
