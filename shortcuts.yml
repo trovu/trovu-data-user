@@ -77,7 +77,8 @@ ew 1:
   url: https://en.wikipedia.org/wiki/<word>
   title: Englische Wikipedia
   examples:
-    word: Suchwort
+  - arguments: word
+    description: Suchwort
 uc 1:
   url: https://www.fileformat.info/info/unicode/char/search.htm?preview=entity&q=<query>
   title: Unicode charater search
@@ -86,7 +87,8 @@ uc 1:
   - unicode
   - unicode character
   examples:
-    query: a character or a character code or name
+  - arguments: query
+    description: a character or a character code or name
 unichr 1:
   url: https://www.fileformat.info/info/unicode/char/search.htm?preview=entity&q=<query>
   title: Unicode charater search, Pythonic name
@@ -107,7 +109,8 @@ osi 1:
   - books
   - onlinestore
   examples:
-    Iain M. Banks: Sucht nach dem Science-Fiction-Autor
+  - arguments: Iain M. Banks
+    description: Sucht nach dem Science-Fiction-Autor
 osii 1:
   url: https://www.osiander.de/details.cfm?isbn=<isbn13>
   title: Osiander-Suche, ISBN13
@@ -116,7 +119,8 @@ osii 1:
   - isbn13
   - onlinestore
   examples:
-    '9783442453023': Sucht nach einem bestimmten Buch
+  - arguments: '9783442453023'
+    description: Sucht nach einem bestimmten Buch
 thing 1:
   url: https://www.thingiverse.com/search?q=<thing>
   title: Search thingiverse.com
@@ -125,7 +129,8 @@ thing 1:
   - 3d-printing
   - maker
   examples:
-    fidget toy: Find designs to keep your hands busy
+  - arguments: fidget toy
+    description: Find designs to keep your hands busy
 lfm 0:
   url: https://libro.fm/
   title: Libro.fm, Your Independent Bookstore for Digital Audiobooks
@@ -138,7 +143,8 @@ lfm 1:
   url: https://libro.fm/search?utf8=%E2%9C%93&q=<query>
   title: Libro.fm audiobook search
   examples:
-    Robert Burns poem: Search for readings of Scots poems
+  - arguments: Robert Burns poem
+    description: Search for readings of Scots poems
   tags:
   - audiobooks
   - books
@@ -148,7 +154,8 @@ lfma 1:
   url: https://libro.fm/search?q=<quary>&searchby=authors&sortby=relevance#results
   title: Libro.fm audiobook search by author
   examples:
-    Herman Wouk: Search for this author
+  - arguments: Herman Wouk
+    description: Search for this author
   tags:
   - audiobooks
   - books
@@ -158,7 +165,8 @@ lfmt 1:
   url: https://libro.fm/search?q=<quary>&searchby=title&sortby=relevance#results
   title: Libro.fm audiobook search by author
   examples:
-    Rule 34: There may be porn of it, but this audiobook is not on Libro FM
+  - arguments: Rule 34
+    description: There may be porn of it, but this audiobook is not on Libro FM
   tags:
   - audiobooks
   - books
@@ -168,7 +176,8 @@ lfmu 1:
   url: https://libro.fm/search?utf8=%E2%9C%93&q=<query>&format_unabridged=true
   title: Libro.fm audiobook search, unabridged only
   examples:
-    Europe Africa Rodney: Search for a book by parts of title and author
+  - arguments: Europe Africa Rodney
+    description: Search for a book by parts of title and author
   tags:
   - audiobooks
   - books
@@ -178,7 +187,8 @@ lfmau 1:
   url: https://libro.fm/search?q=<quary>&searchby=authors&sortby=relevance&format_unabridged=true#results
   title: Libro.fm audiobook search by author, unabridged only
   examples:
-    Nnedi Okorafor: Search for this author
+  - arguments: Nnedi Okorafor
+    description: Search for this author
   tags:
   - audiobooks
   - books
@@ -188,7 +198,8 @@ lfmtu 1:
   url: https://libro.fm/search?q=<quary>&searchby=title&sortby=relevance&format_unabridged=true#results
   title: Libro.fm audiobook search by title, unabridged only
   examples:
-    Her Royal Coven: Search for a book with this in the title
+  - arguments: Her Royal Coven
+    description: Search for a book with this in the title
   tags:
   - audiobooks
   - books
